@@ -1660,7 +1660,7 @@ do
     end
     ---
     -- @noSelf
-    validator.validator_153069034 = function(效果节点)
+    validator.validator_33509698 = function(效果节点)
         local 所属玩家 = 效果节点.target:get_unit():get_owner()
         local 所属队伍 = 效果节点.target:get_unit():get_owner():get_team_id()
         local result = true
@@ -2399,7 +2399,7 @@ do
     end
     ---
     -- @noSelf
-    validator.validator_51017330 = function(效果节点)
+    validator.validator_224938471 = function(效果节点)
         local result = true
         if 效果节点.target:get_unit():get_owner():get_team_id() == 1 then
             效果节点.target:get_unit():blink_ex(base.get_scene_area("default", "rect", "西方聚集点", _G.present):scene_random_point())
@@ -3600,7 +3600,7 @@ do
         end
         data = base.eff.cache("$$ragnarok_xanb.loot_pool.初始英雄选择.EffectCustomAction")
         if data then
-            data.Func = validator.validator_153069034
+            data.Func = validator.validator_33509698
         end
         data = base.eff.cache("$$default_units_ts.template@spell.通用近战普攻模版.Damage_1")
         if data then
@@ -3766,7 +3766,7 @@ do
         end
         data = base.eff.cache("$$ragnarok_xanb.unit.一级兵营.CustomAction")
         if data then
-            data.Func = validator.validator_51017330
+            data.Func = validator.validator_224938471
         end
     end
     init_validator_0(nil)

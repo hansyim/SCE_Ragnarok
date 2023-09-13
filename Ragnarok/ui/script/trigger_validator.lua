@@ -278,17 +278,17 @@ do
     end
     ---
     -- @noSelf
-    validator.validator_204561203 = function(ctrl, mouse_btn_id)
+    validator.validator_136742678 = function(ctrl, mouse_btn_id)
         base.send_custom_event(__TS__New(ragnarok_xanb.点击修建_等级1, {}, base.game))
     end
     ---
     -- @noSelf
-    validator.validator_240059385 = function(x, y, percent, touch_index)
+    validator.validator_120706952 = function(x, y, percent, touch_index)
         base.send_custom_event(__TS__New(ragnarok_xanb.触发固定视角, {}, base.game))
     end
     ---
     -- @noSelf
-    validator.validator_141747903 = function(x, y, percent, touch_index)
+    validator.validator_259516916 = function(x, y, percent, touch_index)
         base.send_custom_event(__TS__New(ragnarok_xanb.触发自由视角, {}, base.game))
     end
     local function init_validator_0(self)

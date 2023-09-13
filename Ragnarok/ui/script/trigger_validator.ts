@@ -199,19 +199,19 @@ module validator {
 
 	/////点击修建_等级1.lua
 	/** @noSelf */
-	export let validator_204561203:(this: void, ctrl:_OBJ__gui_ctrl_button, mouse_btn_id:number)=>void = (this: void, ctrl:_OBJ__gui_ctrl_button, mouse_btn_id:number):void => {
+	export let validator_136742678:(this: void, ctrl:_OBJ__gui_ctrl_button, mouse_btn_id:number)=>void = (this: void, ctrl:_OBJ__gui_ctrl_button, mouse_btn_id:number):void => {
 		base.send_custom_event(new ragnarok_xanb.点击修建_等级1(((base.game) as unknown as base.Game)));
 	}
 
 	/////触发固定视角.lua
 	/** @noSelf */
-	export let validator_240059385:(this: void, x:number, y:number, percent:number, touch_index:number)=>void = (this: void, x:number, y:number, percent:number, touch_index:number):void => {
+	export let validator_120706952:(this: void, x:number, y:number, percent:number, touch_index:number)=>void = (this: void, x:number, y:number, percent:number, touch_index:number):void => {
 		base.send_custom_event(new ragnarok_xanb.触发固定视角(((base.game) as unknown as base.Game)));
 	}
 
 	/////触发自由视角.lua
 	/** @noSelf */
-	export let validator_141747903:(this: void, x:number, y:number, percent:number, touch_index:number)=>void = (this: void, x:number, y:number, percent:number, touch_index:number):void => {
+	export let validator_259516916:(this: void, x:number, y:number, percent:number, touch_index:number)=>void = (this: void, x:number, y:number, percent:number, touch_index:number):void => {
 		base.send_custom_event(new ragnarok_xanb.触发自由视角(((base.game) as unknown as base.Game)));
 	}
 

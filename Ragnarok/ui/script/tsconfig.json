@@ -9,21 +9,21 @@
         "suppressImplicitAnyIndexErrors":true,
         "target":"esnext",
         "typeRoots":[
-            "D:/星火编辑器/Update/e.alpha.sce.xd.com/Res/typescript_to_lua_node_modules//node_modules/@types",
-            "D:/星火编辑器/Update/e.alpha.sce.xd.com/Res/maps/global_default/ui/script/"
+            "E:/星火编辑器/Update/e.alpha.sce.xd.com/Res/typescript_to_lua_node_modules//node_modules/@types",
+            "E:/星火编辑器/Update/e.alpha.sce.xd.com/Res/maps/global_default/ui/script/"
         ],
         "types":[
-            "D:/星火编辑器/Update/e.alpha.sce.xd.com/Res/typescript_to_lua_node_modules/node_modules/@typescript-to-lua/language-extensions",
-            "D:/星火编辑器/Update/e.alpha.sce.xd.com/Res/maps/global_default/ui/script/",
-            "D:/星火编辑器/Update/e.alpha.sce.xd.com/Res/maps/defaultui/ui/script/",
-            "D:/星火编辑器/Update/e.alpha.sce.xd.com/Res/maps/ai_templates/lib_common_ai/ui/script/",
-            "D:/星火编辑器/Update/e.alpha.sce.xd.com/Res/maps/script_libs/lib_control/ui/script/",
-            "D:/星火编辑器/Update/e.alpha.sce.xd.com/Res/maps/script_libs/lib_gamechat/ui/script/",
-            "D:/星火编辑器/Update/e.alpha.sce.xd.com/Res/maps/script_libs/smallcard_choose_one/ui/script/",
-            "D:/星火编辑器/Update/e.alpha.sce.xd.com/Res/maps/script_libs/smallcard_get_items/ui/script/",
-            "D:/星火编辑器/Update/e.alpha.sce.xd.com/Res/maps/script_libs/smallcard_inventory/ui/script/",
-            "D:/星火编辑器/Update/e.alpha.sce.xd.com/Res/maps/script_libs/smallcard_mail/ui/script/",
-            "D:/星火编辑器/Update/e.alpha.sce.xd.com/Res/maps/script_libs/smallcard_unit_attr_panel/ui/script/"
+            "E:/星火编辑器/Update/e.alpha.sce.xd.com/Res/typescript_to_lua_node_modules/node_modules/@typescript-to-lua/language-extensions",
+            "E:/星火编辑器/Update/e.alpha.sce.xd.com/Res/maps/global_default/ui/script/",
+            "E:/星火编辑器/Update/e.alpha.sce.xd.com/Res/maps/defaultui/ui/script/",
+            "E:/星火编辑器/Update/e.alpha.sce.xd.com/Res/maps/ai_templates/lib_common_ai/ui/script/",
+            "E:/星火编辑器/Update/e.alpha.sce.xd.com/Res/maps/script_libs/lib_control/ui/script/",
+            "E:/星火编辑器/Update/e.alpha.sce.xd.com/Res/maps/script_libs/lib_gamechat/ui/script/",
+            "E:/星火编辑器/Update/e.alpha.sce.xd.com/Res/maps/script_libs/smallcard_choose_one/ui/script/",
+            "E:/星火编辑器/Update/e.alpha.sce.xd.com/Res/maps/script_libs/smallcard_get_items/ui/script/",
+            "E:/星火编辑器/Update/e.alpha.sce.xd.com/Res/maps/script_libs/smallcard_inventory/ui/script/",
+            "E:/星火编辑器/Update/e.alpha.sce.xd.com/Res/maps/script_libs/smallcard_mail/ui/script/",
+            "E:/星火编辑器/Update/e.alpha.sce.xd.com/Res/maps/script_libs/smallcard_unit_attr_panel/ui/script/"
         ]
     },
     "files":[
