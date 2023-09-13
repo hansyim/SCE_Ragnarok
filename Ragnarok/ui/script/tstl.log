@@ -1,28 +1,28 @@
-511.60810005664825:	{"globalClasses":["Array","Present","IEventNotify","Coroutine","Trigger","Item","Timer","Buff","Skill","Player","TriggerParamTable","TriggerEvent","Actor","ScreenPos","Target","EffectParam","EffectParamShared","YPR旋转","DataCache","Camera","Slot","Unit","Point"],"globalModules":["coroutine","_G","log","base"]}
-1762.5705000162125:	Loaded 0 plugins
-1764.2960000038147:	Parsing project settings
-1771.9756000041962:	Transforming E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main_1.ts
-1774.3672000169754:	moduleName:
-1774.3747000694275:	ragnarok_xanb
-1774.8217000961304:	exportScope:
-1774.8265000581741:	true
-1818.4115999937057:	Printing E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main_1.ts
-1838.1412000656128:	Transforming E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main.ts
-1839.7750000953674:	Printing E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main.ts
-1843.3208000659943:	Transforming E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_validator.ts
-1844.3272000551224:	moduleName:
-1844.3425999879837:	validator
-1844.7899000644684:	exportScope:
-1844.7958999872208:	true
-1906.2244000434875:	Printing E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_validator.ts
-1924.8553000688553:	Constructing emit plan
-1925.3329000473022:	Resolving dependencies for E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main_1.ts
-1925.8167001008987:	Resolving dependencies for E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main.ts
-1926.2553000450134:	Resolving "./trigger_module_main_1" from E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main.ts
-1926.8242000341415:	Resolved ./trigger_module_main_1 to E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main_1.ts
-1928.0020999908447:	Resolving dependencies for E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_validator.ts
-1928.9391000270844:	Emitting output
-1929.470300078392:	Emitting E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main_1.lua
-1930.8025000095367:	Emitting E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main.lua
-1931.4419000148773:	Emitting E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_validator.lua
-1932.0537999868393:	Emit finished!
+431.43190002441406:	{"globalClasses":["Array","Present","IEventNotify","Coroutine","Trigger","Item","Timer","Buff","Skill","Player","TriggerParamTable","TriggerEvent","Actor","ScreenPos","Target","EffectParam","EffectParamShared","YPR旋转","DataCache","Camera","Slot","Unit","Point"],"globalModules":["coroutine","_G","log","base"]}
+1717.0982999801636:	Loaded 0 plugins
+1720.6054999828339:	Parsing project settings
+1728.3370000123978:	Transforming E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main_1.ts
+1730.7635999917984:	moduleName:
+1730.7695000171661:	ragnarok_xanb
+1731.2102999687195:	exportScope:
+1731.2145999670029:	true
+1772.0573999881744:	Printing E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main_1.ts
+1791.5894000530243:	Transforming E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main.ts
+1793.2584999799728:	Printing E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main.ts
+1796.931900024414:	Transforming E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_validator.ts
+1797.5478999614716:	moduleName:
+1797.5629000663757:	validator
+1797.9767999649048:	exportScope:
+1797.9822000265121:	true
+1861.8481999635696:	Printing E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_validator.ts
+1872.2095999717712:	Constructing emit plan
+1875.7096999883652:	Resolving dependencies for E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main_1.ts
+1876.4098000526428:	Resolving dependencies for E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main.ts
+1876.8181999921799:	Resolving "./trigger_module_main_1" from E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main.ts
+1877.3653000593185:	Resolved ./trigger_module_main_1 to E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main_1.ts
+1878.4263000488281:	Resolving dependencies for E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_validator.ts
+1879.098100066185:	Emitting output
+1879.3997000455856:	Emitting E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main_1.lua
+1880.3072999715805:	Emitting E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main.lua
+1880.8940999507904:	Emitting E:/Git/SCE_Ragnarok/Ragnarok/ui/script/trigger_validator.lua
+1881.5023000240326:	Emit finished!

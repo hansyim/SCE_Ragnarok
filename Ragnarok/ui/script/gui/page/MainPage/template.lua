@@ -9,14 +9,14 @@ local on_unit_prop = require '@common.base.gui.on_unit_prop'
 local ctrl_wrapper = require '@common.base.gui.ctrl_wrapper'
 
 
-local lib_control = require '@lib_control.component'
 local smallcard_scoreboard = require '@smallcard_scoreboard.component'
-local smallcard_unit_attr_panel = require '@smallcard_unit_attr_panel.component'
-local smallcard_inventory = require '@smallcard_inventory.component'
 local smallcard_choose_one = require '@smallcard_choose_one.component'
 local lib_game_options = require '@lib_game_options.component'
+local smallcard_inventory = require '@smallcard_inventory.component'
 local lib_gamechat = require '@lib_gamechat.component'
+local smallcard_unit_attr_panel = require '@smallcard_unit_attr_panel.component'
 local gameui = require '@gameui.component'
+local lib_control = require '@lib_control.component'
 
 return gui_pkg.page_template {
     flatten_template = {
