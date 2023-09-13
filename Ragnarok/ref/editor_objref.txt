@@ -184,6 +184,7 @@ characters/general/sk_basic2/model.prefab
 characters/general/sk_explorer_m/model.prefab
 characters/general/sk_gangster/model.prefab
 characters/general/sk_worker/model.prefab
+characters/heartbeat/xeynboje/model.prefab
 characters/monster/sk_ghost/model.prefab
 characters/monster/sk_spider_burrow/model.prefab
 characters/monster/sk_spider_burrow_s/model.prefab

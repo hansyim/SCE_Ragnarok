@@ -1,11 +1,11 @@
 [root]
-'client'={
+'server'={
 'watch'={
 },
 'bks'={
 },
 }
-'server'={
+'client'={
 'watch'={
 },
 'bks'={

@@ -1,27 +1,27 @@
 declare const enum Scene {
 	["default"] = "default",
 }
-declare const enum 单位属性子类型 {
-}
-declare const enum 单位字符串属性 {
-}
-declare const enum 游戏属性 {
-}
-declare const enum 技能属性 {
-}
-declare const enum 伤害类型 {
+declare const enum 单位标签 {
+	["自动复活"] = "自动复活",
 }
 declare const enum 单位属性 {
 	["复活时间"] = "复活时间",
 	["金币"] = "金币",
 }
+declare const enum 技能属性 {
+}
+declare const enum 单位字符串属性 {
+}
+declare const enum 单位属性子类型 {
+}
+declare const enum 伤害类型 {
+}
 declare const enum 游戏选项 {
+}
+declare const enum 游戏属性 {
 }
 declare const enum 玩家属性 {
 	["玩家名称"] = "玩家名称",
-}
-declare const enum 单位标签 {
-	["自动复活"] = "自动复活",
 }
 declare const enum 能量类型 {
 }
@@ -29,1449 +29,1487 @@ declare const enum 验证器代码 {
 }
 declare const enum 血条类型 {
 }
-declare class _OBJ_lib_control_移动摇杆GUIEvent extends DataCache{
-	on_vj_move_start:(this: void, )=>void;
-	on_vj_move_end:(this: void, )=>void;
-	on_vj_press:(this: void, )=>void;
-	on_vj_release:(this: void, )=>void;
-	on_vj_move:(this: void, )=>void;
+declare class _OBJ_smallcard_inventory_EquipAttributeFormat extends DataCache{
+	Format:_OBJ_smallcard_inventory_AttributeFormat;
+	Attribute:_OBJ__UnitAttribute;
 	constructor()
 }
 declare class _OBJ_lib_control_技能摇杆GUIEvent extends DataCache{
+	on_vj_release:(this: void, )=>void;
 	on_down:(this: void, )=>void;
-	on_vj_move_end:(this: void, )=>void;
 	on_up:(this: void, )=>void;
 	on_vj_press:(this: void, )=>void;
-	on_vj_move:(this: void, )=>void;
 	on_vj_move_start:(this: void, )=>void;
+	on_vj_move:(this: void, )=>void;
+	on_vj_move_end:(this: void, )=>void;
+	constructor()
+}
+declare class _OBJ_lib_control_移动摇杆GUIEvent extends DataCache{
 	on_vj_release:(this: void, )=>void;
+	on_vj_move:(this: void, )=>void;
+	on_vj_press:(this: void, )=>void;
+	on_vj_move_start:(this: void, )=>void;
+	on_vj_move_end:(this: void, )=>void;
 	constructor()
 }
-declare class _OBJ_smallcard_inventory_EquipAttributeFormat extends DataCache{
-	Attribute:_OBJ__UnitAttribute;
-	Format:_OBJ_smallcard_inventory_AttributeFormat;
-	constructor()
-}
-declare class _OBJ_gameui_gui_ctrl_progress extends _OBJ__gui_ctrl_gui_ctrl{
-	is_merge_text:boolean;
-	name_show:boolean;
-	name_width:number;
-	show:boolean;
-	color:string;
-	rotate:number;
-	swallow_events:string;
-	clip:boolean;
-	progress_height:number;
-	low_level:boolean;
-	default_box_margin:number;
-	progress_type:string;
-	progress_image:string;
-	static:boolean;
-	description:string;
-	opacity:number;
-	flip_y:boolean;
-	progress_text_show:boolean;
-	transition:_OBJ__GUITransition;
-	enable_drop:boolean;
-	enable:boolean;
-	flip_x:boolean;
-	event:_OBJ__GUIEvent;
-	progress_bg_image:string;
-	layout:_OBJ__GUILayout;
-	round_corner_radius:number;
-	z_index:number;
-	enable_drag:boolean;
-	scale:number;
-	swallow_event:boolean;
-	progress_bg_color:string;
-	CustomString:string;
+declare class _OBJ_smallcard_inventory_inventory_config_Inventory_Config extends _OBJ__inventory_config_inventory_config{
+	TypeFilters:Array<IdPreset<"item_class_id">>;
 	Name:string;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	border:_OBJ__GUIBorder;
-	progress_color:string;
-	mask_image:string;
-	name_width_prop:number;
-	progress_width:number;
-	value_max:number;
-	name_pos_prop:string;
-	is_name_show_real:boolean;
-	is_name_show:boolean;
-	default_name_width:number;
-	name_height_prop:number;
-	value:number;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
+	ShowQuickBarCollapse:boolean;
+	Filters:Array<IdPreset<"item_class_id">>;
+	InteractRange:number;
+	Default_Frame:string;
+	Special:string;
+	V2Special:boolean;
+	EnableInGameInventory:boolean;
+	ShowDropArea:boolean;
+	ShowQuickBarLock:boolean;
+	QualityColor:Array<undefined>;
+	EquipTypes:Array<IdPreset<"item_class_id">>;
+	EnableInteract:boolean;
+	ShowDefaultEntrance:boolean;
+	Character:string;
+	ShowCharacter:boolean;
+	EquipAttributeFormat:Array<_OBJ_smallcard_inventory_EquipAttributeFormat>;
+	Link:IdPreset<"inventory_config_id">;
 	constructor()
 }
-declare class _OBJ_gameui_gui_ctrl_Buff列表 extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	rotate:number;
-	swallow_events:string;
-	clip:boolean;
-	unit:Unit;
-	buff_cat_filter:string;
-	default_none_cnt:number;
-	static:boolean;
-	CustomString:string;
-	opacity:number;
-	flip_y:boolean;
-	buff_margin:number;
-	flip_x:boolean;
-	round_corner_radius:number;
-	transition:_OBJ__GUITransition;
-	buff_height:number;
-	scale:number;
-	enable:boolean;
-	event:_OBJ__GUIEvent;
-	layout:_OBJ__GUILayout;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	default_neg_cnt:number;
-	swallow_event:boolean;
-	default_pos_cnt:number;
-	mask_image:string;
-	buff_polarity:string;
-	buff_icon:string;
-	low_level:boolean;
-	z_index:number;
-	enable_drag:boolean;
+declare class _OBJ_smallcard_inventory_inventory_config_Quality_Color extends _OBJ__inventory_config_inventory_config{
+	ClassLink:IdPreset<"item_class_id">;
+	Background:string;
 	Name:string;
-	border:_OBJ__GUIBorder;
-	buff_width:number;
-	buff_icon_template:string;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
+	Color:string;
+	Frame:string;
+	ActorArray:Array<IdPreset<"actor_id">>;
+	Link:IdPreset<"inventory_config_id">;
 	constructor()
 }
-declare class _OBJ_gameui_gui_ctrl_active_button extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	Asset:string;
-	click_opacity:number;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
-	static:boolean;
-	enable:boolean;
-	opacity:number;
-	flip_y:boolean;
-	click_color:string;
-	active_image:string;
-	flip_x:boolean;
-	round_corner_radius:number;
-	enable_drag:boolean;
-	effect_speed:number;
-	event:_OBJ__GUIEvent;
-	layout:_OBJ__GUILayout;
-	border:_OBJ__GUIBorder;
-	rotate:number;
-	mask_image:string;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	color:string;
-	transition:_OBJ__GUITransition;
-	z_index:number;
-	scale:number;
-	swallow_event:boolean;
-	CustomString:string;
+declare class _OBJ_smallcard_get_items_lobby_resource_gain_group_Lobby_Resource_Gain_Group extends _OBJ__lobby_resource_gain_group_lobby_resource_gain_group{
+	Array:Array<IdPreset<"lobby_resource_gain_id">>;
 	Name:string;
-	click_scale:number;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_smallcard_choose_one_gui_ctrl_N选1_选择面板 extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
-	enable_drag:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	transition:_OBJ__GUITransition;
-	enable:boolean;
-	Name:string;
-	static:boolean;
-	border:_OBJ__GUIBorder;
-	CustomString:string;
-	mask_image:string;
-	event:_OBJ__GUIEvent;
-	opacity:number;
-	flip_y:boolean;
-	z_index:number;
-	rotate:number;
-	scale:number;
-	swallow_event:boolean;
-	layout:_OBJ__GUILayout;
-	round_corner_radius:number;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_lib_gamechat_gui_ctrl_聊天面板 extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
-	enable_drag:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	transition:_OBJ__GUITransition;
-	enable:boolean;
-	Name:string;
-	static:boolean;
-	border:_OBJ__GUIBorder;
-	CustomString:string;
-	mask_image:string;
-	event:_OBJ__GUIEvent;
-	opacity:number;
-	flip_y:boolean;
-	z_index:number;
-	rotate:number;
-	scale:number;
-	swallow_event:boolean;
-	layout:_OBJ__GUILayout;
-	round_corner_radius:number;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_gameui_gui_ctrl_normal_btn extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	transition:_OBJ__GUITransition;
-	low_level:boolean;
-	enable:boolean;
-	text:string;
-	event:_OBJ__GUIEvent;
-	layout:_OBJ__GUILayout;
-	opacity:number;
-	rotate:number;
-	text_color:string;
-	static:boolean;
-	border:_OBJ__GUIBorder;
-	CustomString:string;
-	text_opacity:number;
-	swallow_event:boolean;
-	scale:number;
-	flip_y:boolean;
-	z_index:number;
-	mask_image:string;
-	enable_drag:boolean;
-	Name:string;
-	active_image:string;
-	round_corner_radius:number;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_smallcard_inventory_gui_ctrl_多功能格子 extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	layout:_OBJ__GUILayout;
-	rotate:number;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
-	show_bg:boolean;
-	static:boolean;
-	CustomString:string;
-	opacity:number;
-	flip_y:boolean;
-	bind_item:Item;
-	can_use:boolean;
-	bind_item_link:IdPreset<"item_id">;
-	flip_x:boolean;
-	round_corner_radius:number;
-	enable_drag:boolean;
-	color:string;
-	scale:number;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	enable:boolean;
-	swallow_event:boolean;
-	show_num:boolean;
-	mask_image:string;
-	event:_OBJ__GUIEvent;
-	show_frame:boolean;
-	bind_slot:Slot;
-	z_index:number;
-	show_tips:boolean;
-	transition:_OBJ__GUITransition;
-	bind_loot_link:IdPreset<"loot_id">;
-	border:_OBJ__GUIBorder;
-	Name:string;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_gameui_gui_ctrl_msgbox extends _OBJ__gui_ctrl_gui_ctrl{
-	on_press_btn:(this: void, )=>void;
-	is_show_icon:boolean;
-	show:boolean;
-	layout:_OBJ__GUILayout;
-	on_cancel:(this: void, )=>void;
-	on_no:(this: void, )=>void;
-	msgbox_icon_image:string;
-	msgbox_text:string;
-	low_level:boolean;
-	style:number;
-	static:boolean;
-	CustomString:string;
-	opacity:number;
-	msgbox_image:string;
-	flip_y:boolean;
-	flip_x:boolean;
-	round_corner_radius:number;
-	enable_drag:boolean;
-	color:string;
-	rotate:number;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	enable:boolean;
-	border:_OBJ__GUIBorder;
-	event:_OBJ__GUIEvent;
-	mask_image:string;
-	clip:boolean;
-	swallow_events:string;
-	enable_drop:boolean;
-	z_index:number;
-	Name:string;
-	swallow_event:boolean;
-	on_yes:(this: void, )=>void;
-	scale:number;
-	transition:_OBJ__GUITransition;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_smallcard_choose_one_gui_ctrl_N选1_整体面板 extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
-	enable_drag:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	transition:_OBJ__GUITransition;
-	enable:boolean;
-	Name:string;
-	static:boolean;
-	border:_OBJ__GUIBorder;
-	CustomString:string;
-	mask_image:string;
-	event:_OBJ__GUIEvent;
-	opacity:number;
-	flip_y:boolean;
-	z_index:number;
-	rotate:number;
-	scale:number;
-	swallow_event:boolean;
-	layout:_OBJ__GUILayout;
-	round_corner_radius:number;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
+	Link:IdPreset<"lobby_resource_gain_group_id">;
 	constructor()
 }
 declare class _OBJ_smallcard_choose_one_gui_ctrl_N选1_选项 extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
 	enable_drag:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	transition:_OBJ__GUITransition;
-	enable:boolean;
-	Name:string;
 	static:boolean;
-	border:_OBJ__GUIBorder;
-	CustomString:string;
-	mask_image:string;
-	event:_OBJ__GUIEvent;
-	opacity:number;
-	flip_y:boolean;
-	z_index:number;
-	rotate:number;
-	scale:number;
-	swallow_event:boolean;
-	layout:_OBJ__GUILayout;
+	color:string;
+	swallow_events:string;
 	round_corner_radius:number;
+	swallow_event:boolean;
+	flip_y:boolean;
+	low_level:boolean;
+	mask_image:string;
+	clip:boolean;
+	border:_OBJ__GUIBorder;
+	opacity:number;
+	z_index:number;
 	image:string;
+	layout:_OBJ__GUILayout;
+	enable_drop:boolean;
+	CustomString:string;
+	rotate:number;
+	enable:boolean;
 	gray:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	show:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	Name:string;
+	flip_x:boolean;
+	scale:number;
 	Link:IdPreset<"gui_ctrl_id">;
 	constructor()
 }
 declare class _OBJ_smallcard_choose_one_gui_ctrl_N选1_选项图标 extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
 	enable_drag:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	transition:_OBJ__GUITransition;
-	enable:boolean;
-	Name:string;
 	static:boolean;
-	border:_OBJ__GUIBorder;
-	CustomString:string;
+	color:string;
+	swallow_events:string;
+	round_corner_radius:number;
+	swallow_event:boolean;
+	flip_y:boolean;
+	low_level:boolean;
 	mask_image:string;
+	clip:boolean;
+	border:_OBJ__GUIBorder;
+	opacity:number;
+	z_index:number;
+	image:string;
+	layout:_OBJ__GUILayout;
+	enable_drop:boolean;
+	CustomString:string;
+	rotate:number;
+	enable:boolean;
+	gray:boolean;
+	transition:_OBJ__GUITransition;
 	event:_OBJ__GUIEvent;
-	opacity:number;
-	flip_y:boolean;
-	z_index:number;
-	rotate:number;
+	show:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	Name:string;
+	flip_x:boolean;
 	scale:number;
-	swallow_event:boolean;
-	layout:_OBJ__GUILayout;
-	round_corner_radius:number;
-	image:string;
-	gray:boolean;
 	Link:IdPreset<"gui_ctrl_id">;
 	constructor()
 }
-declare class _OBJ_lib_control_gui_ctrl_摇杆 extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
+declare class _OBJ_gameui_gui_ctrl_Buff列表 extends _OBJ__gui_ctrl_gui_ctrl{
+	buff_cat_filter:string;
 	color:string;
-	rotate:number;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
-	vj_relative_x:number;
-	static:boolean;
-	CustomString:string;
-	opacity:number;
-	vj_main_move_ratio:number;
-	vj_size:number;
-	flip_y:boolean;
-	vj_main_image:string;
-	vj_relative_y:number;
-	vj_bg_image:string;
-	flip_x:boolean;
 	round_corner_radius:number;
-	transition:_OBJ__GUITransition;
-	enable_drag:boolean;
-	vj_main_move_radius:number;
-	event:_OBJ_lib_control_移动摇杆GUIEvent;
-	enable:boolean;
-	layout:_OBJ__GUILayout;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	vj_main_size:number;
-	swallow_event:boolean;
-	vj_bg_toggle_show:boolean;
-	mask_image:string;
-	scale:number;
-	vj_is_press_center:boolean;
-	vj_press_region_type:number;
-	z_index:number;
-	Name:string;
-	vj_active_percent:number;
-	vj_main_toggle_show:boolean;
-	vj_is_release_reset:boolean;
-	border:_OBJ__GUIBorder;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_smallcard_choose_one_gui_ctrl_N选1_关闭面板 extends _OBJ__gui_ctrl_gui_ctrl{
+	buff_icon_template:string;
 	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
-	enable_drag:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	transition:_OBJ__GUITransition;
+	rotate:number;
 	enable:boolean;
-	Name:string;
-	static:boolean;
-	border:_OBJ__GUIBorder;
-	CustomString:string;
-	mask_image:string;
+	transition:_OBJ__GUITransition;
 	event:_OBJ__GUIEvent;
-	opacity:number;
-	flip_y:boolean;
-	z_index:number;
-	rotate:number;
-	scale:number;
-	swallow_event:boolean;
-	layout:_OBJ__GUILayout;
-	round_corner_radius:number;
 	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_gameui_gui_ctrl_msgbox_btn extends _OBJ__gui_ctrl_gui_ctrl{
-	btn_image:string;
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
-	gray:boolean;
-	text:string;
-	round_corner_radius:number;
-	enable:boolean;
-	event:_OBJ__GUIEvent;
-	layout:_OBJ__GUILayout;
-	children:Array<IdPreset<"gui_ctrl_id">>;
 	static:boolean;
-	border:_OBJ__GUIBorder;
-	CustomString:string;
-	mask_image:string;
-	opacity:number;
-	rotate:number;
-	flip_y:boolean;
-	z_index:number;
-	scale:number;
-	swallow_event:boolean;
-	transition:_OBJ__GUITransition;
-	enable_drag:boolean;
 	Name:string;
-	image:string;
-	icon_image:string;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_gameui_gui_ctrl_simpleui_picture extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	transition:_OBJ__GUITransition;
-	flip_x:boolean;
 	swallow_events:string;
-	clip:boolean;
-	round_corner_radius:number;
-	low_level:boolean;
-	enable:boolean;
-	enable_drag:boolean;
-	event:_OBJ__GUIEvent;
-	layout:_OBJ__GUILayout;
-	rotate:number;
-	z_index:number;
-	Name:string;
-	static:boolean;
-	zoom_type:string;
-	CustomString:string;
-	opacity:number;
-	scale:number;
-	visiblity:boolean;
-	flip_y:boolean;
-	can_be_clicked:boolean;
-	swallow_event:boolean;
-	mask_image:string;
-	border:_OBJ__GUIBorder;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	color:string;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_lib_control_gui_ctrl_技能摇杆 extends _OBJ__gui_ctrl_gui_ctrl{
-	vj_panel_crop_margin:number;
-	enable_drop:boolean;
-	show:boolean;
-	can_press_on_cool:boolean;
-	skill:Skill;
-	swallow_events:string;
-	clip:boolean;
-	skill_stack_bg:string;
-	cast_slider_panel:string;
-	cast_slider:string;
-	press_region_type:number;
-	vj_panel_scale:number;
-	static:boolean;
-	CustomString:string;
-	center_ratio:number;
-	flip_y:boolean;
-	skill_charge_cool:string;
-	is_vj_center:boolean;
-	skill_cool:string;
-	low_level:boolean;
-	event:_OBJ_lib_control_技能摇杆GUIEvent;
-	enable:boolean;
-	flip_x:boolean;
-	layout:_OBJ__GUILayout;
-	opacity:number;
-	rotate:number;
-	round_corner_radius:number;
-	z_index:number;
-	enable_drag:boolean;
-	scale:number;
-	skill_click:string;
-	swallow_event:boolean;
-	transition:_OBJ__GUITransition;
-	Name:string;
-	skill_normal:string;
-	border:_OBJ__GUIBorder;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	mask_image:string;
-	cast_slider_panel_disable:string;
-	outer_ratio:number;
-	skill_locked:string;
-	shortcut_key_bg:string;
-	skill_icon_mask:string;
-	skill_disable:string;
-	skill_toggleon:string;
-	active_percent:number;
-	color:string;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_lib_game_options_gui_ctrl_设置按钮 extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
-	enable_drag:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	transition:_OBJ__GUITransition;
-	enable:boolean;
-	event:_OBJ__GUIEvent;
-	Name:string;
-	static:boolean;
-	border:_OBJ__GUIBorder;
-	CustomString:string;
-	mask_image:string;
-	layout:_OBJ__GUILayout;
-	opacity:number;
-	flip_y:boolean;
-	z_index:number;
-	rotate:number;
-	scale:number;
-	show_localization_panel:boolean;
-	swallow_event:boolean;
-	round_corner_radius:number;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_lib_gamechat_gui_ctrl_接收消息 extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
-	enable_drag:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	transition:_OBJ__GUITransition;
-	enable:boolean;
-	Name:string;
-	static:boolean;
-	border:_OBJ__GUIBorder;
-	CustomString:string;
-	mask_image:string;
-	event:_OBJ__GUIEvent;
-	opacity:number;
-	flip_y:boolean;
-	z_index:number;
-	rotate:number;
-	scale:number;
-	swallow_event:boolean;
-	layout:_OBJ__GUILayout;
-	round_corner_radius:number;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_smallcard_inventory_gui_ctrl_自定义背包面板 extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	enable_drag:boolean;
-	transition:_OBJ__GUITransition;
-	drop_mode:boolean;
-	enable:boolean;
-	event:_OBJ__GUIEvent;
-	Name:string;
-	static:boolean;
-	border:_OBJ__GUIBorder;
-	CustomString:string;
-	mask_image:string;
-	layout:_OBJ__GUILayout;
-	opacity:number;
-	flip_y:boolean;
-	z_index:number;
-	rotate:number;
-	scale:number;
-	swallow_event:boolean;
-	inv_link:string;
-	round_corner_radius:number;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_gameui_gui_ctrl_normal_rect extends _OBJ__gui_ctrl_gui_ctrl{
-	color:string;
-	enable_drop:boolean;
-	round_corner_radius:number;
-	show:boolean;
-	transition:_OBJ__GUITransition;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	decoration_layout_left:_OBJ__GUILayout;
-	low_level:boolean;
-	enable:boolean;
-	style:string;
-	decoration_image:string;
-	event:_OBJ__GUIEvent;
-	layout:_OBJ__GUILayout;
-	opacity:number;
-	Name:string;
-	static:boolean;
-	border:_OBJ__GUIBorder;
-	CustomString:string;
-	mask_image:string;
-	rotate:number;
-	scale:number;
-	flip_y:boolean;
-	z_index:number;
-	swallow_event:boolean;
-	is_decoration:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	decoration_layout_right:_OBJ__GUILayout;
-	enable_drag:boolean;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_lib_gamechat_gui_ctrl_开启按钮 extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
-	enable_drag:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	transition:_OBJ__GUITransition;
-	enable:boolean;
-	Name:string;
-	static:boolean;
-	border:_OBJ__GUIBorder;
-	CustomString:string;
-	mask_image:string;
-	event:_OBJ__GUIEvent;
-	opacity:number;
-	flip_y:boolean;
-	z_index:number;
-	rotate:number;
-	scale:number;
-	swallow_event:boolean;
-	layout:_OBJ__GUILayout;
-	round_corner_radius:number;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_gameui_gui_ctrl_btn_icon extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	is_on:boolean;
-	icon:string;
-	low_level:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	enable_drag:boolean;
-	image:string;
-	enable:boolean;
-	event:_OBJ__GUIEvent;
-	layout:_OBJ__GUILayout;
-	Name:string;
-	static:boolean;
-	border:_OBJ__GUIBorder;
-	CustomString:string;
-	mask_image:string;
-	opacity:number;
-	rotate:number;
-	flip_y:boolean;
-	z_index:number;
-	scale:number;
-	swallow_event:boolean;
-	clip:boolean;
-	transition:_OBJ__GUITransition;
-	round_corner_radius:number;
-	is_switch:boolean;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_smallcard_inventory_gui_ctrl_模块背包 extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
-	static:boolean;
-	enable_drag:boolean;
-	image:string;
-	enable:boolean;
-	event:_OBJ__GUIEvent;
-	layout:_OBJ__GUILayout;
-	Name:string;
-	inv_link:string;
-	border:_OBJ__GUIBorder;
-	CustomString:string;
-	mask_image:string;
-	opacity:number;
-	rotate:number;
-	flip_y:boolean;
-	z_index:number;
-	scale:number;
-	swallow_event:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	round_corner_radius:number;
-	transition:_OBJ__GUITransition;
-	parameter:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_smallcard_inventory_gui_ctrl_背包入口 extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
-	enable_drag:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	transition:_OBJ__GUITransition;
-	enable:boolean;
-	Name:string;
-	static:boolean;
-	border:_OBJ__GUIBorder;
-	CustomString:string;
-	mask_image:string;
-	event:_OBJ__GUIEvent;
-	layout:_OBJ__GUILayout;
-	flip_y:boolean;
-	z_index:number;
-	opacity:number;
-	rotate:number;
-	scale:number;
-	swallow_event:boolean;
-	round_corner_radius:number;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_smallcard_inventory_gui_ctrl_自定义背包格子 extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
-	enable_drag:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	drop_mode:boolean;
-	transition:_OBJ__GUITransition;
-	enable:boolean;
-	Name:string;
-	static:boolean;
-	border:_OBJ__GUIBorder;
-	CustomString:string;
-	mask_image:string;
-	event:_OBJ__GUIEvent;
-	layout:_OBJ__GUILayout;
-	flip_y:boolean;
-	z_index:number;
-	opacity:number;
-	rotate:number;
-	scale:number;
-	swallow_event:boolean;
-	round_corner_radius:number;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_gameui_gui_ctrl_Buff图标 extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	rotate:number;
-	swallow_events:string;
-	clip:boolean;
-	scale:number;
-	static:boolean;
-	CustomString:string;
-	opacity:number;
-	flip_y:boolean;
-	font_size:number;
-	buff_pos_progress_type:string;
-	buff_margin:number;
-	flip_x:boolean;
-	buff:Buff;
-	buff_icon:string;
 	buff_height:number;
-	enable_drag:boolean;
-	Name:string;
-	enable:boolean;
-	buff_bg_pos_color:string;
-	event:_OBJ__GUIEvent;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	layout:_OBJ__GUILayout;
-	swallow_event:boolean;
-	buff_bg_none_color:string;
+	buff_polarity:string;
+	default_none_cnt:number;
+	flip_y:boolean;
+	border:_OBJ__GUIBorder;
+	default_pos_cnt:number;
 	mask_image:string;
-	buff_bg_neg_color:string;
+	clip:boolean;
+	opacity:number;
+	show:boolean;
 	low_level:boolean;
-	buff_none_progress_type:string;
-	z_index:number;
-	buff_neg_progress_type:string;
-	round_corner_radius:number;
-	transition:_OBJ__GUITransition;
+	enable_drag:boolean;
+	layout:_OBJ__GUILayout;
+	unit:Unit;
+	CustomString:string;
 	buff_width:number;
-	border:_OBJ__GUIBorder;
-	image:string;
+	buff_margin:number;
 	gray:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	default_neg_cnt:number;
+	flip_x:boolean;
+	buff_icon:string;
+	swallow_event:boolean;
+	z_index:number;
+	scale:number;
 	Link:IdPreset<"gui_ctrl_id">;
 	constructor()
 }
-declare class _OBJ_smallcard_unit_attr_panel_gui_ctrl_单位属性面板 extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
+declare class _OBJ_gameui_gui_ctrl_active_button extends _OBJ__gui_ctrl_gui_ctrl{
 	enable_drag:boolean;
+	color:string;
+	click_color:string;
+	round_corner_radius:number;
+	enable_drop:boolean;
+	rotate:number;
+	show:boolean;
 	transition:_OBJ__GUITransition;
-	enable:boolean;
 	event:_OBJ__GUIEvent;
-	opacity:number;
-	bind_real_unit:Unit;
-	static:boolean;
-	border:_OBJ__GUIBorder;
-	CustomString:string;
-	mask_image:string;
-	rotate:number;
-	z_index:number;
-	flip_y:boolean;
-	bind_unit:number;
-	scale:number;
-	swallow_event:boolean;
-	layout:_OBJ__GUILayout;
-	Name:string;
-	round_corner_radius:number;
+	effect_speed:number;
 	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_gameui_gui_ctrl_simpleui_button extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
+	static:boolean;
+	Name:string;
 	swallow_events:string;
-	clip:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	low_level:boolean;
-	transition:_OBJ__GUITransition;
-	text:string;
-	enable:boolean;
-	event:_OBJ__GUIEvent;
-	layout:_OBJ__GUILayout;
-	opacity:number;
-	Name:string;
-	static:boolean;
-	border:_OBJ__GUIBorder;
-	CustomString:string;
-	mask_image:string;
-	rotate:number;
-	visiblity:boolean;
-	flip_y:boolean;
-	can_be_clicked:boolean;
-	z_index:number;
-	scale:number;
-	swallow_event:boolean;
-	enable_drag:boolean;
-	round_corner_radius:number;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_gameui_gui_ctrl_timershow extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
 	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
-	enable_drag:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	transition:_OBJ__GUITransition;
-	enable:boolean;
-	Name:string;
-	static:boolean;
-	border:_OBJ__GUIBorder;
-	CustomString:string;
-	mask_image:string;
-	event:_OBJ__GUIEvent;
-	layout:_OBJ__GUILayout;
 	flip_y:boolean;
+	mask_image:string;
+	clip:boolean;
 	z_index:number;
 	opacity:number;
-	rotate:number;
-	scale:number;
-	swallow_event:boolean;
-	round_corner_radius:number;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_lib_control_gui_ctrl_中止施法区域 extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
-	enable_drag:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	enable:boolean;
-	event:_OBJ__GUIEvent;
-	Name:string;
-	static:boolean;
-	border:_OBJ__GUIBorder;
-	CustomString:string;
-	mask_image:string;
 	layout:_OBJ__GUILayout;
-	opacity:number;
-	flip_y:boolean;
-	z_index:number;
-	rotate:number;
-	scale:number;
-	swallow_event:boolean;
-	round_corner_radius:number;
-	transition:_OBJ__GUITransition;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_lib_control_gui_ctrl_施法进度条 extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	progress_bg_image:string;
-	transition:_OBJ__GUITransition;
-	low_level:boolean;
-	enable:boolean;
-	enable_drag:boolean;
-	event:_OBJ__GUIEvent;
-	layout:_OBJ__GUILayout;
-	opacity:number;
-	rotate:number;
-	break_delay:number;
-	progress_bar_image:string;
-	border:_OBJ__GUIBorder;
+	click_opacity:number;
 	CustomString:string;
-	mask_image:string;
-	swallow_event:boolean;
-	scale:number;
-	flip_y:boolean;
-	z_index:number;
-	static:boolean;
-	complete_delay:number;
-	clip:boolean;
-	Name:string;
-	round_corner_radius:number;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_lib_control_gui_ctrl_移动摇杆 extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	slider_relative_y:number;
-	rotate:number;
-	swallow_events:string;
-	clip:boolean;
-	is_main_slider:boolean;
-	slider_mini_image:string;
-	static:boolean;
-	toggle_show:boolean;
-	opacity:number;
-	flip_y:boolean;
-	slow_rate:number;
+	Asset:string;
 	low_level:boolean;
-	color:string;
-	enable:boolean;
-	vj_toggle_show:boolean;
-	layout:_OBJ__GUILayout;
-	vj_slider_height:number;
-	vj_move_ratio:number;
-	scale:number;
-	swallow_event:boolean;
-	flip_x:boolean;
-	vj_slider_width:number;
-	slider_image:string;
-	CustomString:string;
-	round_corner_radius:number;
-	slider_bg_image:string;
-	enable_drag:boolean;
-	vj_auto_move:boolean;
-	vj_is_main_slider:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	transition:_OBJ__GUITransition;
-	Name:string;
-	vj_move_radius:number;
-	border:_OBJ__GUIBorder;
-	vj_stop_percent:number;
-	mask_image:string;
-	vj_is_press_center:boolean;
-	slider_relative_x:number;
-	vj_press_region_type:number;
-	z_index:number;
-	slider_size:number;
-	vj_active_percent:number;
-	vj_slow_percent:number;
-	vj_is_release_reset:boolean;
-	event:_OBJ_lib_control_移动摇杆GUIEvent;
-	image:string;
 	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_lib_gamechat_gui_ctrl_发送按钮 extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
-	enable_drag:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	transition:_OBJ__GUITransition;
-	enable:boolean;
-	Name:string;
-	static:boolean;
 	border:_OBJ__GUIBorder;
-	CustomString:string;
-	mask_image:string;
-	event:_OBJ__GUIEvent;
-	opacity:number;
-	flip_y:boolean;
-	z_index:number;
-	rotate:number;
-	scale:number;
 	swallow_event:boolean;
-	layout:_OBJ__GUILayout;
-	round_corner_radius:number;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_smallcard_mail_gui_ctrl_邮件按钮 extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
-	enable_drag:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	transition:_OBJ__GUITransition;
+	active_image:string;
+	click_scale:number;
 	enable:boolean;
-	Name:string;
-	static:boolean;
-	border:_OBJ__GUIBorder;
-	CustomString:string;
-	mask_image:string;
-	event:_OBJ__GUIEvent;
-	opacity:number;
-	flip_y:boolean;
-	z_index:number;
-	rotate:number;
-	scale:number;
-	swallow_event:boolean;
-	layout:_OBJ__GUILayout;
-	round_corner_radius:number;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_lib_control_gui_ctrl_技能摇杆组 extends _OBJ__gui_ctrl_gui_ctrl{
-	vj_panel_crop_margin:number;
-	enable_drop:boolean;
-	base_y:number;
-	total_angle_delta:number;
-	can_press_on_cool:boolean;
-	rotate:number;
-	swallow_events:string;
-	clip:boolean;
-	button_size:number;
-	cast_slider_panel:string;
-	cast_slider:string;
-	press_region_type:number;
-	vj_panel_scale:number;
-	min_around_dis:number;
-	CustomString:string;
-	center_ratio:number;
-	skill_attack_normal:string;
-	flip_y:boolean;
-	skill_stack_bg:string;
-	image:string;
-	skill_charge_cool:string;
-	enable:boolean;
-	is_vj_center:boolean;
-	event:_OBJ__GUIEvent;
-	layout:_OBJ__GUILayout;
-	skill_cool:string;
-	opacity:number;
-	init_angle:number;
-	z_index:number;
-	scale:number;
-	swallow_event:boolean;
-	skill_icon_mask:string;
-	show:boolean;
-	flip_x:boolean;
-	static:boolean;
-	round_corner_radius:number;
 	children:Array<IdPreset<"gui_ctrl_id">>;
-	enable_drag:boolean;
-	transition:_OBJ__GUITransition;
-	skill_click:string;
-	low_level:boolean;
-	base_x:number;
-	Name:string;
-	skill_normal:string;
-	border:_OBJ__GUIBorder;
-	color:string;
-	mask_image:string;
-	skill_locked:string;
-	attack_button_size:number;
-	max_skill_count:number;
-	shortcut_key_bg:string;
-	active_percent:number;
-	skill_disable:string;
-	skill_toggleon:string;
-	outer_ratio:number;
-	cast_slider_panel_disable:string;
-	auto_bind_key:boolean;
-	gray:boolean;
+	scale:number;
 	Link:IdPreset<"gui_ctrl_id">;
 	constructor()
 }
 declare class _OBJ_gameui_gui_ctrl_simpleui_text extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	transition:_OBJ__GUITransition;
-	low_level:boolean;
-	enable:boolean;
-	enable_drag:boolean;
-	event:_OBJ__GUIEvent;
-	layout:_OBJ__GUILayout;
-	opacity:number;
-	rotate:number;
-	Name:string;
-	static:boolean;
-	border:_OBJ__GUIBorder;
-	CustomString:string;
-	mask_image:string;
-	z_index:number;
-	visiblity:boolean;
-	flip_y:boolean;
-	can_be_clicked:boolean;
-	scale:number;
-	swallow_event:boolean;
-	font_size:number;
 	auto_line_feed:boolean;
-	round_corner_radius:number;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_smallcard_unit_attr_panel_gui_ctrl_单位属性 extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	layout:_OBJ__GUILayout;
-	rotate:number;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
-	accuracy_display:number;
+	enable_drag:boolean;
 	static:boolean;
-	CustomString:string;
+	border:_OBJ__GUIBorder;
+	color:string;
+	swallow_events:string;
 	opacity:number;
+	visiblity:boolean;
+	flip_x:boolean;
 	flip_y:boolean;
+	image:string;
+	can_be_clicked:boolean;
+	mask_image:string;
+	clip:boolean;
+	show:boolean;
+	enable:boolean;
+	z_index:number;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	layout:_OBJ__GUILayout;
+	enable_drop:boolean;
+	CustomString:string;
+	rotate:number;
 	font_size:number;
-	flip_x:boolean;
-	icon:string;
-	round_corner_radius:number;
-	cat_button_height:number;
+	gray:boolean;
 	transition:_OBJ__GUITransition;
-	scale:number;
-	enable:boolean;
-	Name:string;
 	event:_OBJ__GUIEvent;
 	swallow_event:boolean;
-	color:string;
-	mask_image:string;
-	bind_attr:string;
-	show_mode:number;
-	font_color:string;
-	z_index:number;
-	attr_multiply:number;
-	enable_drag:boolean;
-	font_family:string;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	border:_OBJ__GUIBorder;
-	image:string;
-	gray:boolean;
+	low_level:boolean;
+	round_corner_radius:number;
+	Name:string;
+	scale:number;
 	Link:IdPreset<"gui_ctrl_id">;
 	constructor()
 }
-declare class _OBJ_lib_gamechat_gui_ctrl_关闭按钮 extends _OBJ__gui_ctrl_gui_ctrl{
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
+declare class _OBJ_smallcard_mail_gui_ctrl_邮件按钮 extends _OBJ__gui_ctrl_gui_ctrl{
 	enable_drag:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	transition:_OBJ__GUITransition;
-	enable:boolean;
-	Name:string;
 	static:boolean;
-	border:_OBJ__GUIBorder;
-	CustomString:string;
-	mask_image:string;
-	event:_OBJ__GUIEvent;
-	opacity:number;
-	flip_y:boolean;
-	z_index:number;
-	rotate:number;
-	scale:number;
-	swallow_event:boolean;
-	layout:_OBJ__GUILayout;
+	color:string;
+	swallow_events:string;
 	round_corner_radius:number;
+	swallow_event:boolean;
+	flip_y:boolean;
+	low_level:boolean;
+	mask_image:string;
+	clip:boolean;
+	border:_OBJ__GUIBorder;
+	opacity:number;
+	z_index:number;
 	image:string;
+	layout:_OBJ__GUILayout;
+	enable_drop:boolean;
+	CustomString:string;
+	rotate:number;
+	enable:boolean;
 	gray:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	show:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	Name:string;
+	flip_x:boolean;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_gameui_gui_ctrl_msgbox_btn extends _OBJ__gui_ctrl_gui_ctrl{
+	enable_drag:boolean;
+	static:boolean;
+	z_index:number;
+	color:string;
+	swallow_events:string;
+	border:_OBJ__GUIBorder;
+	round_corner_radius:number;
+	flip_x:boolean;
+	flip_y:boolean;
+	opacity:number;
+	image:string;
+	mask_image:string;
+	clip:boolean;
+	show:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	low_level:boolean;
+	icon_image:string;
+	layout:_OBJ__GUILayout;
+	text:string;
+	CustomString:string;
+	rotate:number;
+	enable:boolean;
+	gray:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	enable_drop:boolean;
+	swallow_event:boolean;
+	Name:string;
+	btn_image:string;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_smallcard_choose_one_gui_ctrl_N选1_选择面板 extends _OBJ__gui_ctrl_gui_ctrl{
+	enable_drag:boolean;
+	static:boolean;
+	color:string;
+	swallow_events:string;
+	round_corner_radius:number;
+	swallow_event:boolean;
+	flip_y:boolean;
+	low_level:boolean;
+	mask_image:string;
+	clip:boolean;
+	border:_OBJ__GUIBorder;
+	opacity:number;
+	z_index:number;
+	image:string;
+	layout:_OBJ__GUILayout;
+	enable_drop:boolean;
+	CustomString:string;
+	rotate:number;
+	enable:boolean;
+	gray:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	show:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	Name:string;
+	flip_x:boolean;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_lib_control_gui_ctrl_中止施法区域 extends _OBJ__gui_ctrl_gui_ctrl{
+	enable_drag:boolean;
+	static:boolean;
+	color:string;
+	swallow_events:string;
+	round_corner_radius:number;
+	swallow_event:boolean;
+	flip_y:boolean;
+	low_level:boolean;
+	mask_image:string;
+	clip:boolean;
+	border:_OBJ__GUIBorder;
+	opacity:number;
+	z_index:number;
+	show:boolean;
+	layout:_OBJ__GUILayout;
+	enable_drop:boolean;
+	CustomString:string;
+	rotate:number;
+	enable:boolean;
+	gray:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	image:string;
+	Name:string;
+	flip_x:boolean;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_gameui_gui_ctrl_msgbox extends _OBJ__gui_ctrl_gui_ctrl{
+	enable_drag:boolean;
+	color:string;
+	msgbox_text:string;
+	round_corner_radius:number;
+	on_yes:(this: void, )=>void;
+	msgbox_icon_image:string;
+	enable_drop:boolean;
+	rotate:number;
+	show:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	on_press_btn:(this: void, )=>void;
+	image:string;
+	static:boolean;
+	Name:string;
+	swallow_events:string;
+	flip_x:boolean;
+	flip_y:boolean;
+	mask_image:string;
+	clip:boolean;
+	swallow_event:boolean;
+	low_level:boolean;
+	border:_OBJ__GUIBorder;
+	layout:_OBJ__GUILayout;
+	opacity:number;
+	CustomString:string;
+	on_no:(this: void, )=>void;
+	enable:boolean;
+	gray:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	is_show_icon:boolean;
+	on_cancel:(this: void, )=>void;
+	msgbox_image:string;
+	style:number;
+	z_index:number;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_gameui_gui_ctrl_Buff图标 extends _OBJ__gui_ctrl_gui_ctrl{
+	enable_drag:boolean;
+	color:string;
+	round_corner_radius:number;
+	buff_neg_progress_type:string;
+	enable_drop:boolean;
+	rotate:number;
+	enable:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	buff_none_progress_type:string;
+	image:string;
+	static:boolean;
+	buff:Buff;
+	swallow_events:string;
+	buff_bg_pos_color:string;
+	low_level:boolean;
+	flip_x:boolean;
+	flip_y:boolean;
+	border:_OBJ__GUIBorder;
+	opacity:number;
+	buff_height:number;
+	clip:boolean;
+	show:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	z_index:number;
+	buff_pos_progress_type:string;
+	layout:_OBJ__GUILayout;
+	buff_bg_neg_color:string;
+	CustomString:string;
+	buff_width:number;
+	font_size:number;
+	gray:boolean;
+	buff_margin:number;
+	buff_icon:string;
+	Name:string;
+	mask_image:string;
+	buff_bg_none_color:string;
+	swallow_event:boolean;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_smallcard_choose_one_gui_ctrl_N选1_关闭面板 extends _OBJ__gui_ctrl_gui_ctrl{
+	enable_drag:boolean;
+	static:boolean;
+	color:string;
+	swallow_events:string;
+	round_corner_radius:number;
+	swallow_event:boolean;
+	flip_y:boolean;
+	low_level:boolean;
+	mask_image:string;
+	clip:boolean;
+	border:_OBJ__GUIBorder;
+	opacity:number;
+	z_index:number;
+	image:string;
+	layout:_OBJ__GUILayout;
+	enable_drop:boolean;
+	CustomString:string;
+	rotate:number;
+	enable:boolean;
+	gray:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	show:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	Name:string;
+	flip_x:boolean;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_lib_control_gui_ctrl_技能摇杆组 extends _OBJ__gui_ctrl_gui_ctrl{
+	center_ratio:number;
+	vj_panel_scale:number;
+	enable_drag:boolean;
+	skill_disable:string;
+	skill_toggleon:string;
+	cast_slider:string;
+	round_corner_radius:number;
+	cast_slider_panel:string;
+	init_angle:number;
+	scale:number;
+	skill_attack_normal:string;
+	border:_OBJ__GUIBorder;
+	opacity:number;
+	skill_normal:string;
+	enable_drop:boolean;
+	image:string;
+	rotate:number;
+	skill_stack_bg:string;
+	base_y:number;
+	outer_ratio:number;
+	event:_OBJ__GUIEvent;
+	show:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	skill_icon_mask:string;
+	enable:boolean;
+	color:string;
+	layout:_OBJ__GUILayout;
+	swallow_event:boolean;
+	cast_slider_panel_disable:string;
+	static:boolean;
+	min_around_dis:number;
+	Name:string;
+	swallow_events:string;
+	low_level:boolean;
+	transition:_OBJ__GUITransition;
+	can_press_on_cool:boolean;
+	button_size:number;
+	flip_y:boolean;
+	skill_locked:string;
+	mask_image:string;
+	skill_charge_cool:string;
+	clip:boolean;
+	press_region_type:number;
+	z_index:number;
+	flip_x:boolean;
+	auto_bind_key:boolean;
+	max_skill_count:number;
+	CustomString:string;
+	total_angle_delta:number;
+	active_percent:number;
+	gray:boolean;
+	is_vj_center:boolean;
+	attack_button_size:number;
+	base_x:number;
+	shortcut_key_bg:string;
+	skill_click:string;
+	skill_cool:string;
+	vj_panel_crop_margin:number;
 	Link:IdPreset<"gui_ctrl_id">;
 	constructor()
 }
 declare class _OBJ_gameui_gui_ctrl_attachable_panel extends _OBJ__gui_ctrl_gui_ctrl{
-	_attach_unit:Unit;
-	gray:boolean;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	transition:_OBJ__GUITransition;
-	round_corner_radius:number;
-	enable:boolean;
+	scale:number;
 	enable_drag:boolean;
-	event:_OBJ__GUIEvent;
-	layout:_OBJ__GUILayout;
-	opacity:number;
-	rotate:number;
-	Name:string;
 	static:boolean;
 	border:_OBJ__GUIBorder;
-	CustomString:string;
-	mask_image:string;
-	swallow_event:boolean;
-	scale:number;
-	flip_y:boolean;
-	z_index:number;
-	scale_by_distance:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	enable_drop:boolean;
-	low_level:boolean;
+	color:string;
+	swallow_events:string;
+	opacity:number;
+	round_corner_radius:number;
 	socket_name:string;
+	flip_y:boolean;
 	image:string;
+	show:boolean;
+	mask_image:string;
+	clip:boolean;
+	swallow_event:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	scale_by_distance:boolean;
+	enable_drop:boolean;
+	layout:_OBJ__GUILayout;
+	_attach_unit:Unit;
+	CustomString:string;
+	rotate:number;
+	enable:boolean;
+	gray:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	low_level:boolean;
+	z_index:number;
+	Name:string;
+	flip_x:boolean;
 	hide_on_unit_invisible:boolean;
 	Link:IdPreset<"gui_ctrl_id">;
 	constructor()
 }
-declare class _OBJ_smallcard_get_items_lobby_resource_gain_Lobby_Resource_Gain extends _OBJ__lobby_resource_gain_lobby_resource_gain{
-	Count:number;
+declare class _OBJ_smallcard_unit_attr_panel_gui_ctrl_单位属性 extends _OBJ__gui_ctrl_gui_ctrl{
+	cat_button_height:number;
+	enable_drag:boolean;
+	color:string;
+	round_corner_radius:number;
+	font_family:string;
+	attr_multiply:number;
+	accuracy_display:number;
+	enable_drop:boolean;
+	rotate:number;
+	show:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	image:string;
+	static:boolean;
 	Name:string;
+	swallow_events:string;
+	flip_x:boolean;
+	icon:string;
+	mask_image:string;
+	clip:boolean;
+	swallow_event:boolean;
+	z_index:number;
+	border:_OBJ__GUIBorder;
+	layout:_OBJ__GUILayout;
+	opacity:number;
+	CustomString:string;
+	font_color:string;
+	font_size:number;
+	gray:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	bind_attr:string;
+	flip_y:boolean;
+	low_level:boolean;
+	show_mode:number;
+	enable:boolean;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_lib_control_gui_ctrl_技能摇杆 extends _OBJ__gui_ctrl_gui_ctrl{
+	center_ratio:number;
+	vj_panel_scale:number;
+	enable_drag:boolean;
+	skill_disable:string;
+	skill_toggleon:string;
+	cast_slider:string;
+	round_corner_radius:number;
+	skill:Skill;
+	cast_slider_panel:string;
+	skill_normal:string;
+	enable_drop:boolean;
+	rotate:number;
+	skill_stack_bg:string;
+	outer_ratio:number;
+	event:_OBJ_lib_control_技能摇杆GUIEvent;
+	scale:number;
+	border:_OBJ__GUIBorder;
+	opacity:number;
+	image:string;
+	cast_slider_panel_disable:string;
+	static:boolean;
+	show:boolean;
+	Name:string;
+	swallow_events:string;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	active_percent:number;
+	can_press_on_cool:boolean;
+	flip_y:boolean;
+	enable:boolean;
+	skill_locked:string;
+	mask_image:string;
+	skill_charge_cool:string;
+	transition:_OBJ__GUITransition;
+	press_region_type:number;
+	z_index:number;
+	swallow_event:boolean;
+	layout:_OBJ__GUILayout;
+	low_level:boolean;
+	CustomString:string;
+	clip:boolean;
+	flip_x:boolean;
+	gray:boolean;
+	is_vj_center:boolean;
+	skill_cool:string;
+	skill_icon_mask:string;
+	shortcut_key_bg:string;
+	skill_click:string;
+	color:string;
+	vj_panel_crop_margin:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_smallcard_choose_one_gui_ctrl_N选1_整体面板 extends _OBJ__gui_ctrl_gui_ctrl{
+	enable_drag:boolean;
+	static:boolean;
+	color:string;
+	swallow_events:string;
+	round_corner_radius:number;
+	swallow_event:boolean;
+	flip_y:boolean;
+	low_level:boolean;
+	mask_image:string;
+	clip:boolean;
+	border:_OBJ__GUIBorder;
+	opacity:number;
+	z_index:number;
+	image:string;
+	layout:_OBJ__GUILayout;
+	enable_drop:boolean;
+	CustomString:string;
+	rotate:number;
+	enable:boolean;
+	gray:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	show:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	Name:string;
+	flip_x:boolean;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_lib_control_gui_ctrl_摇杆 extends _OBJ__gui_ctrl_gui_ctrl{
+	enable_drag:boolean;
+	vj_main_move_radius:number;
+	vj_relative_x:number;
+	color:string;
+	round_corner_radius:number;
+	enable_drop:boolean;
+	vj_press_region_type:number;
+	enable:boolean;
+	transition:_OBJ__GUITransition;
+	vj_active_percent:number;
+	swallow_event:boolean;
+	image:string;
+	static:boolean;
+	border:_OBJ__GUIBorder;
+	Name:string;
+	swallow_events:string;
+	opacity:number;
+	vj_main_move_ratio:number;
+	vj_main_size:number;
+	flip_y:boolean;
+	show:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	mask_image:string;
+	clip:boolean;
+	vj_is_release_reset:boolean;
+	vj_is_press_center:boolean;
+	low_level:boolean;
+	rotate:number;
+	layout:_OBJ__GUILayout;
+	vj_bg_toggle_show:boolean;
+	CustomString:string;
+	vj_main_image:string;
+	event:_OBJ_lib_control_移动摇杆GUIEvent;
+	gray:boolean;
+	vj_main_toggle_show:boolean;
+	flip_x:boolean;
+	vj_bg_image:string;
+	vj_size:number;
+	z_index:number;
+	vj_relative_y:number;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_gameui_gui_ctrl_progress extends _OBJ__gui_ctrl_gui_ctrl{
+	default_name_width:number;
+	enable_drag:boolean;
+	description:string;
+	progress_bg_color:string;
+	is_merge_text:boolean;
+	progress_type:string;
+	name_height_prop:number;
+	enable_drop:boolean;
+	progress_image:string;
+	rotate:number;
+	is_name_show_real:boolean;
+	name_show:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	scale:number;
+	border:_OBJ__GUIBorder;
+	name_width_prop:number;
+	opacity:number;
+	image:string;
+	static:boolean;
+	show:boolean;
+	Name:string;
+	swallow_events:string;
+	is_name_show:boolean;
+	name_pos_prop:string;
+	flip_x:boolean;
+	flip_y:boolean;
+	enable:boolean;
+	name_width:number;
+	mask_image:string;
+	clip:boolean;
+	progress_bg_image:string;
+	low_level:boolean;
+	z_index:number;
+	progress_color:string;
+	layout:_OBJ__GUILayout;
+	swallow_event:boolean;
+	CustomString:string;
+	round_corner_radius:number;
+	progress_height:number;
+	gray:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	progress_text_show:boolean;
+	progress_width:number;
+	color:string;
+	value_max:number;
+	value:number;
+	default_box_margin:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_smallcard_inventory_gui_ctrl_模块背包 extends _OBJ__gui_ctrl_gui_ctrl{
+	enable_drag:boolean;
+	static:boolean;
+	color:string;
+	swallow_events:string;
+	scale:number;
+	round_corner_radius:number;
+	swallow_event:boolean;
+	flip_y:boolean;
+	border:_OBJ__GUIBorder;
+	opacity:number;
+	mask_image:string;
+	clip:boolean;
+	image:string;
+	show:boolean;
+	z_index:number;
+	event:_OBJ__GUIEvent;
+	layout:_OBJ__GUILayout;
+	enable_drop:boolean;
+	CustomString:string;
+	rotate:number;
+	enable:boolean;
+	gray:boolean;
+	transition:_OBJ__GUITransition;
+	inv_link:string;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	low_level:boolean;
+	Name:string;
+	flip_x:boolean;
+	parameter:string;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_lib_gamechat_gui_ctrl_开启按钮 extends _OBJ__gui_ctrl_gui_ctrl{
+	enable_drag:boolean;
+	static:boolean;
+	color:string;
+	swallow_events:string;
+	round_corner_radius:number;
+	swallow_event:boolean;
+	flip_y:boolean;
+	low_level:boolean;
+	mask_image:string;
+	clip:boolean;
+	border:_OBJ__GUIBorder;
+	opacity:number;
+	z_index:number;
+	image:string;
+	layout:_OBJ__GUILayout;
+	enable_drop:boolean;
+	CustomString:string;
+	rotate:number;
+	enable:boolean;
+	gray:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	show:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	Name:string;
+	flip_x:boolean;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_smallcard_inventory_gui_ctrl_背包入口 extends _OBJ__gui_ctrl_gui_ctrl{
+	enable_drag:boolean;
+	static:boolean;
+	Name:string;
+	swallow_events:string;
+	round_corner_radius:number;
+	swallow_event:boolean;
+	flip_y:boolean;
+	flip_x:boolean;
+	mask_image:string;
+	clip:boolean;
+	border:_OBJ__GUIBorder;
+	opacity:number;
+	z_index:number;
+	image:string;
+	layout:_OBJ__GUILayout;
+	enable_drop:boolean;
+	CustomString:string;
+	rotate:number;
+	enable:boolean;
+	gray:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	show:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	color:string;
+	low_level:boolean;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_smallcard_inventory_gui_ctrl_自定义背包面板 extends _OBJ__gui_ctrl_gui_ctrl{
+	enable_drag:boolean;
+	static:boolean;
+	color:string;
+	swallow_events:string;
+	low_level:boolean;
+	round_corner_radius:number;
+	swallow_event:boolean;
+	flip_y:boolean;
+	border:_OBJ__GUIBorder;
+	opacity:number;
+	mask_image:string;
+	clip:boolean;
+	image:string;
+	show:boolean;
+	z_index:number;
+	event:_OBJ__GUIEvent;
+	layout:_OBJ__GUILayout;
+	enable_drop:boolean;
+	CustomString:string;
+	rotate:number;
+	enable:boolean;
+	gray:boolean;
+	transition:_OBJ__GUITransition;
+	inv_link:string;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	drop_mode:boolean;
+	Name:string;
+	flip_x:boolean;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_lib_game_options_gui_ctrl_设置按钮 extends _OBJ__gui_ctrl_gui_ctrl{
+	enable_drag:boolean;
+	static:boolean;
+	color:string;
+	swallow_events:string;
+	round_corner_radius:number;
+	swallow_event:boolean;
+	flip_y:boolean;
+	low_level:boolean;
+	border:_OBJ__GUIBorder;
+	mask_image:string;
+	clip:boolean;
+	opacity:number;
+	image:string;
+	z_index:number;
+	show:boolean;
+	layout:_OBJ__GUILayout;
+	enable_drop:boolean;
+	CustomString:string;
+	rotate:number;
+	enable:boolean;
+	gray:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	show_localization_panel:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	Name:string;
+	flip_x:boolean;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_smallcard_unit_attr_panel_gui_ctrl_单位属性面板 extends _OBJ__gui_ctrl_gui_ctrl{
+	enable_drag:boolean;
+	static:boolean;
+	color:string;
+	swallow_events:string;
+	z_index:number;
+	round_corner_radius:number;
+	flip_x:boolean;
+	flip_y:boolean;
+	border:_OBJ__GUIBorder;
+	opacity:number;
+	mask_image:string;
+	clip:boolean;
+	image:string;
+	show:boolean;
+	low_level:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	layout:_OBJ__GUILayout;
+	enable_drop:boolean;
+	CustomString:string;
+	rotate:number;
+	enable:boolean;
+	gray:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	bind_unit:number;
+	bind_real_unit:Unit;
+	swallow_event:boolean;
+	Name:string;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_gameui_gui_ctrl_btn_icon extends _OBJ__gui_ctrl_gui_ctrl{
+	enable_drag:boolean;
+	static:boolean;
+	low_level:boolean;
+	color:string;
+	swallow_events:string;
+	border:_OBJ__GUIBorder;
+	round_corner_radius:number;
+	flip_x:boolean;
+	icon:string;
+	opacity:number;
+	image:string;
+	mask_image:string;
+	clip:boolean;
+	show:boolean;
+	is_switch:boolean;
+	z_index:number;
+	is_on:boolean;
+	layout:_OBJ__GUILayout;
+	enable_drop:boolean;
+	CustomString:string;
+	rotate:number;
+	enable:boolean;
+	gray:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	swallow_event:boolean;
+	Name:string;
+	flip_y:boolean;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_gameui_gui_ctrl_simpleui_button extends _OBJ__gui_ctrl_gui_ctrl{
+	enable_drag:boolean;
+	static:boolean;
+	z_index:number;
+	color:string;
+	swallow_events:string;
+	border:_OBJ__GUIBorder;
+	visiblity:boolean;
+	flip_x:boolean;
+	flip_y:boolean;
+	opacity:number;
+	can_be_clicked:boolean;
+	mask_image:string;
+	clip:boolean;
+	image:string;
+	show:boolean;
+	low_level:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	layout:_OBJ__GUILayout;
+	text:string;
+	CustomString:string;
+	rotate:number;
+	enable:boolean;
+	gray:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	enable_drop:boolean;
+	swallow_event:boolean;
+	round_corner_radius:number;
+	Name:string;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_gameui_gui_ctrl_normal_btn extends _OBJ__gui_ctrl_gui_ctrl{
+	Name:string;
+	enable_drag:boolean;
+	static:boolean;
+	border:_OBJ__GUIBorder;
+	color:string;
+	swallow_events:string;
+	opacity:number;
+	round_corner_radius:number;
+	flip_x:boolean;
+	flip_y:boolean;
+	image:string;
+	show:boolean;
+	mask_image:string;
+	clip:boolean;
+	event:_OBJ__GUIEvent;
+	text_color:string;
+	z_index:number;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	layout:_OBJ__GUILayout;
+	text:string;
+	CustomString:string;
+	rotate:number;
+	enable:boolean;
+	gray:boolean;
+	transition:_OBJ__GUITransition;
+	active_image:string;
+	enable_drop:boolean;
+	swallow_event:boolean;
+	low_level:boolean;
+	text_opacity:number;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_lib_control_gui_ctrl_移动摇杆 extends _OBJ__gui_ctrl_gui_ctrl{
+	vj_slider_width:number;
+	slider_image:string;
+	vj_move_ratio:number;
+	color:string;
+	vj_move_radius:number;
+	round_corner_radius:number;
+	vj_slider_height:number;
+	enable_drop:boolean;
+	vj_press_region_type:number;
+	enable:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ_lib_control_移动摇杆GUIEvent;
+	scale:number;
+	border:_OBJ__GUIBorder;
+	vj_slow_percent:number;
+	opacity:number;
+	slow_rate:number;
+	show:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	image:string;
+	static:boolean;
+	rotate:number;
+	toggle_show:boolean;
+	swallow_events:string;
+	CustomString:string;
+	z_index:number;
+	flip_x:boolean;
+	flip_y:boolean;
+	swallow_event:boolean;
+	slider_size:number;
+	mask_image:string;
+	clip:boolean;
+	vj_is_release_reset:boolean;
+	low_level:boolean;
+	vj_is_main_slider:boolean;
+	slider_relative_y:number;
+	layout:_OBJ__GUILayout;
+	slider_bg_image:string;
+	vj_is_press_center:boolean;
+	vj_toggle_show:boolean;
+	vj_active_percent:number;
+	gray:boolean;
+	vj_auto_move:boolean;
+	slider_relative_x:number;
+	is_main_slider:boolean;
+	vj_stop_percent:number;
+	enable_drag:boolean;
+	Name:string;
+	slider_mini_image:string;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_gameui_gui_ctrl_normal_rect extends _OBJ__gui_ctrl_gui_ctrl{
+	Name:string;
+	border:_OBJ__GUIBorder;
+	enable_drag:boolean;
+	static:boolean;
+	opacity:number;
+	color:string;
+	swallow_events:string;
+	image:string;
+	decoration_image:string;
+	flip_x:boolean;
+	flip_y:boolean;
+	show:boolean;
+	enable_drop:boolean;
+	mask_image:string;
+	clip:boolean;
+	is_decoration:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	z_index:number;
+	CustomString:string;
+	layout:_OBJ__GUILayout;
+	style:string;
+	decoration_layout_left:_OBJ__GUILayout;
+	rotate:number;
+	enable:boolean;
+	gray:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	swallow_event:boolean;
+	low_level:boolean;
+	decoration_layout_right:_OBJ__GUILayout;
+	round_corner_radius:number;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_lib_gamechat_gui_ctrl_接收消息 extends _OBJ__gui_ctrl_gui_ctrl{
+	enable_drag:boolean;
+	static:boolean;
+	color:string;
+	swallow_events:string;
+	round_corner_radius:number;
+	swallow_event:boolean;
+	flip_y:boolean;
+	low_level:boolean;
+	mask_image:string;
+	clip:boolean;
+	border:_OBJ__GUIBorder;
+	opacity:number;
+	z_index:number;
+	image:string;
+	layout:_OBJ__GUILayout;
+	enable_drop:boolean;
+	CustomString:string;
+	rotate:number;
+	enable:boolean;
+	gray:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	show:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	Name:string;
+	flip_x:boolean;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_gameui_gui_ctrl_timershow extends _OBJ__gui_ctrl_gui_ctrl{
+	enable_drag:boolean;
+	static:boolean;
+	Name:string;
+	swallow_events:string;
+	round_corner_radius:number;
+	swallow_event:boolean;
+	flip_y:boolean;
+	flip_x:boolean;
+	mask_image:string;
+	clip:boolean;
+	border:_OBJ__GUIBorder;
+	opacity:number;
+	z_index:number;
+	image:string;
+	layout:_OBJ__GUILayout;
+	enable_drop:boolean;
+	CustomString:string;
+	rotate:number;
+	enable:boolean;
+	gray:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	show:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	color:string;
+	low_level:boolean;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_lib_control_gui_ctrl_施法进度条 extends _OBJ__gui_ctrl_gui_ctrl{
+	round_corner_radius:number;
+	enable_drag:boolean;
+	static:boolean;
+	border:_OBJ__GUIBorder;
+	color:string;
+	swallow_events:string;
+	opacity:number;
+	break_delay:number;
+	flip_x:boolean;
+	flip_y:boolean;
+	image:string;
+	show:boolean;
+	mask_image:string;
+	clip:boolean;
+	progress_bg_image:string;
+	enable:boolean;
+	z_index:number;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	layout:_OBJ__GUILayout;
+	enable_drop:boolean;
+	CustomString:string;
+	progress_bar_image:string;
+	complete_delay:number;
+	gray:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	rotate:number;
+	swallow_event:boolean;
+	low_level:boolean;
+	Name:string;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_lib_gamechat_gui_ctrl_关闭按钮 extends _OBJ__gui_ctrl_gui_ctrl{
+	enable_drag:boolean;
+	static:boolean;
+	color:string;
+	swallow_events:string;
+	round_corner_radius:number;
+	swallow_event:boolean;
+	flip_y:boolean;
+	low_level:boolean;
+	mask_image:string;
+	clip:boolean;
+	border:_OBJ__GUIBorder;
+	opacity:number;
+	z_index:number;
+	image:string;
+	layout:_OBJ__GUILayout;
+	enable_drop:boolean;
+	CustomString:string;
+	rotate:number;
+	enable:boolean;
+	gray:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	show:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	Name:string;
+	flip_x:boolean;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_lib_gamechat_gui_ctrl_聊天面板 extends _OBJ__gui_ctrl_gui_ctrl{
+	enable_drag:boolean;
+	static:boolean;
+	color:string;
+	swallow_events:string;
+	round_corner_radius:number;
+	swallow_event:boolean;
+	flip_y:boolean;
+	low_level:boolean;
+	mask_image:string;
+	clip:boolean;
+	border:_OBJ__GUIBorder;
+	opacity:number;
+	z_index:number;
+	image:string;
+	layout:_OBJ__GUILayout;
+	enable_drop:boolean;
+	CustomString:string;
+	rotate:number;
+	enable:boolean;
+	gray:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	show:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	Name:string;
+	flip_x:boolean;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_lib_gamechat_gui_ctrl_发送按钮 extends _OBJ__gui_ctrl_gui_ctrl{
+	enable_drag:boolean;
+	static:boolean;
+	color:string;
+	swallow_events:string;
+	round_corner_radius:number;
+	swallow_event:boolean;
+	flip_y:boolean;
+	low_level:boolean;
+	mask_image:string;
+	clip:boolean;
+	border:_OBJ__GUIBorder;
+	opacity:number;
+	z_index:number;
+	image:string;
+	layout:_OBJ__GUILayout;
+	enable_drop:boolean;
+	CustomString:string;
+	rotate:number;
+	enable:boolean;
+	gray:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	show:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	Name:string;
+	flip_x:boolean;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_smallcard_inventory_gui_ctrl_自定义背包格子 extends _OBJ__gui_ctrl_gui_ctrl{
+	enable_drag:boolean;
+	static:boolean;
+	color:string;
+	swallow_events:string;
+	round_corner_radius:number;
+	swallow_event:boolean;
+	flip_y:boolean;
+	low_level:boolean;
+	border:_OBJ__GUIBorder;
+	mask_image:string;
+	clip:boolean;
+	opacity:number;
+	image:string;
+	z_index:number;
+	show:boolean;
+	layout:_OBJ__GUILayout;
+	enable_drop:boolean;
+	CustomString:string;
+	rotate:number;
+	enable:boolean;
+	gray:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	drop_mode:boolean;
+	Name:string;
+	flip_x:boolean;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_smallcard_inventory_gui_ctrl_多功能格子 extends _OBJ__gui_ctrl_gui_ctrl{
+	bind_item:Item;
+	color:string;
+	round_corner_radius:number;
+	bind_item_link:IdPreset<"item_id">;
+	show_bg:boolean;
+	enable_drop:boolean;
+	rotate:number;
+	show:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	show_num:boolean;
+	image:string;
+	can_use:boolean;
+	Name:string;
+	swallow_events:string;
+	flip_x:boolean;
+	flip_y:boolean;
+	mask_image:string;
+	clip:boolean;
+	swallow_event:boolean;
+	bind_slot:Slot;
+	low_level:boolean;
+	border:_OBJ__GUIBorder;
+	layout:_OBJ__GUILayout;
+	opacity:number;
+	CustomString:string;
+	enable_drag:boolean;
+	show_frame:boolean;
+	gray:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	bind_loot_link:IdPreset<"loot_id">;
+	show_tips:boolean;
+	static:boolean;
+	enable:boolean;
+	z_index:number;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_gameui_gui_ctrl_simpleui_picture extends _OBJ__gui_ctrl_gui_ctrl{
+	image:string;
+	static:boolean;
+	visiblity:boolean;
+	color:string;
+	swallow_events:string;
+	border:_OBJ__GUIBorder;
+	round_corner_radius:number;
+	flip_x:boolean;
+	flip_y:boolean;
+	show:boolean;
+	can_be_clicked:boolean;
+	mask_image:string;
+	clip:boolean;
+	swallow_event:boolean;
+	zoom_type:string;
+	z_index:number;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	layout:_OBJ__GUILayout;
+	enable_drop:boolean;
+	CustomString:string;
+	rotate:number;
+	enable:boolean;
+	gray:boolean;
+	opacity:number;
+	event:_OBJ__GUIEvent;
+	low_level:boolean;
+	transition:_OBJ__GUITransition;
+	enable_drag:boolean;
+	Name:string;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_smallcard_get_items_lobby_resource_gain_Lobby_Resource_Gain extends _OBJ__lobby_resource_gain_lobby_resource_gain{
 	LobbyResource:IdPreset<"lobby_resource_id">;
+	Name:string;
+	Count:number;
 	Link:IdPreset<"lobby_resource_gain_id">;
 	constructor()
 }
@@ -1481,21 +1519,15 @@ declare class _OBJ_smallcard_scoreboard_player_attr_sync_Player_Attr_Sync extend
 	Link:IdPreset<"player_attr_sync_id">;
 	constructor()
 }
-declare class _OBJ_smallcard_get_items_lobby_resource_gain_group_Lobby_Resource_Gain_Group extends _OBJ__lobby_resource_gain_group_lobby_resource_gain_group{
-	Name:string;
-	Array:Array<IdPreset<"lobby_resource_gain_id">>;
-	Link:IdPreset<"lobby_resource_gain_group_id">;
-	constructor()
-}
 declare class _OBJ_smallcard_get_items_lobby_resource_Lobby_Resource extends _OBJ__lobby_resource_lobby_resource{
+	TokenName:string;
+	Count:number;
 	Name:string;
+	Desc:string;
 	Rare:number;
 	ItemType:IdPreset<"item_id">;
-	SmallIcon:string;
-	Count:number;
-	Desc:string;
-	TokenName:string;
 	Icon:string;
+	SmallIcon:string;
 	IdName:string;
 	LobbyResourceType:_OBJ_smallcard_get_items_LobbyResourceType;
 	CustomParams:Array<IdPreset<"link_node_id">>;
@@ -1504,299 +1536,267 @@ declare class _OBJ_smallcard_get_items_lobby_resource_Lobby_Resource extends _OB
 	CustomGetHandler:(this: void, 玩家:Player, 提交请求:ScoreCommitter, 资源:string, 数量:number, 外部参数:string)=>boolean
 	constructor()
 }
-declare class _OBJ_smallcard_inventory_inventory_config_Inventory_Config extends _OBJ__inventory_config_inventory_config{
-	V2Special:boolean;
-	EnableInteract:boolean;
-	ShowQuickBarCollapse:boolean;
-	ShowDropArea:boolean;
-	TypeFilters:Array<IdPreset<"item_class_id">>;
-	EnableInGameInventory:boolean;
-	Name:string;
-	Character:string;
-	Special:string;
-	QualityColor:Array<undefined>;
-	Filters:Array<IdPreset<"item_class_id">>;
-	EquipAttributeFormat:Array<_OBJ_smallcard_inventory_EquipAttributeFormat>;
-	ShowQuickBarLock:boolean;
-	Default_Frame:string;
-	InteractRange:number;
-	ShowDefaultEntrance:boolean;
-	ShowCharacter:boolean;
-	EquipTypes:Array<IdPreset<"item_class_id">>;
-	Link:IdPreset<"inventory_config_id">;
-	constructor()
-}
-declare class _OBJ_smallcard_inventory_inventory_config_Quality_Color extends _OBJ__inventory_config_inventory_config{
-	Name:string;
-	Background:string;
-	ActorArray:Array<IdPreset<"actor_id">>;
-	ClassLink:IdPreset<"item_class_id">;
-	Frame:string;
-	Color:string;
-	Link:IdPreset<"inventory_config_id">;
-	constructor()
-}
-declare class _OBJ_smallcard_get_items_link_node_LinkNodeLobbyResource extends _OBJ__link_node_LinkNode{
-	IsArray:boolean;
-	Value:IdPreset<"lobby_resource_id">;
-	Name:string;
-	Array:Array<IdPreset<"lobby_resource_id">>;
-	Link:IdPreset<"link_node_id">;
-	constructor()
-}
-declare class _OBJ_smallcard_scoreboard_gui_ctrl_玩家名称 extends _OBJ__gui_ctrl_label{
-	font:_OBJ__Font;
-	enable_drop:boolean;
-	show:boolean;
-	layout:_OBJ__GUILayout;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
-	event:_OBJ__GUIEvent;
-	text:string;
-	round_corner_radius:number;
-	Name:string;
+declare class _OBJ_smallcard_choose_one_gui_ctrl_N选1_确认按钮 extends _OBJ__gui_ctrl_label{
 	enable_drag:boolean;
-	swallow_event:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
 	static:boolean;
-	border:_OBJ__GUIBorder;
-	enable:boolean;
-	mask_image:string;
-	scale:number;
-	rotate:number;
-	flip_y:boolean;
-	z_index:number;
-	opacity:number;
-	CustomString:string;
 	color:string;
-	transition:_OBJ__GUITransition;
-	player_id:number;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_smallcard_scoreboard_gui_ctrl_玩家属性 extends _OBJ__gui_ctrl_label{
-	enable_drop:boolean;
-	show:boolean;
-	transition:_OBJ__GUITransition;
-	rotate:number;
 	swallow_events:string;
-	clip:boolean;
 	low_level:boolean;
-	text:string;
-	accuracy_display:number;
-	static:boolean;
-	CustomString:string;
-	opacity:number;
-	flip_y:boolean;
-	font:_OBJ__Font;
-	flip_x:boolean;
 	round_corner_radius:number;
-	enable_drag:boolean;
-	scale:number;
-	Name:string;
-	event:_OBJ__GUIEvent;
 	swallow_event:boolean;
-	layout:_OBJ__GUILayout;
+	flip_y:boolean;
+	flip_x:boolean;
+	Name:string;
 	mask_image:string;
-	color:string;
-	show_mode:number;
-	border:_OBJ__GUIBorder;
-	z_index:number;
-	player_attr:string;
-	attr_multiply:number;
-	children:Array<IdPreset<"gui_ctrl_id">>;
+	clip:boolean;
+	enable_drop:boolean;
 	enable:boolean;
-	player_id:number;
-	image:string;
+	z_index:number;
+	transition:_OBJ__GUITransition;
+	layout:_OBJ__GUILayout;
+	text:string;
+	CustomString:string;
+	rotate:number;
+	show:boolean;
 	gray:boolean;
+	border:_OBJ__GUIBorder;
+	event:_OBJ__GUIEvent;
+	font:_OBJ__Font;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	opacity:number;
+	image:string;
+	scale:number;
 	Link:IdPreset<"gui_ctrl_id">;
 	constructor()
 }
 declare class _OBJ_smallcard_choose_one_gui_ctrl_N选1_选项描述 extends _OBJ__gui_ctrl_label{
-	font:_OBJ__Font;
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
-	text:string;
-	event:_OBJ__GUIEvent;
-	round_corner_radius:number;
-	Name:string;
 	enable_drag:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
 	static:boolean;
-	border:_OBJ__GUIBorder;
-	enable:boolean;
-	mask_image:string;
-	swallow_event:boolean;
-	scale:number;
-	flip_y:boolean;
-	z_index:number;
-	rotate:number;
-	opacity:number;
-	CustomString:string;
-	layout:_OBJ__GUILayout;
-	transition:_OBJ__GUITransition;
-	image:string;
-	gray:boolean;
-	Link:IdPreset<"gui_ctrl_id">;
-	constructor()
-}
-declare class _OBJ_smallcard_choose_one_gui_ctrl_N选1_确认按钮 extends _OBJ__gui_ctrl_label{
-	font:_OBJ__Font;
-	enable_drop:boolean;
-	show:boolean;
 	color:string;
-	flip_x:boolean;
 	swallow_events:string;
-	clip:boolean;
 	low_level:boolean;
-	text:string;
-	event:_OBJ__GUIEvent;
 	round_corner_radius:number;
-	Name:string;
-	enable_drag:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	static:boolean;
-	border:_OBJ__GUIBorder;
-	enable:boolean;
-	mask_image:string;
 	swallow_event:boolean;
-	scale:number;
 	flip_y:boolean;
+	flip_x:boolean;
+	Name:string;
+	mask_image:string;
+	clip:boolean;
+	enable_drop:boolean;
+	enable:boolean;
 	z_index:number;
-	rotate:number;
-	opacity:number;
-	CustomString:string;
-	layout:_OBJ__GUILayout;
 	transition:_OBJ__GUITransition;
-	image:string;
+	layout:_OBJ__GUILayout;
+	text:string;
+	CustomString:string;
+	rotate:number;
+	show:boolean;
 	gray:boolean;
+	border:_OBJ__GUIBorder;
+	event:_OBJ__GUIEvent;
+	font:_OBJ__Font;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	opacity:number;
+	image:string;
+	scale:number;
 	Link:IdPreset<"gui_ctrl_id">;
 	constructor()
 }
 declare class _OBJ_smallcard_choose_one_gui_ctrl_N选1_选项名称 extends _OBJ__gui_ctrl_label{
-	font:_OBJ__Font;
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
-	text:string;
-	event:_OBJ__GUIEvent;
-	round_corner_radius:number;
-	Name:string;
 	enable_drag:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
 	static:boolean;
-	border:_OBJ__GUIBorder;
-	enable:boolean;
-	mask_image:string;
+	color:string;
+	swallow_events:string;
+	low_level:boolean;
+	round_corner_radius:number;
 	swallow_event:boolean;
-	scale:number;
 	flip_y:boolean;
+	flip_x:boolean;
+	Name:string;
+	mask_image:string;
+	clip:boolean;
+	enable_drop:boolean;
+	enable:boolean;
 	z_index:number;
-	rotate:number;
-	opacity:number;
-	CustomString:string;
-	layout:_OBJ__GUILayout;
 	transition:_OBJ__GUITransition;
-	image:string;
+	layout:_OBJ__GUILayout;
+	text:string;
+	CustomString:string;
+	rotate:number;
+	show:boolean;
 	gray:boolean;
+	border:_OBJ__GUIBorder;
+	event:_OBJ__GUIEvent;
+	font:_OBJ__Font;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	opacity:number;
+	image:string;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_smallcard_scoreboard_gui_ctrl_玩家属性 extends _OBJ__gui_ctrl_label{
+	enable_drag:boolean;
+	color:string;
+	round_corner_radius:number;
+	attr_multiply:number;
+	accuracy_display:number;
+	enable_drop:boolean;
+	rotate:number;
+	enable:boolean;
+	transition:_OBJ__GUITransition;
+	event:_OBJ__GUIEvent;
+	image:string;
+	static:boolean;
+	Name:string;
+	swallow_events:string;
+	swallow_event:boolean;
+	flip_y:boolean;
+	mask_image:string;
+	clip:boolean;
+	player_attr:string;
+	low_level:boolean;
+	layout:_OBJ__GUILayout;
+	font:_OBJ__Font;
+	flip_x:boolean;
+	CustomString:string;
+	border:_OBJ__GUIBorder;
+	z_index:number;
+	gray:boolean;
+	opacity:number;
+	player_id:number;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	show:boolean;
+	show_mode:number;
+	text:string;
+	scale:number;
 	Link:IdPreset<"gui_ctrl_id">;
 	constructor()
 }
 declare class _OBJ_gameui_gui_ctrl_transition_label extends _OBJ__gui_ctrl_label{
-	font:_OBJ__Font;
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
-	event:_OBJ__GUIEvent;
-	text:string;
-	round_corner_radius:number;
-	Name:string;
-	enable_drag:boolean;
-	swallow_event:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
-	static:boolean;
-	border:_OBJ__GUIBorder;
-	enable:boolean;
-	mask_image:string;
-	scale:number;
-	rotate:number;
-	flip_y:boolean;
-	z_index:number;
-	opacity:number;
-	layout:_OBJ__GUILayout;
-	CustomString:string;
 	number_transition:_OBJ__GUITransitionSubType;
-	transition:_OBJ__GUITransition;
+	enable_drag:boolean;
+	static:boolean;
+	color:string;
+	swallow_events:string;
 	image:string;
+	round_corner_radius:number;
+	swallow_event:boolean;
+	flip_y:boolean;
+	flip_x:boolean;
+	Name:string;
+	mask_image:string;
+	clip:boolean;
+	layout:_OBJ__GUILayout;
+	enable_drop:boolean;
+	z_index:number;
+	transition:_OBJ__GUITransition;
+	font:_OBJ__Font;
+	text:string;
+	CustomString:string;
+	rotate:number;
+	show:boolean;
 	gray:boolean;
+	border:_OBJ__GUIBorder;
+	event:_OBJ__GUIEvent;
+	enable:boolean;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	low_level:boolean;
+	opacity:number;
+	scale:number;
 	Link:IdPreset<"gui_ctrl_id">;
 	constructor()
 }
 declare class _OBJ_lib_gamechat_gui_ctrl_输入框 extends _OBJ__gui_ctrl_label{
-	font:_OBJ__Font;
-	enable_drop:boolean;
-	show:boolean;
-	color:string;
-	flip_x:boolean;
-	swallow_events:string;
-	clip:boolean;
-	low_level:boolean;
-	text:string;
-	event:_OBJ__GUIEvent;
-	round_corner_radius:number;
-	Name:string;
 	enable_drag:boolean;
-	children:Array<IdPreset<"gui_ctrl_id">>;
 	static:boolean;
-	border:_OBJ__GUIBorder;
-	enable:boolean;
-	mask_image:string;
+	color:string;
+	swallow_events:string;
+	low_level:boolean;
+	round_corner_radius:number;
 	swallow_event:boolean;
-	scale:number;
 	flip_y:boolean;
+	flip_x:boolean;
+	Name:string;
+	mask_image:string;
+	clip:boolean;
+	enable_drop:boolean;
+	enable:boolean;
 	z_index:number;
-	rotate:number;
-	opacity:number;
-	CustomString:string;
-	layout:_OBJ__GUILayout;
 	transition:_OBJ__GUITransition;
-	image:string;
+	layout:_OBJ__GUILayout;
+	text:string;
+	CustomString:string;
+	rotate:number;
+	show:boolean;
 	gray:boolean;
+	border:_OBJ__GUIBorder;
+	event:_OBJ__GUIEvent;
+	font:_OBJ__Font;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	opacity:number;
+	image:string;
+	scale:number;
 	Link:IdPreset<"gui_ctrl_id">;
 	constructor()
 }
-declare class _OBJ_smallcard_get_items_lobby_resource_ResourceTicket extends _OBJ_smallcard_get_items_lobby_resource_Lobby_Resource{
+declare class _OBJ_smallcard_scoreboard_gui_ctrl_玩家名称 extends _OBJ__gui_ctrl_label{
+	enable_drag:boolean;
+	static:boolean;
+	image:string;
+	color:string;
+	swallow_events:string;
+	flip_x:boolean;
+	round_corner_radius:number;
+	swallow_event:boolean;
+	flip_y:boolean;
 	Name:string;
-	PerLastCount:number;
-	ItemType:IdPreset<"item_id">;
-	SmallIcon:string;
-	TicketName:string;
-	Desc:string;
+	enable_drop:boolean;
+	mask_image:string;
+	clip:boolean;
+	event:_OBJ__GUIEvent;
+	transition:_OBJ__GUITransition;
+	low_level:boolean;
+	enable:boolean;
+	layout:_OBJ__GUILayout;
+	text:string;
+	CustomString:string;
+	rotate:number;
+	show:boolean;
+	gray:boolean;
+	border:_OBJ__GUIBorder;
+	player_id:number;
+	font:_OBJ__Font;
+	children:Array<IdPreset<"gui_ctrl_id">>;
+	z_index:number;
+	opacity:number;
+	scale:number;
+	Link:IdPreset<"gui_ctrl_id">;
+	constructor()
+}
+declare class _OBJ_smallcard_get_items_link_node_LinkNodeLobbyResource extends _OBJ__link_node_LinkNode{
+	Array:Array<IdPreset<"lobby_resource_id">>;
+	Name:string;
+	Value:IdPreset<"lobby_resource_id">;
+	IsArray:boolean;
+	Link:IdPreset<"link_node_id">;
+	constructor()
+}
+declare class _OBJ_smallcard_get_items_lobby_resource_ResourceTicket extends _OBJ_smallcard_get_items_lobby_resource_Lobby_Resource{
 	TokenName:string;
-	PerLastTime:number;
-	Icon:string;
-	Rare:number;
-	Count:number;
-	IdName:string;
-	LobbyResourceType:_OBJ_smallcard_get_items_LobbyResourceType;
 	CustomParams:Array<IdPreset<"link_node_id">>;
+	Count:number;
+	PerLastTime:number;
+	Name:string;
+	IdName:string;
+	Icon:string;
+	ItemType:IdPreset<"item_id">;
+	TicketName:string;
+	SmallIcon:string;
+	Desc:string;
+	PerLastCount:number;
+	LobbyResourceType:_OBJ_smallcard_get_items_LobbyResourceType;
+	Rare:number;
 	Link:IdPreset<"lobby_resource_id">;
 	/** @noSelf */
 	CustomGetHandler:(this: void, 玩家:Player, 提交请求:ScoreCommitter, 资源:string, 数量:number, 外部参数:string)=>boolean
@@ -1805,28 +1805,28 @@ declare class _OBJ_smallcard_get_items_lobby_resource_ResourceTicket extends _OB
 declare const enum _OBJ__Unit_Filter {
 	["自动复活"] = "自动复活",
 }
-declare const enum _OBJ__UnitPropertySubTypeEx {
+declare const enum _OBJ__Spell_attack_speed_attribute {
+	["复活时间"] = "复活时间",
+	["金币"] = "金币",
 }
 declare const enum _OBJ__KeyValueAttribute_Key {
 	["复活时间"] = "复活时间",
 	["金币"] = "金币",
 }
-declare const enum _OBJ__Spell_attack_speed_attribute {
-	["复活时间"] = "复活时间",
-	["金币"] = "金币",
+declare const enum _OBJ__UnitPropertySubTypeEx {
 }
 declare const enum _OBJ__BuffCategory {
-	["持续性伤害"] = "持续性伤害",
 	["持续性治疗"] = "持续性治疗",
-	["控制效果"] = "控制效果",
-	["位移效果"] = "位移效果",
 	["负面效果"] = "负面效果",
 	["正面效果"] = "正面效果",
+	["持续性伤害"] = "持续性伤害",
+	["控制效果"] = "控制效果",
+	["位移效果"] = "位移效果",
+}
+declare const enum _OBJ__DamageType {
 }
 declare const enum _OBJ__PlayerAttribute {
 	["玩家名称"] = "玩家名称",
-}
-declare const enum _OBJ__DamageType {
 }
 declare const enum _OBJ__SpellAttribute_Key {
 }
@@ -1836,9 +1836,9 @@ declare const enum _OBJ__UnitAttribute {
 	["复活时间"] = "复活时间",
 	["金币"] = "金币",
 }
+declare const enum _OBJ_smallcard_inventory_AttributeFormat {
+}
 declare const enum _OBJ__GameOptionUIItem_DataType {
 }
 declare const enum _OBJ_smallcard_get_items_LobbyResourceType {
-}
-declare const enum _OBJ_smallcard_inventory_AttributeFormat {
 }
