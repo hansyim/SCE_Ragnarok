@@ -9,8 +9,8 @@ local on_unit_prop = require '@common.base.gui.on_unit_prop'
 local ctrl_wrapper = require '@common.base.gui.ctrl_wrapper'
 
 
-local lib_control = require '@lib_control.component'
 local lib_gamechat = require '@lib_gamechat.component'
+local lib_control = require '@lib_control.component'
 
 return gui_pkg.page_template {
     flatten_template = {
