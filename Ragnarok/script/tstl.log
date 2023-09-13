@@ -1,28 +1,28 @@
-436.8571000099182:	{"globalClasses":["Array","Present","IEventNotify","Coroutine","Actor","Team","Timer","Snapshot","EffectParamShared","TriggerParamTable","Item","Region","ScreenPos","Target","UnitTable","EffectParam","Point","Mover","Unit","Buff","HealInstance","TriggerEvent","DamageInstance","Slot","Skill","Inventory","Player","Trigger","Line","UnitGroup","Sight","DataCache","AISearcher","ScoreCommitter","ScoreObjData","ScoreGetParam","UserID","ScoreData","ScoreSetParam","ScoreAddParam","ScoreMoneyData","ScoreListAddParam","ScoreListModifyParam","ScoreListDeleteParam","ScoreListData","ScoreMsgSendParam","ScoreMsgQueryParam","ScoreNameNewParam","ScoreNameSearchParam","ScoreChannelMsgData","ScoreGetRankListParam","ScoreGetUserRankParam","ScoreGetRankListData","ScoreGetUserRankData","ScoreGetRankTotalData","ScoreGetRankTotalParam","ScoreMsgData","ScoreListID","ScoreID","ScoreNameData","ScoreMsgID","ScoreMoneyParam","os","DateTime","UnitBuff","autotest_log","ScoreRankSetParam","ScoreRankAddParam","UnitPropertyBonus","SceneObject","Quest","QuestCondition","RegionRect","RegionCircle","Cast"],"globalModules":["coroutine","_G","log","base"]}
-2353.4364000558853:	Loaded 0 plugins
-2354.2051000595093:	Parsing project settings
-2360.6629000902176:	Transforming E:/星火编辑器/Res/maps/Ragnarok/script/trigger_module_main_1.ts
-2363.8841000795364:	moduleName:
-2363.8930000066757:	ragnarok_xanb
-2364.529900074005:	exportScope:
-2364.535700082779:	true
-2429.445000052452:	Printing E:/星火编辑器/Res/maps/Ragnarok/script/trigger_module_main_1.ts
-2457.7908000946045:	Transforming E:/星火编辑器/Res/maps/Ragnarok/script/trigger_module_main.ts
-2459.967500090599:	Printing E:/星火编辑器/Res/maps/Ragnarok/script/trigger_module_main.ts
-2475.760400056839:	Transforming E:/星火编辑器/Res/maps/Ragnarok/script/trigger_validator.ts
-2476.4524000883102:	moduleName:
-2476.5362000465393:	validator
-2476.8447000980377:	exportScope:
-2476.8494000434875:	true
-3182.37030005455:	Printing E:/星火编辑器/Res/maps/Ragnarok/script/trigger_validator.ts
-3275.6119000911713:	Constructing emit plan
-3276.128499984741:	Resolving dependencies for E:/星火编辑器/Res/maps/Ragnarok/script/trigger_module_main_1.ts
-3276.629600048065:	Resolving dependencies for E:/星火编辑器/Res/maps/Ragnarok/script/trigger_module_main.ts
-3277.2402000427246:	Resolving "./trigger_module_main_1" from E:/星火编辑器/Res/maps/Ragnarok/script/trigger_module_main.ts
-3278.0779000520706:	Resolved ./trigger_module_main_1 to E:/星火编辑器/Res/maps/Ragnarok/script/trigger_module_main_1.ts
-3279.974799990654:	Resolving dependencies for E:/星火编辑器/Res/maps/Ragnarok/script/trigger_validator.ts
-3281.1561000347137:	Emitting output
-3281.419600009918:	Emitting E:/星火编辑器/Res/maps/Ragnarok/script/trigger_module_main_1.lua
-3282.353500008583:	Emitting E:/星火编辑器/Res/maps/Ragnarok/script/trigger_module_main.lua
-3283.055199980736:	Emitting E:/星火编辑器/Res/maps/Ragnarok/script/trigger_validator.lua
-3284.726100087166:	Emit finished!
+536.3458000421524:	{"globalClasses":["Array","Present","IEventNotify","Coroutine","Actor","Team","Timer","Snapshot","EffectParamShared","TriggerParamTable","Item","Region","ScreenPos","Target","UnitTable","EffectParam","Point","Mover","Unit","Buff","HealInstance","TriggerEvent","DamageInstance","Slot","Skill","Inventory","Player","Trigger","Line","UnitGroup","Sight","DataCache","AISearcher","ScoreCommitter","ScoreObjData","ScoreGetParam","UserID","ScoreData","ScoreSetParam","ScoreAddParam","ScoreMoneyData","ScoreListAddParam","ScoreListModifyParam","ScoreListDeleteParam","ScoreListData","ScoreMsgSendParam","ScoreMsgQueryParam","ScoreNameNewParam","ScoreNameSearchParam","ScoreChannelMsgData","ScoreGetRankListParam","ScoreGetUserRankParam","ScoreGetRankListData","ScoreGetUserRankData","ScoreGetRankTotalData","ScoreGetRankTotalParam","ScoreMsgData","ScoreListID","ScoreID","ScoreNameData","ScoreMsgID","ScoreMoneyParam","os","DateTime","UnitBuff","autotest_log","ScoreRankSetParam","ScoreRankAddParam","UnitPropertyBonus","SceneObject","Quest","QuestCondition","RegionRect","RegionCircle","Cast"],"globalModules":["coroutine","_G","log","base"]}
+2512.7297999858856:	Loaded 0 plugins
+2513.4816999435425:	Parsing project settings
+2520.071900010109:	Transforming E:/Git/SCE_Ragnarok/Ragnarok/script/trigger_module_main_1.ts
+2522.630299925804:	moduleName:
+2522.6359000205994:	ragnarok_xanb
+2523.1569999456406:	exportScope:
+2523.162400007248:	true
+2587.8623000383377:	Printing E:/Git/SCE_Ragnarok/Ragnarok/script/trigger_module_main_1.ts
+2612.560699939728:	Transforming E:/Git/SCE_Ragnarok/Ragnarok/script/trigger_module_main.ts
+2614.4930000305176:	Printing E:/Git/SCE_Ragnarok/Ragnarok/script/trigger_module_main.ts
+2628.908599972725:	Transforming E:/Git/SCE_Ragnarok/Ragnarok/script/trigger_validator.ts
+2629.588500022888:	moduleName:
+2629.677299976349:	validator
+2629.990900039673:	exportScope:
+2629.9946999549866:	true
+3304.3923000097275:	Printing E:/Git/SCE_Ragnarok/Ragnarok/script/trigger_validator.ts
+3393.1654000282288:	Constructing emit plan
+3393.6665999889374:	Resolving dependencies for E:/Git/SCE_Ragnarok/Ragnarok/script/trigger_module_main_1.ts
+3394.257499933243:	Resolving dependencies for E:/Git/SCE_Ragnarok/Ragnarok/script/trigger_module_main.ts
+3394.850000023842:	Resolving "./trigger_module_main_1" from E:/Git/SCE_Ragnarok/Ragnarok/script/trigger_module_main.ts
+3395.433799982071:	Resolved ./trigger_module_main_1 to E:/Git/SCE_Ragnarok/Ragnarok/script/trigger_module_main_1.ts
+3396.8084000349045:	Resolving dependencies for E:/Git/SCE_Ragnarok/Ragnarok/script/trigger_validator.ts
+3398.012799978256:	Emitting output
+3398.3416999578476:	Emitting E:/Git/SCE_Ragnarok/Ragnarok/script/trigger_module_main_1.lua
+3399.284399986267:	Emitting E:/Git/SCE_Ragnarok/Ragnarok/script/trigger_module_main.lua
+3400.0770000219345:	Emitting E:/Git/SCE_Ragnarok/Ragnarok/script/trigger_validator.lua
+3401.4638999700546:	Emit finished!
