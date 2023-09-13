@@ -1,0 +1,28 @@
+430.2632999420166:	{"globalClasses":["Array","Present","IEventNotify","Coroutine","Trigger","Item","Timer","Buff","Skill","Player","TriggerParamTable","TriggerEvent","Actor","ScreenPos","Target","EffectParam","EffectParamShared","YPR旋转","DataCache","Camera","Slot","Unit","Point"],"globalModules":["coroutine","_G","log","base"]}
+1723.9042999744415:	Loaded 0 plugins
+1724.7670999765396:	Parsing project settings
+1732.7748999595642:	Transforming E:/星火编辑器/Res/maps/Ragnarok/ui/script/trigger_module_main_1.ts
+1735.3125:	moduleName:
+1735.3209999799728:	ragnarok_xanb
+1735.902999997139:	exportScope:
+1735.908599972725:	true
+1781.5309998989105:	Printing E:/星火编辑器/Res/maps/Ragnarok/ui/script/trigger_module_main_1.ts
+1798.0715999603271:	Transforming E:/星火编辑器/Res/maps/Ragnarok/ui/script/trigger_module_main.ts
+1799.7508000135422:	Printing E:/星火编辑器/Res/maps/Ragnarok/ui/script/trigger_module_main.ts
+1804.0363999605179:	Transforming E:/星火编辑器/Res/maps/Ragnarok/ui/script/trigger_validator.ts
+1804.670699954033:	moduleName:
+1804.6825000047684:	validator
+1805.0815999507904:	exportScope:
+1805.0870000123978:	true
+1870.1655999422073:	Printing E:/星火编辑器/Res/maps/Ragnarok/ui/script/trigger_validator.ts
+1883.398199915886:	Constructing emit plan
+1883.942099928856:	Resolving dependencies for E:/星火编辑器/Res/maps/Ragnarok/ui/script/trigger_module_main_1.ts
+1886.2782999277115:	Resolving dependencies for E:/星火编辑器/Res/maps/Ragnarok/ui/script/trigger_module_main.ts
+1886.934599995613:	Resolving "./trigger_module_main_1" from E:/星火编辑器/Res/maps/Ragnarok/ui/script/trigger_module_main.ts
+1887.525999903679:	Resolved ./trigger_module_main_1 to E:/星火编辑器/Res/maps/Ragnarok/ui/script/trigger_module_main_1.ts
+1888.5983999967575:	Resolving dependencies for E:/星火编辑器/Res/maps/Ragnarok/ui/script/trigger_validator.ts
+1889.195799946785:	Emitting output
+1889.515799999237:	Emitting E:/星火编辑器/Res/maps/Ragnarok/ui/script/trigger_module_main_1.lua
+1890.411299943924:	Emitting E:/星火编辑器/Res/maps/Ragnarok/ui/script/trigger_module_main.lua
+1891.0442999601364:	Emitting E:/星火编辑器/Res/maps/Ragnarok/ui/script/trigger_validator.lua
+1891.911099910736:	Emit finished!

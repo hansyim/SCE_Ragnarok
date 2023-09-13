@@ -1,0 +1,3266 @@
+{
+    "100147481":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"根节点\",\n    \"EffectParam\",\n    \"108028205\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"基础伤害\",\n    \"number\",\n    \"50602162\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"倍率\",\n    \"number\",\n    \"80937796\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"27484193\"\n]"
+        },
+        {
+            "count":6,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"50602162\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"段数\",\n    \"number\",\n    \"130224809\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"单位组\",\n    \"Array<Unit>\",\n    \"185972029\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"施法单位\",\n    \"Unit\",\n    \"229906913\"\n]"
+        },
+        {
+            "count":8,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"次数\",\n    \"number\",\n    \"98060098\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"段数倍率表\",\n    \"_OBJ__link_node_LinkNodeNumber\",\n    \"209922185\"\n]"
+        }
+    ],
+    "100656960":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"208333436\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"14925465\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        }
+    ],
+    "104263219":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"追击计时器\",\n    \"Timer | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"AI\",\n    \"lib_common_ai.AI\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"angle\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"追击时间\",\n    \"number | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"new_angle\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"所属单位\",\n    \"Unit\",\n    \"251643333\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"逃跑预期\",\n    \"boolean\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"speed\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"攻击计时器\",\n    \"Timer | undefined\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"激怒预期\",\n    \"boolean\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"计时器\",\n    \"Timer | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"发呆计时器\",\n    \"Timer | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"发出刺激的单位\",\n    \"Unit\",\n    \"255084021\"\n]"
+        }
+    ],
+    "10646548":[
+        {
+            "count":1,
+            "recommend":"266743239"
+        }
+    ],
+    "107110278":[
+        {
+            "count":3,
+            "recommend":"65534871"
+        }
+    ],
+    "10765096":[
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"123677895\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"199616926\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        }
+    ],
+    "108800066":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"123677895\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"199616926\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        }
+    ],
+    "109368883":[
+        {
+            "count":2,
+            "recommend":"[\n    \"Variable\",\n    \"present\",\n    \"string\"\n]"
+        }
+    ],
+    "110322469":[
+        {
+            "count":2,
+            "recommend":"157343978"
+        },
+        {
+            "count":2,
+            "recommend":"268101385"
+        },
+        {
+            "count":1,
+            "recommend":"60873589"
+        }
+    ],
+    "11188836":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"验证器代码\",\n    \"86870430\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"phase\",\n    \"number\",\n    \"130224809\"\n]"
+        }
+    ],
+    "114363703":[
+        {
+            "count":1,
+            "recommend":"19405117"
+        },
+        {
+            "count":2,
+            "recommend":"59175063"
+        },
+        {
+            "count":3,
+            "recommend":"100086333"
+        },
+        {
+            "count":2,
+            "recommend":"116531688"
+        },
+        {
+            "count":2,
+            "recommend":"179269395"
+        },
+        {
+            "count":13,
+            "recommend":"182262671"
+        }
+    ],
+    "120135207":[
+        {
+            "count":10,
+            "recommend":"178751456"
+        },
+        {
+            "count":10,
+            "recommend":"199435850"
+        }
+    ],
+    "125564759":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"filter\",\n    \"_OBJ__TargetFilter\",\n    \"18752390\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"caster\",\n    \"Unit | undefined\",\n    \"229906913\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"单位A\",\n    \"Unit\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"单位B\",\n    \"Unit\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"Bpass\",\n    \"boolean\",\n    \"100086333\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"过滤函数Id\",\n    \"IdPreset<\\\"func_ref_id\\\">\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"func_cache\",\n    \"_OBJ__func_ref_FuncRefSortUnitFilter\",\n    \"20765161\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"Apass\",\n    \"boolean\",\n    \"100086333\"\n]"
+        }
+    ],
+    "12811276":[
+        {
+            "count":1,
+            "recommend":"51756433"
+        },
+        {
+            "count":36,
+            "recommend":"146518100"
+        },
+        {
+            "count":6,
+            "recommend":"[\n    \"Variable\",\n    \"present\",\n    \"string\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"Variable\",\n    \"游戏模式\",\n    \"string\"\n]"
+        }
+    ],
+    "131139007":[
+        {
+            "count":2,
+            "recommend":"146518100"
+        }
+    ],
+    "132376917":[
+        {
+            "count":17,
+            "recommend":"174836337"
+        }
+    ],
+    "133227822":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"治疗来源\",\n    \"Unit\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"治疗实例\",\n    \"HealInstance\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"治疗目标\",\n    \"Unit\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"是否暴击\",\n    \"boolean\",\n    \"100086333\"\n]"
+        }
+    ],
+    "133751564":[
+        {
+            "count":1,
+            "recommend":"253601082"
+        }
+    ],
+    "134028818":[
+        {
+            "count":2,
+            "recommend":"81830125"
+        }
+    ],
+    "134268148":[
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"208333436\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"14925465\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        }
+    ],
+    "135430490":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        },
+        {
+            "count":114,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":114,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"123677895\"\n]"
+        },
+        {
+            "count":114,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"199616926\"\n]"
+        },
+        {
+            "count":113,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        }
+    ],
+    "138681693":[
+        {
+            "count":8,
+            "recommend":"30684763"
+        },
+        {
+            "count":1,
+            "recommend":"48050055"
+        },
+        {
+            "count":1,
+            "recommend":"2985971"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"Variable\",\n    \"主控3\",\n    \"Unit\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"96482614"
+        },
+        {
+            "count":1,
+            "recommend":"2985971"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"Variable\",\n    \"主控2\",\n    \"Unit\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"Variable\",\n    \"主控1\",\n    \"Unit\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"Variable\",\n    \"主控4\",\n    \"Unit\"\n]"
+        },
+        {
+            "count":10,
+            "recommend":"56603565"
+        }
+    ],
+    "141198641":[
+        {
+            "count":2,
+            "recommend":"146518100"
+        }
+    ],
+    "143773500":[
+        {
+            "count":1,
+            "recommend":"130539979"
+        }
+    ],
+    "145151429":[
+        {
+            "count":1,
+            "recommend":"148388402"
+        }
+    ],
+    "146690809":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"caster\",\n    \"Unit | undefined\",\n    \"229906913\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"199616926\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"s_current\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"阶段\",\n    \"number\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"s\",\n    \"Array<number>\",\n    \"99683800\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"hasteProp\",\n    \"_OBJ__Spell_attack_speed_attribute\",\n    \"31217417\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"haste\",\n    \"number\",\n    \"50602162\"\n]"
+        }
+    ],
+    "146804341":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"蛋\",\n    \"Unit\",\n    \"129569698\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"验证器代码\",\n    \"86870430\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"buff\",\n    \"boolean\",\n    \"126328897\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"验证器代码\",\n    \"91549292\"\n]"
+        }
+    ],
+    "147523634":[
+        {
+            "count":4,
+            "recommend":"5767361"
+        }
+    ],
+    "147700890":[
+        {
+            "count":114,
+            "recommend":"[\n    \"NewVariable\",\n    \"caster\",\n    \"Unit | undefined\",\n    \"229906913\"\n]"
+        },
+        {
+            "count":114,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"199616926\"\n]"
+        },
+        {
+            "count":114,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        },
+        {
+            "count":114,
+            "recommend":"[\n    \"NewVariable\",\n    \"s_current\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":114,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":18,
+            "recommend":"[\n    \"NewVariable\",\n    \"sum\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":114,
+            "recommend":"[\n    \"NewVariable\",\n    \"阶段\",\n    \"number\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":18,
+            "recommend":"[\n    \"NewVariable\",\n    \"cooldown\",\n    \"number\",\n    \"65647704\"\n]"
+        },
+        {
+            "count":114,
+            "recommend":"[\n    \"NewVariable\",\n    \"s\",\n    \"Array<number>\",\n    \"99683800\"\n]"
+        },
+        {
+            "count":114,
+            "recommend":"[\n    \"NewVariable\",\n    \"hasteProp\",\n    \"_OBJ__Spell_attack_speed_attribute\",\n    \"31217417\"\n]"
+        },
+        {
+            "count":114,
+            "recommend":"[\n    \"NewVariable\",\n    \"haste\",\n    \"number\",\n    \"50602162\"\n]"
+        }
+    ],
+    "148781232":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"目标点\",\n    \"Point | undefined\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":16,
+            "recommend":"[\n    \"NewVariable\",\n    \"目标\",\n    \"Unit | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"移动指令目标点\",\n    \"Point | undefined\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"正在施法\",\n    \"boolean\",\n    \"78498572\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"元素\",\n    \"T\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"技能计时器\",\n    \"Timer | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":28,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"boolean\",\n    \"100086333\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"发呆时间\",\n    \"number | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"新坐标\",\n    \"Point | undefined\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"追逐距离\",\n    \"number\",\n    \"50602162\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"路径点数组\",\n    \"Array<Point> | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"成功施法技能\",\n    \"boolean\",\n    \"100086333\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"搜敌范围\",\n    \"number | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"移动目标点\",\n    \"Point | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"战斗移动点\",\n    \"Point | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"最远距离\",\n    \"number\",\n    \"27484193\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"实际范围\",\n    \"number\",\n    \"24555737\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"发呆计时器\",\n    \"Timer | undefined\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"原始点\",\n    \"Point | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"主人\",\n    \"Unit\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"新技能\",\n    \"Skill | undefined\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"技能\",\n    \"Cast | undefined\",\n    \"64446677\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"引用\",\n    \"number\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"search_dis\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"是否循环\",\n    \"boolean | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"搜敌距离\",\n    \"number\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"所有技能\",\n    \"Array<Skill>\",\n    \"108254645\"\n]"
+        },
+        {
+            "count":4,
+            "recommend":"[\n    \"NewVariable\",\n    \"主人\",\n    \"Unit | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"目标单位\",\n    \"Unit | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"反击起点\",\n    \"Point | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"新变量\",\n    \"any | undefined\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"新目标\",\n    \"Unit | undefined\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"巡逻距离\",\n    \"number\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"技能\",\n    \"Skill | undefined\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":4,
+            "recommend":"[\n    \"NewVariable\",\n    \"初始点\",\n    \"Point | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":4,
+            "recommend":"[\n    \"NewVariable\",\n    \"技能计时器\",\n    \"Timer | undefined\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"目标点\",\n    \"Point | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"发呆计时器\",\n    \"Timer | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"要施放的技能\",\n    \"Skill | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":5,
+            "recommend":"[\n    \"NewVariable\",\n    \"技能\",\n    \"Skill | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"技能施放计时器\",\n    \"Timer | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":30,
+            "recommend":"[\n    \"NewVariable\",\n    \"AI\",\n    \"lib_common_ai.AI\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"下标\",\n    \"number | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"巡逻范围\",\n    \"number\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"追击距离\",\n    \"number | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"返回反击起点\",\n    \"boolean | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"搜敌范围\",\n    \"number\",\n    \"50602162\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"攻击计时器\",\n    \"Timer | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"强制脱战范围\",\n    \"number | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"new_point\",\n    \"Point\",\n    \"39638536\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"new_angle\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"新变量\",\n    \"Timer | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"施法技能\",\n    \"Cast | undefined\",\n    \"64446677\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"是否成功施放技能\",\n    \"boolean\",\n    \"100086333\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"计时器\",\n    \"Timer | undefined\",\n    \"9343076\"\n]"
+        }
+    ],
+    "14978401":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"东方禁止进入\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"主控4\",\n    \"Unit\",\n    \"30684763\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"主控2\",\n    \"Unit\",\n    \"30684763\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"e\",\n    \"base.EventRegionEnter\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"西方禁止进入\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"主控3\",\n    \"Unit\",\n    \"30684763\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"主控1\",\n    \"Unit\",\n    \"30684763\"\n]"
+        }
+    ],
+    "150449291":[
+        {
+            "count":4,
+            "recommend":"[\n    \"Variable\",\n    \"present\",\n    \"string\"\n]"
+        }
+    ],
+    "150886359":[
+        {
+            "count":1,
+            "recommend":"130539979"
+        }
+    ],
+    "15146520":[
+        {
+            "count":1,
+            "recommend":"[\n    \"Variable\",\n    \"出生点2\",\n    \"Point\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"Variable\",\n    \"出生点1\",\n    \"Point\"\n]"
+        }
+    ],
+    "153134342":[
+        {
+            "count":1,
+            "recommend":"201398213"
+        },
+        {
+            "count":1,
+            "recommend":"150887512"
+        },
+        {
+            "count":1,
+            "recommend":"154703898"
+        },
+        {
+            "count":1,
+            "recommend":"90567505"
+        },
+        {
+            "count":1,
+            "recommend":"105394478"
+        },
+        {
+            "count":3,
+            "recommend":"75359904"
+        },
+        {
+            "count":2,
+            "recommend":"236417449"
+        }
+    ],
+    "156157998":[
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"123677895\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"199616926\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        }
+    ],
+    "156404707":[
+        {
+            "count":1,
+            "recommend":"61529431"
+        },
+        {
+            "count":6,
+            "recommend":"247135228"
+        }
+    ],
+    "15654782":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"死亡经验\",\n    \"number\",\n    \"50602162\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"单位死亡类型\",\n    \"DeathType\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"死亡单位\",\n    \"Unit\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"击杀者\",\n    \"Unit\",\n    \"255084021\"\n]"
+        }
+    ],
+    "157196735":[
+        {
+            "count":3,
+            "recommend":"[\n    \"Variable\",\n    \"e\",\n    \"base.EventUnitDie\"\n]"
+        }
+    ],
+    "158951551":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"208333436\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"14925465\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        }
+    ],
+    "159931858":[
+        {
+            "count":2,
+            "recommend":"162187042"
+        }
+    ],
+    "160779155":[
+        {
+            "count":1,
+            "recommend":"247135228"
+        }
+    ],
+    "161213468":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"IsHasteCooldown\",\n    \"boolean\",\n    \"90509123\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"cooldown\",\n    \"number\",\n    \"65647704\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"haste\",\n    \"number\",\n    \"50602162\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"199616926\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"hasteProp\",\n    \"_OBJ__Spell_attack_speed_attribute\",\n    \"31217417\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        }
+    ],
+    "164340705":[
+        {
+            "count":1,
+            "recommend":"174836337"
+        }
+    ],
+    "16537119":[
+        {
+            "count":1,
+            "recommend":"121215034"
+        }
+    ],
+    "170180904":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"验证器代码\",\n    \"86870430\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"鸟\",\n    \"Unit\",\n    \"129569698\"\n]"
+        }
+    ],
+    "171687888":[
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"IsHasteCooldown\",\n    \"boolean\",\n    \"90509123\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"cooldown\",\n    \"number\",\n    \"65647704\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"haste\",\n    \"number\",\n    \"50602162\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"199616926\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"hasteProp\",\n    \"_OBJ__Spell_attack_speed_attribute\",\n    \"31217417\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        }
+    ],
+    "171958099":[
+        {
+            "count":3,
+            "recommend":"82481974"
+        }
+    ],
+    "17266282":[
+        {
+            "count":2,
+            "recommend":"148388402"
+        }
+    ],
+    "174556960":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        },
+        {
+            "count":114,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"14925465\"\n]"
+        },
+        {
+            "count":114,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"208333436\"\n]"
+        },
+        {
+            "count":114,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":113,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        }
+    ],
+    "174614312":[
+        {
+            "count":10,
+            "recommend":"154646302"
+        }
+    ],
+    "177064948":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"验证器代码\",\n    \"86870430\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"验证器代码\",\n    \"91549292\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"目标单位\",\n    \"Unit\",\n    \"129569698\"\n]"
+        }
+    ],
+    "177430418":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"单位A\",\n    \"Unit\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"单位B\",\n    \"Unit\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"Buff_id\",\n    \"IdPreset<\\\"buff_id\\\">\",\n    \"58457377\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"AhasBuff\",\n    \"boolean\",\n    \"126328897\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"过滤函数Id\",\n    \"IdPreset<\\\"func_ref_id\\\">\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"BhasBuff\",\n    \"boolean\",\n    \"126328897\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"func_cache\",\n    \"_OBJ__func_ref_FuncRefSortUnitBuff\",\n    \"20765161\"\n]"
+        }
+    ],
+    "178122471":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"205444361\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"199616926\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        }
+    ],
+    "179088799":[
+        {
+            "count":7,
+            "recommend":"83716441"
+        },
+        {
+            "count":1,
+            "recommend":"241278581"
+        }
+    ],
+    "182279049":[
+        {
+            "count":4,
+            "recommend":"146518100"
+        }
+    ],
+    "182869687":[
+        {
+            "count":1,
+            "recommend":"65534871"
+        }
+    ],
+    "183046094":[
+        {
+            "count":1,
+            "recommend":"209922185"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"Variable\",\n    \"初始金钱\",\n    \"_OBJ__link_node_LinkNodeNumber\"\n]"
+        }
+    ],
+    "183165017":[
+        {
+            "count":1,
+            "recommend":"83716441"
+        }
+    ],
+    "183897498":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"e\",\n    \"base.EventGameTime\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"自动加钱\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        }
+    ],
+    "184275928":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"157833613\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        }
+    ],
+    "186336288":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"游戏开始配置\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"e\",\n    \"base.EventGameStart\",\n    \"255084021\"\n]"
+        }
+    ],
+    "1878834":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"搜敌范围\",\n    \"number\",\n    \"4964107\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"AI\",\n    \"lib_common_ai.AI\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"攻击范围\",\n    \"number\",\n    \"13081097\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"index\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"attack_range\",\n    \"number | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"path_line\",\n    \"Line\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"所属单位\",\n    \"Unit\",\n    \"251643333\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"主人\",\n    \"Unit | undefined\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"path\",\n    \"Array<Point>\",\n    \"99683800\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"cycle\",\n    \"boolean\",\n    \"9343076\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"path_length\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"重置距离\",\n    \"number\",\n    \"224559749\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"追逐距离\",\n    \"number\",\n    \"224559749\"\n]"
+        }
+    ],
+    "18793237":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"205444361\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"199616926\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        }
+    ],
+    "189193723":[
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"205444361\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"199616926\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        }
+    ],
+    "191724758":[
+        {
+            "count":3,
+            "recommend":"[\n    \"Variable\",\n    \"e\",\n    \"base.EventPlayerJoin\"\n]"
+        }
+    ],
+    "191761616":[
+        {
+            "count":2,
+            "recommend":"30684763"
+        }
+    ],
+    "195273573":[
+        {
+            "count":1,
+            "recommend":"96482614"
+        }
+    ],
+    "195486098":[
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__effect_EffectPersistLoop\",\n    \"20765161\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"count\",\n    \"number\",\n    \"12438865\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"parent\",\n    \"EffectParam\",\n    \"19227836\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"27484193\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        }
+    ],
+    "195898324":[
+        {
+            "count":5,
+            "recommend":"252237755"
+        },
+        {
+            "count":11,
+            "recommend":"36620120"
+        }
+    ],
+    "19761910":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"验证器代码\",\n    \"86870430\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        }
+    ],
+    "198525702":[
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"IsHasteCooldown\",\n    \"boolean\",\n    \"90509123\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"cooldown\",\n    \"number\",\n    \"65647704\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"haste\",\n    \"number\",\n    \"50602162\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"199616926\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"hasteProp\",\n    \"_OBJ__Spell_attack_speed_attribute\",\n    \"31217417\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        }
+    ],
+    "201351754":[
+        {
+            "count":1,
+            "recommend":"247135228"
+        }
+    ],
+    "206602111":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"AI\",\n    \"lib_common_ai.AI\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"转向计时器\",\n    \"Timer | undefined\",\n    \"9343076\"\n]"
+        }
+    ],
+    "20783982":[
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"caster\",\n    \"Unit | undefined\",\n    \"229906913\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"199616926\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"s_current\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"阶段\",\n    \"number\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"s\",\n    \"Array<number>\",\n    \"99683800\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"hasteProp\",\n    \"_OBJ__Spell_attack_speed_attribute\",\n    \"31217417\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"haste\",\n    \"number\",\n    \"50602162\"\n]"
+        }
+    ],
+    "207843801":[
+        {
+            "count":6,
+            "recommend":"56603565"
+        },
+        {
+            "count":1,
+            "recommend":"97818762"
+        },
+        {
+            "count":2,
+            "recommend":"59175063"
+        },
+        {
+            "count":1,
+            "recommend":"19405117"
+        },
+        {
+            "count":1,
+            "recommend":"247648062"
+        },
+        {
+            "count":2,
+            "recommend":"103543283"
+        }
+    ],
+    "208201824":[
+        {
+            "count":3,
+            "recommend":"[\n    \"Variable\",\n    \"e\",\n    \"base.EventUnitSelected\"\n]"
+        }
+    ],
+    "209921577":[
+        {
+            "count":1,
+            "recommend":"[\n    \"Variable\",\n    \"出生点1\",\n    \"Point\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"234273174"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"Variable\",\n    \"出生点2\",\n    \"Point\"\n]"
+        }
+    ],
+    "209925491":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"已弹射单位\",\n    \"Array<Unit>\",\n    \"185972029\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"根节点\",\n    \"EffectParam\",\n    \"108028205\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"基础值\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"次数\",\n    \"number\",\n    \"98060098\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"衰减\",\n    \"number\",\n    \"247135228\"\n]"
+        }
+    ],
+    "211969291":[
+        {
+            "count":1,
+            "recommend":"185009162"
+        }
+    ],
+    "213427460":[
+        {
+            "count":2,
+            "recommend":"234273174"
+        }
+    ],
+    "214290509":[
+        {
+            "count":4,
+            "recommend":"5767361"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"Variable\",\n    \"西方禁止进入区域\",\n    \"Region\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"Variable\",\n    \"东方禁止进入区域\",\n    \"Region\"\n]"
+        }
+    ],
+    "214480098":[
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"208333436\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"14925465\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        }
+    ],
+    "21498673":[
+        {
+            "count":2,
+            "recommend":"253601082"
+        }
+    ],
+    "216183840":[
+        {
+            "count":2,
+            "recommend":"53097300"
+        }
+    ],
+    "218206654":[
+        {
+            "count":2,
+            "recommend":"162187042"
+        }
+    ],
+    "219082150":[
+        {
+            "count":2,
+            "recommend":"185009162"
+        }
+    ],
+    "219183014":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"205444361\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"199616926\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        }
+    ],
+    "219527560":[
+        {
+            "count":1,
+            "recommend":"252237755"
+        }
+    ],
+    "219629872":[
+        {
+            "count":1,
+            "recommend":"224910642"
+        },
+        {
+            "count":1,
+            "recommend":"264379673"
+        },
+        {
+            "count":10,
+            "recommend":"178751456"
+        },
+        {
+            "count":2,
+            "recommend":"255084021"
+        }
+    ],
+    "22015277":[
+        {
+            "count":1,
+            "recommend":"169792760"
+        },
+        {
+            "count":4,
+            "recommend":"60873589"
+        }
+    ],
+    "22175034":[
+        {
+            "count":10,
+            "recommend":"154646302"
+        }
+    ],
+    "223256994":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"击杀计数\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"西方胜利\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"e\",\n    \"base.EventUnitDie\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"东方胜利\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        }
+    ],
+    "224788171":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"初始金钱\",\n    \"_OBJ__link_node_LinkNodeNumber\",\n    \"209922185\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"种族英雄选择\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"e\",\n    \"base.EventPlayerJoin\",\n    \"255084021\"\n]"
+        }
+    ],
+    "226944416":[
+        {
+            "count":2,
+            "recommend":"257308360"
+        }
+    ],
+    "227374585":[
+        {
+            "count":1,
+            "recommend":"148388402"
+        }
+    ],
+    "229068181":[
+        {
+            "count":1,
+            "recommend":"82481974"
+        },
+        {
+            "count":1,
+            "recommend":"222508573"
+        },
+        {
+            "count":1,
+            "recommend":"133008960"
+        },
+        {
+            "count":25,
+            "recommend":"36620120"
+        }
+    ],
+    "230177793":[
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"index\",\n    \"number\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"已弹射单位组\",\n    \"Array<Unit>\",\n    \"7084858\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"验证器代码\",\n    \"86870430\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"根节点\",\n    \"EffectParam\",\n    \"108028205\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"技能\",\n    \"Skill\",\n    \"199616926\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"element\",\n    \"Unit\",\n    \"255084021\"\n]"
+        }
+    ],
+    "231342600":[
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"伤害来源\",\n    \"Unit\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"伤害目标\",\n    \"Unit\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"伤害值\",\n    \"number\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"护甲\",\n    \"number\",\n    \"224559749\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"穿透\",\n    \"number\",\n    \"224559749\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"是否暴击\",\n    \"boolean\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"伤害类型\",\n    \"string\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"格挡\",\n    \"number\",\n    \"224559749\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"魔抗\",\n    \"number\",\n    \"224559749\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"法术破甲\",\n    \"number\",\n    \"224559749\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"暴击伤害\",\n    \"number\",\n    \"224559749\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"伤害\",\n    \"number\",\n    \"[\\n    \\\"Variable\\\",\\n    \\\"伤害值\\\",\\n    \\\"number\\\"\\n]\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"法术穿透\",\n    \"number\",\n    \"224559749\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"破甲\",\n    \"number\",\n    \"224559749\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"伤害实例\",\n    \"DamageInstance\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"伤害倍率\",\n    \"number\",\n    \"247135228\"\n]"
+        }
+    ],
+    "232364873":[
+        {
+            "count":2,
+            "recommend":"174836337"
+        }
+    ],
+    "232631157":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"验证器代码\",\n    \"86870430\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        }
+    ],
+    "235113468":[
+        {
+            "count":18,
+            "recommend":"[\n    \"NewVariable\",\n    \"sum\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":114,
+            "recommend":"[\n    \"NewVariable\",\n    \"hasteProp\",\n    \"_OBJ__Spell_attack_speed_attribute\",\n    \"31217417\"\n]"
+        },
+        {
+            "count":18,
+            "recommend":"[\n    \"NewVariable\",\n    \"preSwing\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":114,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        },
+        {
+            "count":114,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":114,
+            "recommend":"[\n    \"NewVariable\",\n    \"cooldown\",\n    \"number\",\n    \"65647704\"\n]"
+        },
+        {
+            "count":18,
+            "recommend":"[\n    \"NewVariable\",\n    \"s\",\n    \"Array<number>\",\n    \"99683800\"\n]"
+        },
+        {
+            "count":114,
+            "recommend":"[\n    \"NewVariable\",\n    \"IsHasteCooldown\",\n    \"boolean\",\n    \"90509123\"\n]"
+        },
+        {
+            "count":114,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"199616926\"\n]"
+        },
+        {
+            "count":114,
+            "recommend":"[\n    \"NewVariable\",\n    \"haste\",\n    \"number\",\n    \"50602162\"\n]"
+        }
+    ],
+    "237002184":[
+        {
+            "count":1,
+            "recommend":"224910642"
+        },
+        {
+            "count":1,
+            "recommend":"169792760"
+        },
+        {
+            "count":7,
+            "recommend":"60873589"
+        },
+        {
+            "count":2,
+            "recommend":"268101385"
+        },
+        {
+            "count":2,
+            "recommend":"146401571"
+        },
+        {
+            "count":2,
+            "recommend":"157343978"
+        },
+        {
+            "count":10,
+            "recommend":"199435850"
+        },
+        {
+            "count":2,
+            "recommend":"179269395"
+        },
+        {
+            "count":1,
+            "recommend":"264379673"
+        },
+        {
+            "count":10,
+            "recommend":"178751456"
+        }
+    ],
+    "237244284":[
+        {
+            "count":6,
+            "recommend":"102033164"
+        }
+    ],
+    "237897442":[
+        {
+            "count":1,
+            "recommend":"224910642"
+        },
+        {
+            "count":4,
+            "recommend":"89244535"
+        },
+        {
+            "count":2,
+            "recommend":"247073293"
+        },
+        {
+            "count":3,
+            "recommend":"81830125"
+        },
+        {
+            "count":3,
+            "recommend":"222508573"
+        },
+        {
+            "count":4,
+            "recommend":"264379673"
+        },
+        {
+            "count":10,
+            "recommend":"211323876"
+        },
+        {
+            "count":4,
+            "recommend":"24937267"
+        }
+    ],
+    "238323748":[
+        {
+            "count":1,
+            "recommend":"268103370"
+        },
+        {
+            "count":1,
+            "recommend":"185009162"
+        }
+    ],
+    "240341682":[
+        {
+            "count":2,
+            "recommend":"53097300"
+        }
+    ],
+    "24481705":[
+        {
+            "count":10,
+            "recommend":"247135228"
+        }
+    ],
+    "246654109":[
+        {
+            "count":2,
+            "recommend":"174836337"
+        }
+    ],
+    "246985676":[
+        {
+            "count":10,
+            "recommend":"255084021"
+        }
+    ],
+    "247172319":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"e\",\n    \"点击修建_等级1\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"修建_等级1\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        }
+    ],
+    "248037134":[
+        {
+            "count":1,
+            "recommend":"102033164"
+        }
+    ],
+    "248860135":[
+        {
+            "count":1,
+            "recommend":"146518100"
+        }
+    ],
+    "249441856":[
+        {
+            "count":6,
+            "recommend":"182262671"
+        }
+    ],
+    "252022471":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        },
+        {
+            "count":114,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"205444361\"\n]"
+        },
+        {
+            "count":114,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"199616926\"\n]"
+        },
+        {
+            "count":114,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":113,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        }
+    ],
+    "252138881":[
+        {
+            "count":1,
+            "recommend":"102033164"
+        }
+    ],
+    "254482408":[
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"caster\",\n    \"Unit | undefined\",\n    \"229906913\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"199616926\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"s_current\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"阶段\",\n    \"number\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"s\",\n    \"Array<number>\",\n    \"99683800\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"hasteProp\",\n    \"_OBJ__Spell_attack_speed_attribute\",\n    \"31217417\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"haste\",\n    \"number\",\n    \"50602162\"\n]"
+        }
+    ],
+    "259501490":[
+        {
+            "count":2,
+            "recommend":"146518100"
+        }
+    ],
+    "259943945":[
+        {
+            "count":1,
+            "recommend":"116579864"
+        }
+    ],
+    "260467684":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"验证器代码\",\n    \"86870430\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"phase\",\n    \"number | undefined\",\n    \"124808033\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"cast\",\n    \"Cast | undefined\",\n    \"264050598\"\n]"
+        }
+    ],
+    "26074519":[
+        {
+            "count":10,
+            "recommend":"162623427"
+        },
+        {
+            "count":1,
+            "recommend":"132161120"
+        },
+        {
+            "count":84,
+            "recommend":"36620120"
+        },
+        {
+            "count":1,
+            "recommend":"196586058"
+        },
+        {
+            "count":3,
+            "recommend":"30994394"
+        },
+        {
+            "count":1,
+            "recommend":"109917024"
+        },
+        {
+            "count":13,
+            "recommend":"252237755"
+        }
+    ],
+    "262340123":[
+        {
+            "count":2,
+            "recommend":"146518100"
+        }
+    ],
+    "262680942":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"buff2等级\",\n    \"number\",\n    \"60539712\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"buff2源单位是否为英雄\",\n    \"boolean\",\n    \"100086333\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"Buff1剩余时间\",\n    \"number\",\n    \"259696236\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"Buff2\",\n    \"Buff\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"delta\",\n    \"number\",\n    \"27484193\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"buff1等级\",\n    \"number\",\n    \"60539712\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"buff2的效果节点\",\n    \"EffectParam\",\n    \"4162544\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"buff1的效果节点\",\n    \"EffectParam\",\n    \"4162544\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"Buff2剩余时间\",\n    \"number\",\n    \"259696236\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"buff1施法者\",\n    \"Unit | undefined\",\n    \"229906913\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"buff2施法者\",\n    \"Unit | undefined\",\n    \"229906913\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"Buff1\",\n    \"Buff\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"buff1源单位是否为英雄\",\n    \"boolean\",\n    \"100086333\"\n]"
+        }
+    ],
+    "262920508":[
+        {
+            "count":1,
+            "recommend":"60873589"
+        },
+        {
+            "count":1,
+            "recommend":"146401571"
+        }
+    ],
+    "263315986":[
+        {
+            "count":1,
+            "recommend":"124331126"
+        }
+    ],
+    "265596875":[
+        {
+            "count":1,
+            "recommend":"268103370"
+        }
+    ],
+    "265713593":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"123677895\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"199616926\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        }
+    ],
+    "267056804":[
+        {
+            "count":1,
+            "recommend":"116579864"
+        }
+    ],
+    "268056514":[
+        {
+            "count":6,
+            "recommend":"30684763"
+        }
+    ],
+    "28125216":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"IsHasteCooldown\",\n    \"boolean\",\n    \"90509123\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"cooldown\",\n    \"number\",\n    \"65647704\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"haste\",\n    \"number\",\n    \"50602162\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"199616926\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"hasteProp\",\n    \"_OBJ__Spell_attack_speed_attribute\",\n    \"31217417\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        }
+    ],
+    "29084549":[
+        {
+            "count":1,
+            "recommend":"266743239"
+        }
+    ],
+    "3087176":[
+        {
+            "count":1,
+            "recommend":"102033164"
+        }
+    ],
+    "31644595":[
+        {
+            "count":1,
+            "recommend":"49493789"
+        },
+        {
+            "count":1,
+            "recommend":"97818762"
+        }
+    ],
+    "31987661":[
+        {
+            "count":1,
+            "recommend":"121215034"
+        }
+    ],
+    "32146442":[
+        {
+            "count":4,
+            "recommend":"146518100"
+        }
+    ],
+    "32325768":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"治疗来源\",\n    \"Unit\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"治疗实例\",\n    \"HealInstance\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"暴击治疗\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"治疗量\",\n    \"number\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"治疗量\",\n    \"number\",\n    \"[\\n    \\\"Variable\\\",\\n    \\\"治疗量\\\",\\n    \\\"number\\\"\\n]\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"治疗目标\",\n    \"Unit\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"是否暴击\",\n    \"boolean\",\n    \"255084021\"\n]"
+        }
+    ],
+    "32843273":[
+        {
+            "count":2,
+            "recommend":"174836337"
+        }
+    ],
+    "33393738":[
+        {
+            "count":9,
+            "recommend":"102033164"
+        }
+    ],
+    "33514536":[
+        {
+            "count":1,
+            "recommend":"60873589"
+        },
+        {
+            "count":1,
+            "recommend":"224910642"
+        },
+        {
+            "count":1,
+            "recommend":"146401571"
+        }
+    ],
+    "3484083":[
+        {
+            "count":1,
+            "recommend":"209922185"
+        }
+    ],
+    "35925584":[
+        {
+            "count":30,
+            "recommend":"247135228"
+        }
+    ],
+    "36037147":[
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"205444361\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"199616926\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        }
+    ],
+    "37060738":[
+        {
+            "count":1,
+            "recommend":"80275473"
+        }
+    ],
+    "3774541":[
+        {
+            "count":10,
+            "recommend":"247135228"
+        }
+    ],
+    "38101858":[
+        {
+            "count":6,
+            "recommend":"83716441"
+        },
+        {
+            "count":1,
+            "recommend":"241278581"
+        }
+    ],
+    "3941082":[
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"速度\",\n    \"number\",\n    \"27484193\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"时间\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"距离\",\n    \"number\",\n    \"32957850\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        }
+    ],
+    "41629009":[
+        {
+            "count":2,
+            "recommend":"247135228"
+        }
+    ],
+    "4274278":[
+        {
+            "count":2,
+            "recommend":"268103370"
+        }
+    ],
+    "44079612":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"208333436\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"14925465\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        }
+    ],
+    "44173597":[
+        {
+            "count":1,
+            "recommend":"80275473"
+        }
+    ],
+    "52651760":[
+        {
+            "count":1,
+            "recommend":"[\n    \"Variable\",\n    \"西方禁止进入区域\",\n    \"Region\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"Variable\",\n    \"东方禁止进入区域\",\n    \"Region\"\n]"
+        }
+    ],
+    "5306800":[
+        {
+            "count":6,
+            "recommend":"174836337"
+        }
+    ],
+    "5495429":[
+        {
+            "count":2,
+            "recommend":"247135228"
+        }
+    ],
+    "55986805":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"引发响应的效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"当前伤害值\",\n    \"number\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"原始伤害值\",\n    \"number\",\n    \"255084021\"\n]"
+        }
+    ],
+    "56311463":[
+        {
+            "count":10,
+            "recommend":"71390005"
+        }
+    ],
+    "57560629":[
+        {
+            "count":1,
+            "recommend":"[\n    \"Variable\",\n    \"初始金钱\",\n    \"_OBJ__link_node_LinkNodeNumber\"\n]"
+        }
+    ],
+    "57711194":[
+        {
+            "count":2,
+            "recommend":"[\n    \"Variable\",\n    \"主控2\",\n    \"Unit\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"100086333"
+        },
+        {
+            "count":3,
+            "recommend":"247135228"
+        },
+        {
+            "count":1,
+            "recommend":"49493789"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"Variable\",\n    \"主控1\",\n    \"Unit\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"Variable\",\n    \"主控4\",\n    \"Unit\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"Variable\",\n    \"主控3\",\n    \"Unit\"\n]"
+        }
+    ],
+    "61530490":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"123677895\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"199616926\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        }
+    ],
+    "61740440":[
+        {
+            "count":1,
+            "recommend":"61529431"
+        },
+        {
+            "count":65,
+            "recommend":"247135228"
+        },
+        {
+            "count":1,
+            "recommend":"247648062"
+        },
+        {
+            "count":2,
+            "recommend":"103543283"
+        }
+    ],
+    "62426373":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"施法者单位\",\n    \"Unit\",\n    \"229906913\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"半径\",\n    \"number\",\n    \"27484193\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"流逝时间\",\n    \"number\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"目标点\",\n    \"Point\",\n    \"155409654\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"发射点\",\n    \"Point\",\n    \"135971454\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"当前位置\",\n    \"Point\",\n    \"108959901\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"圆心\",\n    \"Point\",\n    \"108959901\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"初始角度\",\n    \"any\",\n    \"254550620\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"移动器\",\n    \"Mover\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"弹道单位\",\n    \"Unit\",\n    \"129569698\"\n]"
+        }
+    ],
+    "63976200":[
+        {
+            "count":4,
+            "recommend":"146518100"
+        }
+    ],
+    "64541570":[
+        {
+            "count":1,
+            "recommend":"43122675"
+        },
+        {
+            "count":1,
+            "recommend":"200258956"
+        }
+    ],
+    "67266527":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"casterFacing\",\n    \"number\",\n    \"108199297\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"施法者位置\",\n    \"Point\",\n    \"39638536\"\n]"
+        },
+        {
+            "count":6,
+            "recommend":"[\n    \"NewVariable\",\n    \"单位B\",\n    \"Unit\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"距离B\",\n    \"number\",\n    \"27484193\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"caster\",\n    \"Unit\",\n    \"229906913\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"27484193\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"casterPoint\",\n    \"Point\",\n    \"39638536\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"last_target\",\n    \"Unit | Point | number | undefined\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"angleA\",\n    \"number\",\n    \"254550620\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"血量A\",\n    \"number\",\n    \"27484193\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"BisIn\",\n    \"boolean\",\n    \"182262671\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"AisIn\",\n    \"boolean\",\n    \"182262671\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"angleB\",\n    \"number\",\n    \"254550620\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"目标点\",\n    \"Point\",\n    \"3929409\"\n]"
+        },
+        {
+            "count":6,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":6,
+            "recommend":"[\n    \"NewVariable\",\n    \"单位A\",\n    \"Unit\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"距离A\",\n    \"number\",\n    \"27484193\"\n]"
+        },
+        {
+            "count":6,
+            "recommend":"[\n    \"NewVariable\",\n    \"过滤函数Id\",\n    \"IdPreset<\\\"func_ref_id\\\">\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"血量B\",\n    \"number\",\n    \"27484193\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"skill\",\n    \"Skill | undefined\",\n    \"199616926\"\n]"
+        }
+    ],
+    "69935226":[
+        {
+            "count":2,
+            "recommend":"113905711"
+        },
+        {
+            "count":34,
+            "recommend":"71390005"
+        },
+        {
+            "count":1,
+            "recommend":"58644677"
+        },
+        {
+            "count":1,
+            "recommend":"245308654"
+        }
+    ],
+    "70006297":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"东方禁止进入\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"主控3\",\n    \"Unit\",\n    \"30684763\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"游戏模式\",\n    \"string\",\n    \"146518100\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"西方禁止进入区域\",\n    \"Region\",\n    \"5767361\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"this\",\n    \"ragnarok_xanb.金钱不足\",\n    \"148388402\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"修建_等级1\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"西方禁止进入\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"自动加钱\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"e\",\n    \"base.EventGameTime\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"e\",\n    \"base.EventRegionEnter\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":6,
+            "recommend":"[\n    \"NewVariable\",\n    \"obj\",\n    \"unknown\",\n    \"102033164\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"出生点1\",\n    \"Point\",\n    \"234273174\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"this\",\n    \"ragnarok_xanb.东方获胜\",\n    \"185009162\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"出生点2\",\n    \"Point\",\n    \"234273174\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"东方聚集点\",\n    \"Region\",\n    \"5767361\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"this\",\n    \"西方获胜\",\n    \"80275473\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"this\",\n    \"东方获胜\",\n    \"130539979\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"e\",\n    \"base.EventUnitSelected\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"this\",\n    \"金钱不足\",\n    \"116579864\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"e\",\n    \"base.EventGameStart\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"属性面板切换\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":6,
+            "recommend":"[\n    \"NewVariable\",\n    \"obj\",\n    \"base.Game\",\n    \"174836337\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"东方禁止进入区域\",\n    \"Region\",\n    \"5767361\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"主控2\",\n    \"Unit\",\n    \"30684763\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"西方聚集点\",\n    \"Region\",\n    \"5767361\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"初始金钱\",\n    \"_OBJ__link_node_LinkNodeNumber\",\n    \"209922185\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"主控1\",\n    \"Unit\",\n    \"30684763\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"主控4\",\n    \"Unit\",\n    \"30684763\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"e\",\n    \"点击修建_等级1\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"e\",\n    \"base.EventUnitDie\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"this\",\n    \"ragnarok_xanb.西方获胜\",\n    \"268103370\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"种族英雄选择\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"西方胜利\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"游戏开始配置\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"e\",\n    \"base.EventPlayerJoin\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"击杀计数\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"东方胜利\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        }
+    ],
+    "73512391":[
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"验证器代码\",\n    \"86870430\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        }
+    ],
+    "73800890":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"caster\",\n    \"Unit | undefined\",\n    \"229906913\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"199616926\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"s_current\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"阶段\",\n    \"number\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"s\",\n    \"Array<number>\",\n    \"99683800\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"hasteProp\",\n    \"_OBJ__Spell_attack_speed_attribute\",\n    \"31217417\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"haste\",\n    \"number\",\n    \"50602162\"\n]"
+        }
+    ],
+    "76970724":[
+        {
+            "count":1,
+            "recommend":"58644677"
+        }
+    ],
+    "77241978":[
+        {
+            "count":1,
+            "recommend":"71390005"
+        }
+    ],
+    "77317591":[
+        {
+            "count":2,
+            "recommend":"157343978"
+        },
+        {
+            "count":10,
+            "recommend":"199435850"
+        },
+        {
+            "count":7,
+            "recommend":"60873589"
+        },
+        {
+            "count":2,
+            "recommend":"268101385"
+        },
+        {
+            "count":2,
+            "recommend":"146401571"
+        }
+    ],
+    "79056784":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"n\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"index\",\n    \"number\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"element\",\n    \"T\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"单位组\",\n    \"Array<Unit>\",\n    \"46887135\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"单位\",\n    \"Unit\",\n    \"229906913\"\n]"
+        }
+    ],
+    "82396670":[
+        {
+            "count":1,
+            "recommend":"169792760"
+        }
+    ],
+    "83048905":[
+        {
+            "count":1,
+            "recommend":"174836337"
+        }
+    ],
+    "83254486":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"boolean\",\n    \"100086333\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"被击杀的单位\",\n    \"Unit\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"被分配经验的单位\",\n    \"Unit\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"击杀者\",\n    \"Unit\",\n    \"255084021\"\n]"
+        }
+    ],
+    "8365249":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"e\",\n    \"base.EventUnitSelected\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"属性面板切换\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        }
+    ],
+    "83991640":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"随机数\",\n    \"number\",\n    \"93775298\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"伤害来源\",\n    \"Unit\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"伤害目标\",\n    \"Unit\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"是否暴击\",\n    \"boolean\",\n    \"100086333\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"伤害实例\",\n    \"DamageInstance\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"暴击概率\",\n    \"number\",\n    \"224559749\"\n]"
+        }
+    ],
+    "84081922":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"caster\",\n    \"Unit | undefined\",\n    \"229906913\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"199616926\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"s_current\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"阶段\",\n    \"number\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"s\",\n    \"Array<number>\",\n    \"99683800\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"hasteProp\",\n    \"_OBJ__Spell_attack_speed_attribute\",\n    \"31217417\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"haste\",\n    \"number\",\n    \"50602162\"\n]"
+        }
+    ],
+    "84388199":[
+        {
+            "count":2,
+            "recommend":"257308360"
+        },
+        {
+            "count":1,
+            "recommend":"253601082"
+        }
+    ],
+    "86369990":[
+        {
+            "count":1,
+            "recommend":"264379673"
+        }
+    ],
+    "89540952":[
+        {
+            "count":13,
+            "recommend":"146518100"
+        }
+    ],
+    "89727397":[
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"已弹射单位组\",\n    \"Array<Unit>\",\n    \"185972029\"\n]"
+        },
+        {
+            "count":8,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":4,
+            "recommend":"[\n    \"NewVariable\",\n    \"根节点\",\n    \"EffectParam\",\n    \"108028205\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"单位组\",\n    \"Array<Unit>\",\n    \"99683800\"\n]"
+        },
+        {
+            "count":8,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"boolean\",\n    \"100086333\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"技能\",\n    \"Skill\",\n    \"199616926\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"所属玩家\",\n    \"Player\",\n    \"68728649\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"所属队伍\",\n    \"number\",\n    \"73385503\"\n]"
+        }
+    ],
+    "90155867":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"IsHasteCooldown\",\n    \"boolean\",\n    \"90509123\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"cooldown\",\n    \"number\",\n    \"65647704\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"haste\",\n    \"number\",\n    \"50602162\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"spell\",\n    \"Skill\",\n    \"199616926\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"hasteProp\",\n    \"_OBJ__Spell_attack_speed_attribute\",\n    \"31217417\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"cache\",\n    \"_OBJ__spell_spell\",\n    \"179940634\"\n]"
+        }
+    ],
+    "90209075":[
+        {
+            "count":1,
+            "recommend":"96482614"
+        },
+        {
+            "count":1,
+            "recommend":"2985971"
+        }
+    ],
+    "90814352":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"验证器代码\",\n    \"86870430\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"效果节点\",\n    \"EffectParam\",\n    \"255084021\"\n]"
+        }
+    ],
+    "91531724":[
+        {
+            "count":1,
+            "recommend":"174836337"
+        }
+    ],
+    "91727484":[
+        {
+            "count":4,
+            "recommend":"[\n    \"Variable\",\n    \"e\",\n    \"点击修建_等级1\"\n]"
+        }
+    ],
+    "94357030":[
+        {
+            "count":2,
+            "recommend":"179269395"
+        }
+    ],
+    "99936192":[
+        {
+            "count":10,
+            "recommend":"[\n    \"Variable\",\n    \"e\",\n    \"base.EventRegionEnter\"\n]"
+        }
+    ]
+}

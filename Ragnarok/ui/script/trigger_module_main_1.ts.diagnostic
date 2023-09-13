@@ -1,0 +1,4 @@
+{"messageText":"“金钱不足”表示值，但在此处用作类型。是否指“类型 金钱不足”?","code":2749,"start":2732,"length":4,"category":1}
+{"messageText":"无法重新声明块范围变量“金钱不足”。","code":2451,"start":3014,"length":4,"category":1}
+{"messageText":"无法重新声明块范围变量“金钱不足”。","code":2451,"start":3472,"length":4,"category":1}
+{"messageText":"类型“typeof 金钱不足”上不存在属性“add_event_common”。","code":2339,"start":4137,"length":16,"category":1}

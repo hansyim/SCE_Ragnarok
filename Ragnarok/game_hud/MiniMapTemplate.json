@@ -1,0 +1,38 @@
+{
+	"Scale": [
+		1,
+		1
+	],
+	"Templates": [
+		{
+			"TemplateName": "MiniMap_MAIN_default",
+			"Anchor": [
+				0.0,
+				0.0
+			],
+			"Layout": [
+				{
+					"Name": "MainMiniMap",
+					"Type": "MINIMAP",
+					"Rect": [
+						0.0,
+						0.0,
+						256.0,
+						256.0
+					],
+					"Color": [
+						255.0,
+						255.0,
+						255.0,
+						255.0
+					],
+					"MapSize": [
+						4864.0,
+						4864.0
+					],
+					"TexturePath": "game_hud/miniMap/default_bg.png"
+				}
+			]
+		}
+	]
+}

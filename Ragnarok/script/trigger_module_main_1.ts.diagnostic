@@ -1,0 +1,1 @@
+{"messageText":{"messageText":"类型“{ periodic: boolean; time: number; }”的参数不能赋给类型“EventRegister”的参数。","category":1,"code":2345,"next":[{"messageText":"对象文字只能指定已知的属性，但“periodic”中不存在类型“EventRegister”。是否要写入 peridic?","category":1,"code":2561}]},"code":2345,"start":8310,"length":15,"category":1}

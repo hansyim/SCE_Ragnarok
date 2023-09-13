@@ -1,0 +1,1002 @@
+{
+    "104436617":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"mouse_btn_id\",\n    \"number\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"ctrl\",\n    \"_OBJ__gui_ctrl_button\",\n    \"255084021\"\n]"
+        }
+    ],
+    "106146252":[
+        {
+            "count":6,
+            "recommend":"255084021"
+        }
+    ],
+    "108680967":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"文字提示\",\n    \"_OBJ__gui_ctrl_label\",\n    \"100852359\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"e\",\n    \"金钱不足\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"金钱不足\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"计时器\",\n    \"Timer\",\n    \"255084021\"\n]"
+        }
+    ],
+    "112998320":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"物品\",\n    \"Item\",\n    \"188136622\"\n]"
+        },
+        {
+            "count":4,
+            "recommend":"[\n    \"NewVariable\",\n    \"对象\",\n    \"object\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"Buff\",\n    \"Buff\",\n    \"188136622\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"string\",\n    \"238624225\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"技能\",\n    \"Skill\",\n    \"188136622\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"单位\",\n    \"Unit\",\n    \"188136622\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"string\",\n    \"207501533\"\n]"
+        }
+    ],
+    "114363703":[
+        {
+            "count":3,
+            "recommend":"182262671"
+        },
+        {
+            "count":2,
+            "recommend":"163361792"
+        },
+        {
+            "count":2,
+            "recommend":"237834736"
+        },
+        {
+            "count":4,
+            "recommend":"100086333"
+        }
+    ],
+    "119935822":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"显示金钱_文本\",\n    \"_OBJ__gui_ctrl_label\",\n    \"100852359\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"显示金钱\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"e\",\n    \"base.玩家属性变化\",\n    \"255084021\"\n]"
+        }
+    ],
+    "123568922":[
+        {
+            "count":1,
+            "recommend":"108742964"
+        }
+    ],
+    "126867365":[
+        {
+            "count":6,
+            "recommend":"102033164"
+        }
+    ],
+    "128033661":[
+        {
+            "count":1,
+            "recommend":"102033164"
+        }
+    ],
+    "12811276":[
+        {
+            "count":14,
+            "recommend":"146518100"
+        },
+        {
+            "count":6,
+            "recommend":"185428880"
+        },
+        {
+            "count":1,
+            "recommend":"188136622"
+        }
+    ],
+    "130623853":[
+        {
+            "count":1,
+            "recommend":"25791086"
+        }
+    ],
+    "13091270":[
+        {
+            "count":1,
+            "recommend":"39095491"
+        }
+    ],
+    "132376917":[
+        {
+            "count":9,
+            "recommend":"174836337"
+        }
+    ],
+    "136021434":[
+        {
+            "count":4,
+            "recommend":"100852359"
+        }
+    ],
+    "146061158":[
+        {
+            "count":2,
+            "recommend":"[\n    \"Variable\",\n    \"游戏结果\",\n    \"_OBJ__gui_ctrl_panel\"\n]"
+        }
+    ],
+    "152899004":[
+        {
+            "count":1,
+            "recommend":"174836337"
+        }
+    ],
+    "153134342":[
+        {
+            "count":1,
+            "recommend":"47042267"
+        },
+        {
+            "count":1,
+            "recommend":"41398"
+        },
+        {
+            "count":1,
+            "recommend":"144548030"
+        },
+        {
+            "count":1,
+            "recommend":"169199913"
+        },
+        {
+            "count":1,
+            "recommend":"12205040"
+        },
+        {
+            "count":1,
+            "recommend":"134900500"
+        }
+    ],
+    "159064619":[
+        {
+            "count":1,
+            "recommend":"266743239"
+        }
+    ],
+    "166319170":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"e\",\n    \"ragnarok_xanb.触发固定视角\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"固定视角\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        }
+    ],
+    "166626217":[
+        {
+            "count":1,
+            "recommend":"174836337"
+        }
+    ],
+    "166826246":[
+        {
+            "count":1,
+            "recommend":"[\n    \"Variable\",\n    \"显示金钱_文本\",\n    \"_OBJ__gui_ctrl_label\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"Variable\",\n    \"文字提示\",\n    \"_OBJ__gui_ctrl_label\"\n]"
+        },
+        {
+            "count":4,
+            "recommend":"[\n    \"Variable\",\n    \"游戏结果_文本\",\n    \"_OBJ__gui_ctrl_label\"\n]"
+        }
+    ],
+    "170104674":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"半径\",\n    \"number\",\n    \"27484193\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"目标点\",\n    \"Point\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"发射点\",\n    \"Point\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"流逝时间\",\n    \"number\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"移动器Id\",\n    \"IdPreset<\\\"mover_id\\\">\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"当前位置\",\n    \"Point\",\n    \"108239301\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"圆心\",\n    \"Point\",\n    \"108239301\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"初始角度\",\n    \"number\",\n    \"94275260\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"施法者单位\",\n    \"Unit\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"弹道单位\",\n    \"Unit\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"目标单位\",\n    \"Unit\",\n    \"255084021\"\n]"
+        }
+    ],
+    "174824066":[
+        {
+            "count":1,
+            "recommend":"146196181"
+        }
+    ],
+    "175922533":[
+        {
+            "count":2,
+            "recommend":"[\n    \"Variable\",\n    \"游戏结果\",\n    \"_OBJ__gui_ctrl_panel\"\n]"
+        },
+        {
+            "count":6,
+            "recommend":"162151111"
+        }
+    ],
+    "179088799":[
+        {
+            "count":1,
+            "recommend":"97749813"
+        },
+        {
+            "count":2,
+            "recommend":"83716441"
+        }
+    ],
+    "184769607":[
+        {
+            "count":6,
+            "recommend":"146518100"
+        }
+    ],
+    "184851277":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"percent\",\n    \"number\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"touch_index\",\n    \"number\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"x\",\n    \"number\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"y\",\n    \"number\",\n    \"255084021\"\n]"
+        }
+    ],
+    "190934196":[
+        {
+            "count":1,
+            "recommend":"180285480"
+        }
+    ],
+    "191150":[
+        {
+            "count":1,
+            "recommend":"102033164"
+        }
+    ],
+    "19309339":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"241955154\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"256502283\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"Buff\",\n    \"Buff\",\n    \"188136622\"\n]"
+        },
+        {
+            "count":4,
+            "recommend":"[\n    \"NewVariable\",\n    \"对象\",\n    \"object\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"技能\",\n    \"Skill\",\n    \"188136622\"\n]"
+        }
+    ],
+    "196045274":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"e\",\n    \"ragnarok_xanb.触发自由视角\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"自由视角\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        }
+    ],
+    "197227006":[
+        {
+            "count":1,
+            "recommend":"123368606"
+        }
+    ],
+    "197531258":[
+        {
+            "count":4,
+            "recommend":"217219996"
+        }
+    ],
+    "202221907":[
+        {
+            "count":2,
+            "recommend":"247135228"
+        }
+    ],
+    "203622842":[
+        {
+            "count":1,
+            "recommend":"266743239"
+        }
+    ],
+    "207843801":[
+        {
+            "count":2,
+            "recommend":"202938278"
+        },
+        {
+            "count":1,
+            "recommend":"97749813"
+        }
+    ],
+    "209496351":[
+        {
+            "count":1,
+            "recommend":"51535975"
+        }
+    ],
+    "209992702":[
+        {
+            "count":1,
+            "recommend":"196014458"
+        }
+    ],
+    "218642477":[
+        {
+            "count":1,
+            "recommend":"195998739"
+        }
+    ],
+    "219629872":[
+        {
+            "count":2,
+            "recommend":"147668158"
+        }
+    ],
+    "219782501":[
+        {
+            "count":1,
+            "recommend":"184309480"
+        }
+    ],
+    "225263162":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"游戏结果\",\n    \"_OBJ__gui_ctrl_panel\",\n    \"100852359\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"e\",\n    \"东方获胜\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"东方胜利\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"游戏结果_文本\",\n    \"_OBJ__gui_ctrl_label\",\n    \"100852359\"\n]"
+        }
+    ],
+    "229532618":[
+        {
+            "count":2,
+            "recommend":"100852359"
+        }
+    ],
+    "234051665":[
+        {
+            "count":2,
+            "recommend":"28863050"
+        }
+    ],
+    "237002184":[
+        {
+            "count":2,
+            "recommend":"147668158"
+        },
+        {
+            "count":1,
+            "recommend":"196014458"
+        },
+        {
+            "count":1,
+            "recommend":"98329411"
+        }
+    ],
+    "239163258":[
+        {
+            "count":1,
+            "recommend":"51535975"
+        }
+    ],
+    "243126471":[
+        {
+            "count":2,
+            "recommend":"28863050"
+        }
+    ],
+    "246496009":[
+        {
+            "count":1,
+            "recommend":"108742964"
+        }
+    ],
+    "251859819":[
+        {
+            "count":1,
+            "recommend":"39095491"
+        }
+    ],
+    "257197963":[
+        {
+            "count":1,
+            "recommend":"[\n    \"Variable\",\n    \"e\",\n    \"base.玩家属性变化\"\n]"
+        }
+    ],
+    "260379617":[
+        {
+            "count":1,
+            "recommend":"39316960"
+        }
+    ],
+    "260816951":[
+        {
+            "count":1,
+            "recommend":"102033164"
+        }
+    ],
+    "261092268":[
+        {
+            "count":1,
+            "recommend":"102033164"
+        }
+    ],
+    "266165491":[
+        {
+            "count":1,
+            "recommend":"123368606"
+        }
+    ],
+    "266277725":[
+        {
+            "count":1,
+            "recommend":"146196181"
+        }
+    ],
+    "29867670":[
+        {
+            "count":4,
+            "recommend":"100852359"
+        }
+    ],
+    "31480448":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"物品\",\n    \"Item\",\n    \"188136622\"\n]"
+        },
+        {
+            "count":4,
+            "recommend":"[\n    \"NewVariable\",\n    \"对象\",\n    \"object\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"Buff\",\n    \"Buff\",\n    \"188136622\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"string\",\n    \"146518100\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"string\",\n    \"229696428\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"单位\",\n    \"Unit\",\n    \"188136622\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"技能\",\n    \"Skill\",\n    \"188136622\"\n]"
+        }
+    ],
+    "33089789":[
+        {
+            "count":1,
+            "recommend":"102033164"
+        }
+    ],
+    "33393738":[
+        {
+            "count":14,
+            "recommend":"102033164"
+        }
+    ],
+    "41121925":[
+        {
+            "count":1,
+            "recommend":"147668158"
+        },
+        {
+            "count":1,
+            "recommend":"98329411"
+        }
+    ],
+    "42056576":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"西方胜利\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"游戏结果\",\n    \"_OBJ__gui_ctrl_panel\",\n    \"100852359\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"e\",\n    \"西方获胜\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"游戏结果_文本\",\n    \"_OBJ__gui_ctrl_label\",\n    \"100852359\"\n]"
+        }
+    ],
+    "44910164":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"percent\",\n    \"number\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"touch_index\",\n    \"number\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"x\",\n    \"number\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"y\",\n    \"number\",\n    \"255084021\"\n]"
+        }
+    ],
+    "50958527":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"物品\",\n    \"Item\",\n    \"188136622\"\n]"
+        },
+        {
+            "count":4,
+            "recommend":"[\n    \"NewVariable\",\n    \"对象\",\n    \"object\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"Buff\",\n    \"Buff\",\n    \"188136622\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"段数\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"string\",\n    \"209121953\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"开关技能数编表\",\n    \"_OBJ__spell_SpellToggle | undefined\",\n    \"188136622\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"技能\",\n    \"Skill\",\n    \"188136622\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"string\",\n    \"38644142\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"string\",\n    \"204826308\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"string\",\n    \"48559457\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"单位\",\n    \"Unit\",\n    \"188136622\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"多段图标\",\n    \"string\",\n    \"146518100\"\n]"
+        }
+    ],
+    "51136350":[
+        {
+            "count":1,
+            "recommend":"118920685"
+        }
+    ],
+    "51616118":[
+        {
+            "count":2,
+            "recommend":"[\n    \"Variable\",\n    \"文字提示\",\n    \"_OBJ__gui_ctrl_label\"\n]"
+        }
+    ],
+    "5306800":[
+        {
+            "count":6,
+            "recommend":"174836337"
+        }
+    ],
+    "53791246":[
+        {
+            "count":1,
+            "recommend":"241010829"
+        }
+    ],
+    "55159117":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"83299206\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"技能\",\n    \"Skill\",\n    \"188136622\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"247135228\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"Buff\",\n    \"Buff\",\n    \"188136622\"\n]"
+        },
+        {
+            "count":4,
+            "recommend":"[\n    \"NewVariable\",\n    \"对象\",\n    \"object\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"result\",\n    \"number\",\n    \"251377853\"\n]"
+        }
+    ],
+    "57428992":[
+        {
+            "count":1,
+            "recommend":"196014458"
+        }
+    ],
+    "57711194":[
+        {
+            "count":1,
+            "recommend":"83716441"
+        },
+        {
+            "count":2,
+            "recommend":"247135228"
+        }
+    ],
+    "61740440":[
+        {
+            "count":2,
+            "recommend":"202938278"
+        },
+        {
+            "count":1,
+            "recommend":"195998739"
+        },
+        {
+            "count":1,
+            "recommend":"25791086"
+        },
+        {
+            "count":5,
+            "recommend":"247135228"
+        }
+    ],
+    "66466758":[
+        {
+            "count":6,
+            "recommend":"162151111"
+        }
+    ],
+    "69040767":[
+        {
+            "count":1,
+            "recommend":"102033164"
+        }
+    ],
+    "70006297":[
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"西方胜利\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"显示金钱_文本\",\n    \"_OBJ__gui_ctrl_label\",\n    \"100852359\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"金钱不足\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"e\",\n    \"西方获胜\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"游戏结果_文本\",\n    \"_OBJ__gui_ctrl_label\",\n    \"100852359\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"this\",\n    \"触发固定视角\",\n    \"51535975\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"东方胜利\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"计时器\",\n    \"Timer\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"NewVariable\",\n    \"player_slot_id\",\n    \"number\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"自由视角\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"e\",\n    \"ragnarok_xanb.触发自由视角\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":6,
+            "recommend":"[\n    \"NewVariable\",\n    \"obj\",\n    \"base.Game\",\n    \"174836337\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"e\",\n    \"base.玩家属性变化\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"固定视角\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"this\",\n    \"点击修建_等级1\",\n    \"39316960\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"e\",\n    \"东方获胜\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"显示金钱\",\n    \"Trigger\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"e\",\n    \"ragnarok_xanb.触发固定视角\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"文字提示\",\n    \"_OBJ__gui_ctrl_label\",\n    \"100852359\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"this\",\n    \"ragnarok_xanb.触发自由视角\",\n    \"39095491\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"this\",\n    \"ragnarok_xanb.触发固定视角\",\n    \"118920685\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"this\",\n    \"触发自由视角\",\n    \"241010829\"\n]"
+        },
+        {
+            "count":6,
+            "recommend":"[\n    \"NewVariable\",\n    \"obj\",\n    \"base.Game\",\n    \"102033164\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"this\",\n    \"ragnarok_xanb.点击修建_等级1\",\n    \"180285480\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"NewVariable\",\n    \"e\",\n    \"金钱不足\",\n    \"255084021\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"[\n    \"NewVariable\",\n    \"游戏结果\",\n    \"_OBJ__gui_ctrl_panel\",\n    \"100852359\"\n]"
+        }
+    ],
+    "77317591":[
+        {
+            "count":1,
+            "recommend":"98329411"
+        }
+    ],
+    "82411349":[
+        {
+            "count":4,
+            "recommend":"[\n    \"Variable\",\n    \"游戏结果_文本\",\n    \"_OBJ__gui_ctrl_label\"\n]"
+        },
+        {
+            "count":1,
+            "recommend":"[\n    \"Variable\",\n    \"显示金钱_文本\",\n    \"_OBJ__gui_ctrl_label\"\n]"
+        },
+        {
+            "count":3,
+            "recommend":"[\n    \"Variable\",\n    \"文字提示\",\n    \"_OBJ__gui_ctrl_label\"\n]"
+        },
+        {
+            "count":2,
+            "recommend":"100852359"
+        }
+    ],
+    "83919058":[
+        {
+            "count":1,
+            "recommend":"109551959"
+        },
+        {
+            "count":1,
+            "recommend":"164797013"
+        }
+    ],
+    "8462134":[
+        {
+            "count":1,
+            "recommend":"174836337"
+        }
+    ],
+    "85319993":[
+        {
+            "count":1,
+            "recommend":"247135228"
+        }
+    ],
+    "86808068":[
+        {
+            "count":1,
+            "recommend":"102033164"
+        }
+    ],
+    "88760057":[
+        {
+            "count":1,
+            "recommend":"118920685"
+        }
+    ],
+    "89540952":[
+        {
+            "count":3,
+            "recommend":"146518100"
+        }
+    ],
+    "89759546":[
+        {
+            "count":1,
+            "recommend":"123368606"
+        }
+    ],
+    "91150873":[
+        {
+            "count":1,
+            "recommend":"180285480"
+        }
+    ],
+    "91414953":[
+        {
+            "count":1,
+            "recommend":"241010829"
+        }
+    ],
+    "91727484":[
+        {
+            "count":1,
+            "recommend":"39316960"
+        }
+    ],
+    "9464404":[
+        {
+            "count":1,
+            "recommend":"83716441"
+        }
+    ],
+    "96390516":[
+        {
+            "count":1,
+            "recommend":"109551959"
+        },
+        {
+            "count":1,
+            "recommend":"164797013"
+        }
+    ],
+    "98689261":[
+        {
+            "count":1,
+            "recommend":"147668158"
+        }
+    ],
+    "9883239":[
+        {
+            "count":1,
+            "recommend":"102033164"
+        }
+    ]
+}
