@@ -1,28 +1,28 @@
-281.03069999814034:	{"globalClasses":["Array","Present","IEventNotify","Coroutine","Actor","Team","Timer","Snapshot","EffectParamShared","TriggerParamTable","Item","Region","ScreenPos","Target","UnitTable","EffectParam","Point","Mover","Unit","Buff","HealInstance","TriggerEvent","DamageInstance","Slot","Skill","Inventory","Player","Trigger","Line","UnitGroup","Sight","DataCache","AISearcher","ScoreCommitter","ScoreObjData","ScoreGetParam","UserID","ScoreData","ScoreSetParam","ScoreAddParam","ScoreMoneyData","ScoreListAddParam","ScoreListModifyParam","ScoreListDeleteParam","ScoreListData","ScoreMsgSendParam","ScoreMsgQueryParam","ScoreNameNewParam","ScoreNameSearchParam","ScoreChannelMsgData","ScoreGetRankListParam","ScoreGetUserRankParam","ScoreGetRankListData","ScoreGetUserRankData","ScoreGetRankTotalData","ScoreGetRankTotalParam","ScoreMsgData","ScoreListID","ScoreID","ScoreNameData","ScoreMsgID","ScoreMoneyParam","os","DateTime","UnitBuff","autotest_log","ScoreRankSetParam","ScoreRankAddParam","UnitPropertyBonus","SceneObject","Quest","QuestCondition","RegionRect","RegionCircle","Cast"],"globalModules":["coroutine","_G","log","base"]}
-1558.260699994862:	Loaded 0 plugins
-1559.0086999982595:	Parsing project settings
-1563.4808999970555:	Transforming D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_module_main_1.ts
-1565.402999997139:	moduleName:
-1565.4103999957442:	ragnarok_xanb
-1565.9090000018477:	exportScope:
-1565.9140999987721:	true
-1614.4411000013351:	Printing D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_module_main_1.ts
-1634.3206999972463:	Transforming D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_module_main.ts
-1636.2638999968767:	Printing D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_module_main.ts
-1646.3984000012279:	Transforming D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_validator.ts
-1647.0863999947906:	moduleName:
-1647.1631999984384:	validator
-1647.4257000014186:	exportScope:
-1647.4283999949694:	true
-2097.533799998462:	Printing D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_validator.ts
-2152.2211999967694:	Constructing emit plan
-2152.8520999997854:	Resolving dependencies for D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_module_main_1.ts
-2153.3725999966264:	Resolving dependencies for D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_module_main.ts
-2153.8136999979615:	Resolving "./trigger_module_main_1" from D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_module_main.ts
-2154.439899995923:	Resolved ./trigger_module_main_1 to D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_module_main_1.ts
-2155.597999997437:	Resolving dependencies for D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_validator.ts
-2156.722999997437:	Emitting output
-2157.0434999987483:	Emitting D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_module_main_1.lua
-2157.955799996853:	Emitting D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_module_main.lua
-2158.38409999758:	Emitting D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_validator.lua
-2159.1391000002623:	Emit finished!
+280.4682999998331:	{"globalClasses":["Array","Present","IEventNotify","Coroutine","Actor","Team","Timer","Snapshot","EffectParamShared","TriggerParamTable","Item","Region","ScreenPos","Target","UnitTable","EffectParam","Point","Mover","Unit","Buff","HealInstance","TriggerEvent","DamageInstance","Slot","Skill","Inventory","Player","Trigger","Line","UnitGroup","Sight","DataCache","AISearcher","ScoreCommitter","ScoreObjData","ScoreGetParam","UserID","ScoreData","ScoreSetParam","ScoreAddParam","ScoreMoneyData","ScoreListAddParam","ScoreListModifyParam","ScoreListDeleteParam","ScoreListData","ScoreMsgSendParam","ScoreMsgQueryParam","ScoreNameNewParam","ScoreNameSearchParam","ScoreChannelMsgData","ScoreGetRankListParam","ScoreGetUserRankParam","ScoreGetRankListData","ScoreGetUserRankData","ScoreGetRankTotalData","ScoreGetRankTotalParam","ScoreMsgData","ScoreListID","ScoreID","ScoreNameData","ScoreMsgID","ScoreMoneyParam","os","DateTime","UnitBuff","autotest_log","ScoreRankSetParam","ScoreRankAddParam","UnitPropertyBonus","SceneObject","Quest","QuestCondition","RegionRect","RegionCircle","Cast"],"globalModules":["coroutine","_G","log","base"]}
+1536.467699997127:	Loaded 0 plugins
+1537.2638999968767:	Parsing project settings
+1542.0498000010848:	Transforming D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_module_main_1.ts
+1544.1523000001907:	moduleName:
+1544.1603999957442:	ragnarok_xanb
+1544.6612000018358:	exportScope:
+1544.666599996388:	true
+1591.3181999996305:	Printing D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_module_main_1.ts
+1611.783900000155:	Transforming D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_module_main.ts
+1613.762999996543:	Printing D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_module_main.ts
+1623.8158999979496:	Transforming D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_validator.ts
+1624.4087999984622:	moduleName:
+1624.479099996388:	validator
+1624.7434000000358:	exportScope:
+1624.7463999986649:	true
+2089.5560999959707:	Printing D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_validator.ts
+2149.3933999985456:	Constructing emit plan
+2150.4056999981403:	Resolving dependencies for D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_module_main_1.ts
+2151.2180000022054:	Resolving dependencies for D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_module_main.ts
+2151.783299997449:	Resolving "./trigger_module_main_1" from D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_module_main.ts
+2152.387099996209:	Resolved ./trigger_module_main_1 to D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_module_main_1.ts
+2153.527199998498:	Resolving dependencies for D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_validator.ts
+2154.461699999869:	Emitting output
+2154.6252999976277:	Emitting D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_module_main_1.lua
+2155.505199998617:	Emitting D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_module_main.lua
+2156.359899997711:	Emitting D:/github/终末之战/SCE_Ragnarok/Ragnarok/script/trigger_validator.lua
+2157.4768000021577:	Emit finished!

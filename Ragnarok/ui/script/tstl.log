@@ -1,28 +1,28 @@
-279.0037000030279:	{"globalClasses":["Array","Present","IEventNotify","Coroutine","Trigger","Item","Timer","Buff","Skill","Player","TriggerParamTable","TriggerEvent","Actor","ScreenPos","Target","EffectParam","EffectParamShared","YPR旋转","DataCache","Camera","Slot","Unit","Point"],"globalModules":["coroutine","_G","log","base"]}
-1152.7346000000834:	Loaded 0 plugins
-1153.283900000155:	Parsing project settings
-1157.8542000055313:	Transforming D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main_1.ts
-1159.7887000069022:	moduleName:
-1159.795700006187:	ragnarok_xanb
-1160.1412000060081:	exportScope:
-1160.145100004971:	true
-1189.013400003314:	Printing D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main_1.ts
-1202.7988000065088:	Transforming D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main.ts
-1204.4048000052571:	Printing D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main.ts
-1207.2411000058055:	Transforming D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_validator.ts
-1207.7563000023365:	moduleName:
-1207.7647000029683:	validator
-1208.0085000023246:	exportScope:
-1208.011800006032:	true
-1252.690400004387:	Printing D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_validator.ts
-1259.7011000066996:	Constructing emit plan
-1260.0931000038981:	Resolving dependencies for D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main_1.ts
-1260.472600005567:	Resolving dependencies for D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main.ts
-1260.761800006032:	Resolving "./trigger_module_main_1" from D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main.ts
-1261.2149000018835:	Resolved ./trigger_module_main_1 to D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main_1.ts
-1262.0971000045538:	Resolving dependencies for D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_validator.ts
-1262.724200002849:	Emitting output
-1262.9301000013947:	Emitting D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main_1.lua
-1263.6747000068426:	Emitting D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main.lua
-1264.1766000017524:	Emitting D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_validator.lua
-1264.6260000020266:	Emit finished!
+293.41239999979734:	{"globalClasses":["Array","Present","IEventNotify","Coroutine","Trigger","Item","Timer","Buff","Skill","Player","TriggerParamTable","TriggerEvent","Actor","ScreenPos","Target","EffectParam","EffectParamShared","YPR旋转","DataCache","Camera","Slot","Unit","Point"],"globalModules":["coroutine","_G","log","base"]}
+1148.2188999950886:	Loaded 0 plugins
+1148.9402000010014:	Parsing project settings
+1154.743299998343:	Transforming D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main_1.ts
+1156.7474999949336:	moduleName:
+1156.75379999727:	ragnarok_xanb
+1157.1506999954581:	exportScope:
+1157.1541000008583:	true
+1189.3581999987364:	Printing D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main_1.ts
+1200.9125999957323:	Transforming D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main.ts
+1202.3445999994874:	Printing D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main.ts
+1205.0515000000596:	Transforming D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_validator.ts
+1205.5697999969125:	moduleName:
+1205.5810999944806:	validator
+1205.8949999958277:	exportScope:
+1205.8989999964833:	true
+1250.902399994433:	Printing D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_validator.ts
+1257.9411000013351:	Constructing emit plan
+1258.3897999972105:	Resolving dependencies for D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main_1.ts
+1258.8332999944687:	Resolving dependencies for D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main.ts
+1259.1790999993682:	Resolving "./trigger_module_main_1" from D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main.ts
+1260.695199996233:	Resolved ./trigger_module_main_1 to D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main_1.ts
+1261.8865000009537:	Resolving dependencies for D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_validator.ts
+1262.4503999948502:	Emitting output
+1262.6686999946833:	Emitting D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main_1.lua
+1263.502399995923:	Emitting D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_module_main.lua
+1263.9765999987721:	Emitting D:/github/终末之战/SCE_Ragnarok/Ragnarok/ui/script/trigger_validator.lua
+1264.3949000015855:	Emit finished!
