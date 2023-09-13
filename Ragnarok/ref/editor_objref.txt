@@ -198,6 +198,7 @@ characters/tramcar_td/jinbi/model.prefab
 characters1/guofeng_007_86ab/model.prefab
 characters1/linghunfashi_rmhb/model.prefab
 characters1/yeren_4uta/model.prefab
+characters1/zhaoyun_mu9b/model.prefab
 deco/NDG/SM_Book01_A/model.prefab
 deco/_user/zhongmozhizhan_jidi_3hob/model.prefab
 deco/chinoiserie/sm_dh_diaolou_a/model.prefab
@@ -505,6 +506,7 @@ effect/td_eff/bingying/dao3/particle.effect
 eqpt/Weapon/SM_leishenchui/model.prefab
 eqpt/weapon/mofashi_weapon/model.prefab
 eqpt/weapon/sk_nezha2_weapon205/model.prefab
+eqpt/weapon/sk_standardmale_knight_weapon_spear_06/model.prefab
 eqpt/weapon/sm_dr_spear_08_short/model.prefab
 eqpt/weapon/sm_dr_sword_04_02/model.prefab
 image/btn/gf_1_major_active.png
