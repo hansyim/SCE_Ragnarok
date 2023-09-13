@@ -2060,7 +2060,7 @@ module validator {
 
 	//$$ragnarok_xanb.loot_pool.初始英雄选择.EffectCustomAction:Data.Game.Func
 	/** @noSelf */
-	export let validator_33509698:(this: void, 效果节点:EffectParam)=>boolean = (this: void, 效果节点:EffectParam):boolean => {
+	export let validator_153069034:(this: void, 效果节点:EffectParam)=>boolean = (this: void, 效果节点:EffectParam):boolean => {
 		let 所属玩家: Player = 效果节点.target.get_unit().get_owner();
 		let 所属队伍: number = 效果节点.target.get_unit().get_owner().get_team_id();
 		let result: boolean = true;
@@ -2773,7 +2773,7 @@ module validator {
 
 	//$$ragnarok_xanb.unit.一级兵营.CustomAction:Data.Game.Func
 	/** @noSelf */
-	export let validator_224938471:(this: void, 效果节点:EffectParam)=>boolean = (this: void, 效果节点:EffectParam):boolean => {
+	export let validator_51017330:(this: void, 效果节点:EffectParam)=>boolean = (this: void, 效果节点:EffectParam):boolean => {
 		let result: boolean = true;
 		if (((效果节点.target.get_unit().get_owner().get_team_id() == 1))) {
 			效果节点.target.get_unit().blink_ex(base.get_scene_area("default", "rect", "西方聚集点", _G.present).scene_random_point());
@@ -3794,7 +3794,7 @@ module validator {
 			data.Formulas.Time = validator_214580859
 		}
 		if (data = base.eff.cache("$$ragnarok_xanb.loot_pool.初始英雄选择.EffectCustomAction")) {
-			data.Func = validator_33509698
+			data.Func = validator_153069034
 		}
 		if (data = base.eff.cache("$$default_units_ts.template@spell.通用近战普攻模版.Damage_1")) {
 			data.Amount = validator_196209676
@@ -3920,7 +3920,7 @@ module validator {
 			data.FunctionServer = validator_36377917
 		}
 		if (data = base.eff.cache("$$ragnarok_xanb.unit.一级兵营.CustomAction")) {
-			data.Func = validator_224938471
+			data.Func = validator_51017330
 		}
 	}
 	init_validator_0()

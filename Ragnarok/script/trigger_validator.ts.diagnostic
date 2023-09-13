@@ -105,111 +105,111 @@
 {"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":84388,"length":10,"category":1}
 {"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":91266,"length":10,"category":1}
 {"messageText":"对象可能为“未定义”。","code":2532,"start":91565,"length":6,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":92223,"length":10,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":92288,"length":22,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":92346,"length":22,"category":1}
-{"messageText":{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Unit”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2345,"start":92666,"length":22,"category":1}
-{"messageText":{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Unit”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2345,"start":92754,"length":22,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":92811,"length":22,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":92917,"length":22,"category":1}
-{"messageText":{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Unit”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2345,"start":93125,"length":22,"category":1}
-{"messageText":{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Unit”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2345,"start":93213,"length":22,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":93270,"length":22,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":93376,"length":22,"category":1}
-{"messageText":{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Unit”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2345,"start":93584,"length":22,"category":1}
-{"messageText":{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Unit”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2345,"start":93672,"length":22,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":93729,"length":22,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":93835,"length":22,"category":1}
-{"messageText":{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Unit”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2345,"start":94043,"length":22,"category":1}
-{"messageText":{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Unit”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2345,"start":94131,"length":22,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":94188,"length":22,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":94294,"length":22,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":94689,"length":10,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":94755,"length":27,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":96142,"length":10,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":97686,"length":10,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":97958,"length":27,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":100101,"length":10,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":100447,"length":6,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":101427,"length":10,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":101887,"length":10,"category":1}
-{"messageText":{"messageText":"不能将类型“Unit | undefined”分配给类型“Unit”。","category":1,"code":2322,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2322,"start":101971,"length":1,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":102299,"length":10,"category":1}
-{"messageText":{"messageText":"不能将类型“Unit | undefined”分配给类型“Unit”。","category":1,"code":2322,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2322,"start":102383,"length":1,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":102698,"length":10,"category":1}
-{"messageText":{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Unit”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2345,"start":102898,"length":32,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":103184,"length":10,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":103574,"length":10,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":104129,"length":10,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":104216,"length":27,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":104511,"length":10,"category":1}
-{"messageText":{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Unit”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2345,"start":104661,"length":32,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":104963,"length":10,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":105051,"length":27,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":105345,"length":10,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":105455,"length":32,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":105895,"length":10,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":106018,"length":27,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":106305,"length":10,"category":1}
-{"messageText":{"messageText":"不能将类型“Unit | undefined”分配给类型“Unit”。","category":1,"code":2322,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2322,"start":106381,"length":2,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":107057,"length":10,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":107169,"length":17,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":107268,"length":17,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":107393,"length":17,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":107537,"length":17,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":107807,"length":10,"category":1}
-{"messageText":{"messageText":"不能将类型“Unit | undefined”分配给类型“Unit”。","category":1,"code":2322,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2322,"start":107891,"length":4,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":107980,"length":17,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":108057,"length":17,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":108131,"length":17,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":108433,"length":10,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":108518,"length":27,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":108897,"length":10,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":108982,"length":27,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":109338,"length":10,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":109722,"length":10,"category":1}
-{"messageText":{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Unit”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2345,"start":109920,"length":32,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":110208,"length":10,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":110781,"length":10,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":111262,"length":10,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":111348,"length":27,"category":1}
-{"messageText":{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Player | Unit”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“Player | Unit”。","category":1,"code":2322}]},"code":2345,"start":111384,"length":32,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":111689,"length":10,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":111775,"length":27,"category":1}
-{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Player | Unit”的参数。","code":2345,"start":111811,"length":32,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":112121,"length":10,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":112283,"length":4,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":112571,"length":10,"category":1}
-{"messageText":{"messageText":"不能将类型“Unit | undefined”分配给类型“Unit”。","category":1,"code":2322,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2322,"start":112620,"length":4,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":113184,"length":10,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":113636,"length":10,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":113702,"length":27,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":113958,"length":10,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":114024,"length":27,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":114281,"length":10,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":114347,"length":27,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":114614,"length":10,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":114710,"length":27,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":114766,"length":141,"category":1}
-{"messageText":{"messageText":"类型“EffectParam | undefined”的参数不能赋给类型“EffectParam”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“EffectParam”。","category":1,"code":2322}]},"code":2345,"start":114793,"length":113,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":115232,"length":10,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":115319,"length":27,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":115617,"length":10,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":115999,"length":10,"category":1}
-{"messageText":{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Unit”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2345,"start":116197,"length":32,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":116476,"length":10,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":116891,"length":10,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":117438,"length":10,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":117788,"length":10,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":118060,"length":27,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":119067,"length":10,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":119419,"length":10,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":119771,"length":10,"category":1}
-{"messageText":"对象可能为“未定义”。","code":2532,"start":120117,"length":6,"category":1}
-{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":120964,"length":10,"category":1}
-{"messageText":{"messageText":"不能将类型“Unit | undefined”分配给类型“Unit”。","category":1,"code":2322,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2322,"start":121035,"length":5,"category":1}
-{"messageText":{"messageText":"不能将类型“Unit | undefined”分配给类型“Unit”。","category":1,"code":2322,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2322,"start":121085,"length":4,"category":1}
-{"messageText":{"messageText":"类型“EffectParam | undefined”的参数不能赋给类型“EffectParam”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“EffectParam”。","category":1,"code":2322}]},"code":2345,"start":121235,"length":106,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":92224,"length":10,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":92289,"length":22,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":92347,"length":22,"category":1}
+{"messageText":{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Unit”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2345,"start":92667,"length":22,"category":1}
+{"messageText":{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Unit”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2345,"start":92755,"length":22,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":92812,"length":22,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":92918,"length":22,"category":1}
+{"messageText":{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Unit”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2345,"start":93126,"length":22,"category":1}
+{"messageText":{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Unit”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2345,"start":93214,"length":22,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":93271,"length":22,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":93377,"length":22,"category":1}
+{"messageText":{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Unit”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2345,"start":93585,"length":22,"category":1}
+{"messageText":{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Unit”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2345,"start":93673,"length":22,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":93730,"length":22,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":93836,"length":22,"category":1}
+{"messageText":{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Unit”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2345,"start":94044,"length":22,"category":1}
+{"messageText":{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Unit”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2345,"start":94132,"length":22,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":94189,"length":22,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":94295,"length":22,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":94690,"length":10,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":94756,"length":27,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":96143,"length":10,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":97687,"length":10,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":97959,"length":27,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":100102,"length":10,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":100448,"length":6,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":101428,"length":10,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":101888,"length":10,"category":1}
+{"messageText":{"messageText":"不能将类型“Unit | undefined”分配给类型“Unit”。","category":1,"code":2322,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2322,"start":101972,"length":1,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":102300,"length":10,"category":1}
+{"messageText":{"messageText":"不能将类型“Unit | undefined”分配给类型“Unit”。","category":1,"code":2322,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2322,"start":102384,"length":1,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":102699,"length":10,"category":1}
+{"messageText":{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Unit”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2345,"start":102899,"length":32,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":103185,"length":10,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":103575,"length":10,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":104130,"length":10,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":104217,"length":27,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":104512,"length":10,"category":1}
+{"messageText":{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Unit”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2345,"start":104662,"length":32,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":104964,"length":10,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":105052,"length":27,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":105346,"length":10,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":105456,"length":32,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":105896,"length":10,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":106019,"length":27,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":106306,"length":10,"category":1}
+{"messageText":{"messageText":"不能将类型“Unit | undefined”分配给类型“Unit”。","category":1,"code":2322,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2322,"start":106382,"length":2,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":107058,"length":10,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":107170,"length":17,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":107269,"length":17,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":107394,"length":17,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":107538,"length":17,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":107808,"length":10,"category":1}
+{"messageText":{"messageText":"不能将类型“Unit | undefined”分配给类型“Unit”。","category":1,"code":2322,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2322,"start":107892,"length":4,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":107981,"length":17,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":108058,"length":17,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":108132,"length":17,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":108434,"length":10,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":108519,"length":27,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":108898,"length":10,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":108983,"length":27,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":109339,"length":10,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":109723,"length":10,"category":1}
+{"messageText":{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Unit”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2345,"start":109921,"length":32,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":110209,"length":10,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":110782,"length":10,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":111263,"length":10,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":111349,"length":27,"category":1}
+{"messageText":{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Player | Unit”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“Player | Unit”。","category":1,"code":2322}]},"code":2345,"start":111385,"length":32,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":111690,"length":10,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":111776,"length":27,"category":1}
+{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Player | Unit”的参数。","code":2345,"start":111812,"length":32,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":112122,"length":10,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":112284,"length":4,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":112572,"length":10,"category":1}
+{"messageText":{"messageText":"不能将类型“Unit | undefined”分配给类型“Unit”。","category":1,"code":2322,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2322,"start":112621,"length":4,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":113185,"length":10,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":113637,"length":10,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":113703,"length":27,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":113959,"length":10,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":114025,"length":27,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":114282,"length":10,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":114348,"length":27,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":114615,"length":10,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":114711,"length":27,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":114767,"length":141,"category":1}
+{"messageText":{"messageText":"类型“EffectParam | undefined”的参数不能赋给类型“EffectParam”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“EffectParam”。","category":1,"code":2322}]},"code":2345,"start":114794,"length":113,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":115233,"length":10,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":115320,"length":27,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":115618,"length":10,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":116000,"length":10,"category":1}
+{"messageText":{"messageText":"类型“Unit | undefined”的参数不能赋给类型“Unit”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2345,"start":116198,"length":32,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":116477,"length":10,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":116892,"length":10,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":117439,"length":10,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":117789,"length":10,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":118061,"length":27,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":119068,"length":10,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":119420,"length":10,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":119772,"length":10,"category":1}
+{"messageText":"对象可能为“未定义”。","code":2532,"start":120118,"length":6,"category":1}
+{"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":120965,"length":10,"category":1}
+{"messageText":{"messageText":"不能将类型“Unit | undefined”分配给类型“Unit”。","category":1,"code":2322,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2322,"start":121036,"length":5,"category":1}
+{"messageText":{"messageText":"不能将类型“Unit | undefined”分配给类型“Unit”。","category":1,"code":2322,"next":[{"messageText":"不能将类型“undefined”分配给类型“Unit”。","category":1,"code":2322}]},"code":2322,"start":121086,"length":4,"category":1}
+{"messageText":{"messageText":"类型“EffectParam | undefined”的参数不能赋给类型“EffectParam”的参数。","category":1,"code":2345,"next":[{"messageText":"不能将类型“undefined”分配给类型“EffectParam”。","category":1,"code":2322}]},"code":2345,"start":121236,"length":106,"category":1}
 {"messageText":"箭头函数不能包含 \"this\" 参数。","code":2730,"start":121802,"length":10,"category":1}
 {"messageText":"对象可能为“未定义”。","code":2532,"start":121885,"length":22,"category":1}
 {"messageText":"对象可能为“未定义”。","code":2532,"start":121948,"length":22,"category":1}
@@ -388,43 +388,43 @@
 {"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":166151,"length":69,"category":0}
 {"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":166469,"length":56,"category":0}
 {"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":166774,"length":76,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":166901,"length":76,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":167031,"length":59,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":167144,"length":67,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":167276,"length":68,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":167409,"length":65,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":167539,"length":59,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":167656,"length":71,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":167791,"length":69,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":167911,"length":69,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":168032,"length":63,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":168158,"length":74,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":168285,"length":61,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":168404,"length":73,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":168530,"length":60,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":168648,"length":79,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":168787,"length":77,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":168921,"length":71,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":169049,"length":74,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":169300,"length":68,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":169419,"length":68,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":169539,"length":62,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":169664,"length":75,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":169809,"length":64,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":169931,"length":64,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":170052,"length":63,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":170178,"length":65,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":170296,"length":70,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":170424,"length":66,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":170544,"length":66,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":170664,"length":66,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":170783,"length":66,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":170903,"length":61,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":171034,"length":72,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":171159,"length":68,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":171279,"length":68,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":171397,"length":62,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":171512,"length":62,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":171638,"length":60,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":171948,"length":65,"category":0}
-{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":172074,"length":63,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":166902,"length":76,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":167032,"length":59,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":167145,"length":67,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":167277,"length":68,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":167410,"length":65,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":167540,"length":59,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":167657,"length":71,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":167792,"length":69,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":167912,"length":69,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":168033,"length":63,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":168159,"length":74,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":168286,"length":61,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":168405,"length":73,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":168531,"length":60,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":168649,"length":79,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":168788,"length":77,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":168922,"length":71,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":169050,"length":74,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":169301,"length":68,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":169420,"length":68,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":169540,"length":62,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":169665,"length":75,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":169810,"length":64,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":169932,"length":64,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":170053,"length":63,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":170179,"length":65,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":170297,"length":70,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":170425,"length":66,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":170545,"length":66,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":170665,"length":66,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":170784,"length":66,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":170904,"length":61,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":171035,"length":72,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":171160,"length":68,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":171280,"length":68,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":171398,"length":62,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":171513,"length":62,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":171639,"length":60,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":171949,"length":65,"category":0}
+{"messageText":"Only false and nil evaluate to 'false' in Lua, everything else is considered 'true'. Explicitly compare the value with ===.","code":100040,"start":172075,"length":63,"category":0}
